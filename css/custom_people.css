@@ -1,0 +1,27 @@
+@media (min-width:991px){
+  #steering_committee .col-lg-4{
+    max-width: 20%;
+  }
+  #program_committee_chairs .col-lg-4{
+    max-width: 20%;
+  }
+}
+#steering_committee .col-lg-4{
+  padding: 0rem !important;
+}
+#steering_committee .col-lg-4 .description-container{
+  position: relative !important;
+}
+#steering_committee .col-lg-4 .description-container .p-2{
+  padding: 0rem !important;  
+}
+
+#program_committee_chairs .col-lg-4{
+    padding: 0rem !important;
+}
+#program_committee_chairs .col-lg-4 .description-container{
+  position: relative !important;
+}
+#program_committee_chairs .col-lg-4 .description-container .p-2{
+  padding: 0rem !important;  
+}

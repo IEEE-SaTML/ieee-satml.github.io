@@ -1,0 +1,51 @@
+ /* unvisited link */
+ h2 a:link {
+   color: white;
+   text-decoration: underline;
+ }
+
+ /* visited link */
+ h2 a:visited {
+   color: white;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ h2 a:hover {
+   color: orange;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ h2 a:active {
+   color: orange;
+   text-decoration: underline;
+ }
+
+ /* unvisited link */
+ article a:link {
+   color: blue;
+   text-decoration: underline;
+ }
+
+ /* visited link */
+ article a:visited {
+   color: blue;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ article a:hover {
+   color: orange;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ article a:active {
+   color: orange;
+   text-decoration: underline;
+ }
+
+ div.dropdown-menu {
+   background-color: #343538
+ }
