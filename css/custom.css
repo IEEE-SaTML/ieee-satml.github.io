@@ -1,0 +1,63 @@
+section .bg-light code, section .bg-light pre {
+  background-color: #eee;
+  color: brown;
+}
+
+h4 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 1.3em;
+  color: brown;
+}
+
+/* unvisited link */
+ h2 a:link {
+   color: white;
+   text-decoration: underline;
+ }
+
+ /* visited link */
+ h2 a:visited {
+   color: white;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ h2 a:hover {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ h2 a:active {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* unvisited link */
+ article a:link {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* visited link */
+ article a:visited {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ article a:hover {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ article a:active {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ div.dropdown-menu {
+   background-color: #343538
+ }
