@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+body {
+  font-family: "Ubuntu Sans", sans-serif;
+}
+
+section .bg-light code, section .bg-light pre {
+  background-color: #eee;
+  font-weight: 300;
+  color: brown;
+}
+
+.btn-secondary {
+  background-color: rgba(150, 150, 150, 0.7) !important;
+  border-color: #ddd !important;
+}
+
+.jumbotron {
+  padding: 0rem 0rem;
+}
+
+.filter-layer {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(0.40) hue-rotate(-10deg);
+  -webkit-backdrop-filter: brightness(0.40) hue-rotate(-10deg);
+  padding: 8rem 2rem;
+  margin: -4rem 0rem;
+}
+
+nav {
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+}
+
+/* Remove subtitle container on regular pages */
+section .subtitle-container {
+  height: 0px;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+  color: brown;
+}
+
+h5 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+/* unvisited link */
+ h2 a:link {
+   color: white;
+ }
+
+ /* visited link */
+ h2 a:visited {
+   color: white;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ h2 a:hover {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ h2 a:active {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* unvisited link */
+ article a:link {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* visited link */
+ article a:visited {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* mouse over link */
+ article a:hover {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ /* selected link */
+ article a:active {
+   color: teal;
+   text-decoration: underline;
+ }
+
+ div.dropdown-menu {
+   background-color: #343538
+ }
+
+ .organization table {
+   width: 100%;
+ }
+
+ .organization strong {
+   color: brown;
+ }
+
+ .blockquote {
+  font-size: 1.0em;
+  border-left: 3px solid #DDD;
+  padding-left: 20px;
+  color: #444;
+}
+
+.keynotes img {
+  width: 80%;
+  max-width: 240px !important;
+  border-radius: 50%;
+  padding: 20px;
+} 
+
+.keynotes-list img {
+  width: 100%;
+  padding-top: 10px;
+  max-width: 150px !important;
+  border-radius: 50%;
+} 
+
+.row .keynotes-list {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.row .keynotes-list h4 {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+p.session-chair {
+  margin-left: 25px;
+  color: #555;
+}
+
+p.session-chair b {
+  font-weight: 500;
+}
+
+em.paper-title {
+  font-weight: 500;
+  font-style: normal;
+}
+
+li.paper-item {
+  margin: 14px 0px;
+  padding: 6px 0px;
+  list-style-type: none;
+  border-left: 2px solid #DDD;
+  padding-left: 20px;    
+  padding-right: 10px;
+  background-color: #f2f2f2;
+}
+
+ul.paper-list {
+  padding-left: 0px;
+}
+
+blockquote.paper-abstract {
+  color: #555;
+  display: none;
+  font-size: 0.9em;
+  text-align: justify;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 60px;
+  padding: 15px 25px;
+}
+
+.button {
+  font-size: 0.8em;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: teal;
+  border: 1px solid #DDD;
+}
+
+.no-border {
+  border: none;
+  color: #444;
+}
+
+.no-link:hover {
+  cursor: auto !important;
+  text-decoration: none !important;
+}
+
+
+article a.button {
+  color: teal;
+}
+
+.button small {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  font-size: 0.7em;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+h5 .slot-title {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+h5 .slot-time {
+  font-weight: normal;
+  display: inline-block;
+  color: #444;
+}
+
+article .slot-title a {
+  text-decoration: none;
+}
+
+article .slot-title a:hover {
+  text-decoration: underline;
+}
+
+.program li.paper-item {
+  margin: 3px 0px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+
+article .program a {
+  text-decoration: none;
+}
+
+article .program a:hover {
+  text-decoration: underline;
+}
+
+
+.anchor {
+  scroll-margin-top: 30px;
+}
+
+h5 .break, h5 .lunch, h5 .coffee {
+  color: #666;
+}  
+
+.button-group {
+  margin-top: 4px;
+}
+
+.program li.keynote {
+  background-color: #f6f6e8;
+  border-left: 2px solid #EEC;
+}
+
+.program li.poster {
+  background-color: #ededf6;
+  border-left: 2px solid #DDE;
+}
+
+.program li.competition {
+  background-color: #edf6ed;
+  border-left: 2px solid #DED;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.program li.competition:first-child {
+  padding-top: 10px;
+}
+
+.program li.competition:last-child {
+  padding-bottom: 10px;
+}
+
+.hero-title .left {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.hero-title .right {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+@media (max-width: 51.7rem) {
+  .hero-title .left {
+    text-align: center;
+  }
+  .hero-title .right {
+    display: block;
+    padding: 10px;
+  }
+}
+
+.hero-title small {
+  font-size: 0.75em;
+  font-weight: 500;
+}
