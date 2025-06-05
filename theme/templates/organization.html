@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <style>
+    .organization strong {
+        color: brown;
+    }
+    * {
+      --bulma-table-cell-border-style: none;
+      --bulma-content-table-cell-border: 0px none var(--bulma-border);
+      --bulma-content-table-cell-padding: 2px;
+    }
+  </style>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h1>{{ page.title }}</h1>
+        <table class="organization table is-fullwidth">
+          <thead>
+            <tr><th></th><th></th><th></th></tr>
+          </thead>
+          <tbody>
+            {# Organizers #}
+            {% for role, people in CHAIRS.items() %}
+              {% if people[0] is string %}
+                <tr>
+                  <td><strong>{{ role }}</strong></td>
+                  <td>{{ people[0] }}</td>
+                  <td>{{ people[1] }}</td>
+                </tr>
+              {% else %}
+                <tr>
+                  <td><strong>{{ role }}</strong></td>
+                  <td>{{ people[0][0] }}</td>
+                  <td>{{ people[0][1] }}</td>
+                </tr>
+                {% for person in people[1:] %}
+                  <tr>
+                    <td></td>
+                    <td>{{ person[0] }}</td>
+                    <td>{{ person[1] }}</td>
+                  </tr>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+
+            <tr><td colspan="3"><br></td></tr>
+
+            {# Steering Committee #}
+            {% set sc_items = STEERING_COMMITTEE.items() | list %}
+            {% if sc_items %}
+              <tr>
+                <td><strong>Steering committee</strong></td>
+                <td>{{ sc_items[0][0] }}</td>
+                <td>{{ sc_items[0][1] }}</td>
+              </tr>
+              {% for member in sc_items[1:] %}
+                <tr>
+                  <td></td>
+                  <td>{{ member[0] }}</td>
+                  <td>{{ member[1] }}</td>
+                </tr>
+              {% endfor %}
+              <tr><td colspan="3"><br></td></tr>
+            {% endif %}
+
+            {# Program Committee #}
+            {% set pc_items = PROGRAM_COMMITTEE.items() | list %}
+            {% if pc_items %}
+              <tr>
+                <td><strong>Program committee</strong></td>
+                <td>{{ pc_items[0][0] }}</td>
+                <td>{{ pc_items[0][1] }}</td>
+              </tr>
+              {% for name, affiliation in pc_items[1:] %}
+                <tr>
+                  <td></td>
+                  <td>{{ name }}</td>
+                  <td>{{ affiliation }}</td>
+                </tr>
+              {% endfor %}
+            {% endif %}
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+{% endblock %}

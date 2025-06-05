@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="theme-light" lang="en">
+  <head>
+    <title>
+      {% block title %}{{ SITENAME|striptags }} · {{ page.title|striptags }}{% endblock %}
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/bulma.min.css" />
+    <link rel="stylesheet" href="{{ THEME_STATIC_DIR }}/css/custom.css" />
+    <link rel="icon" href="{{ THEME_STATIC_DIR }}/images/favicon.ico" />
+  </head>
+  <body>
+    {% include "partials/header.html" %}
+    <main>
+      {% block content %}
+      {{page.content}}
+      {% endblock %}
+    </main>
+    {% include "partials/footer.html" %}
+  </body>
+</html>

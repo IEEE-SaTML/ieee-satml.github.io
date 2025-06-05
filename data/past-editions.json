@@ -1,0 +1,23 @@
+[
+    {
+        "year": 2025,
+        "image": "images/past/2025.jpg",
+        "venue": "University of Copenhagen",
+        "location": "Copenhagen, Denmark",
+        "date": "April 9–11"
+    },
+    {
+        "year": 2024,
+        "image": "images/past/2024.jpg",
+        "venue": "University of Toronto",
+        "location": "Toronto, Canada",
+        "date": "April 9–11"
+    },
+    {
+        "year": 2023,
+        "image": "images/past/2023.jpg",
+        "venue": "Hilton Raleigh North Hills",
+        "location": "Raleigh, United States",
+        "date": "February 8–10"
+    }
+]

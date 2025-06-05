@@ -1,0 +1,75 @@
+<style>
+  * {
+    --bulma-navbar-burger-color: #333;
+    --bulma-navbar-padding-horizontal: 4rem !important;
+    --bulma-navbar-padding-vertical: 0rem !important;
+    --bulma-navbar-item-background-l-delta: transparent !important;
+  }
+
+  .navbar-start a.navbar-item {
+    color:  hsl(0, 0%, 45%) !important;
+  }
+  
+  .navbar-start a.navbar-item:hover {
+    color: hsl(0, 0%, 10%) !important;
+  }
+</style>
+
+<header>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger'),
+        0
+      );
+
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    });
+  </script>
+
+  <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
+    
+    <div class="navbar-brand">
+      <a class="navbar-item pr-6" style="font-size: 1.2rem; font-weight: 500;" href="/">
+        {{ SITENAME }}
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbar" class="navbar-menu">
+
+      <div class="navbar-start">
+        {% for p in pages|sort(attribute='menu_order') %}
+          <a href="{{ SITEURL }}/{{ p.url }}" class="navbar-item" style="font-weight: 420;">{{ p.menu_title }}</a>
+        {% endfor %}
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item px-4">
+          <a href="mailto:{{ SOCIAL['mail'] }}">
+            <img src="{{ THEME_STATIC_DIR }}/images/social/envelope.svg" alt="Email" style="height: 1rem;" />
+          </a>
+        </div>
+        <div class="navbar-item px-4 pr-6">
+          <a href="{{ SOCIAL['bluesky'] }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ THEME_STATIC_DIR }}/images/social/bluesky.svg" alt="Bluesky" style="height: 1rem;" />
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>

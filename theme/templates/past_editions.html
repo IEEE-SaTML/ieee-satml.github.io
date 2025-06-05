@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1>{{ page.title }}</h1>
+
+      {% for conference in PAST_EDITIONS %}
+      <div class="card mb-5" style="position: relative; border-radius: 8px; overflow: hidden;">
+
+        <!-- Clickable overlay -->
+        <a href="{{ conference['url'] }}"
+           style="position: absolute; inset: 0; z-index: 1; text-decoration: none;"></a>
+
+        <div class="columns is-gapless">
+
+          <!-- Image column -->
+          <div class="column is-one-third">
+            <figure class="image is-5by3" style="width: 100%; height: 100%;">
+              <img src="{{ conference['image'] }}"
+                   style="object-fit: cover; width: 100%; height: 100%;">
+            </figure>
+          </div>
+
+          <!-- Text column -->
+          <div class="column">
+            <div class="card-content">
+              <p class="title is-size-3" style="color: brown;">IEEE SaTML {{ conference['year'] }}</p>
+              <p class="title is-size-3">{{ conference['venue'] }}</p>
+              <p class="subtitle is-size-4">{{ conference['location'] }}</p>
+              <p class="subtitle is-size-4">{{ conference['date'] }}</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+{% endblock %}
