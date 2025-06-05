@@ -26,6 +26,5 @@ Once it's running, head over to http://localhost:8000 to preview the site.
 
 - `pelicanconf.py`: Main configuration file
 - `data/`: Structured data (e.g., organizing committee)
-- `content/`: The core site content, written in Markdown
-
-The site uses a custom SaTML theme, which located in `theme/templates/`.
+- `content/`: The core site content
+- `theme/templates/`: The custom SaTML theme
