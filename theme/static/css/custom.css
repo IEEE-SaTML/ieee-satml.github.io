@@ -10,6 +10,7 @@
 * {
   --bulma-body-size: 1.0rem !important;
   --bulma-body-weight: 400 !important;
+  --bulma-body-color: #333 !important;
   font-family: 'Ubuntu Sans', sans-serif;
 }
 
