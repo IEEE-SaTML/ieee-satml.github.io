@@ -67,7 +67,7 @@ This conference will expand on the theoretical and practical understandings of v
 * Trustworthy data curation
 
 We solicit research papers, systematization of knowledge papers, and position
-papers (see [Call for Papers](/call-for-papers) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details).
+papers (see [Call for Papers](/call-for-papers.html) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions.html) for details).
 
 ## Venue
 IEEE SaTML 2025 will be hosted on the campus of the Technical University of Munich on April
