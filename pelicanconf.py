@@ -4,9 +4,9 @@ import json
 SITENAME = 'IEEE SaTML 2026'
 SITEURL = ""
 
-CONFERENCE_NAME = "4th IEEE Conference on Secure and Trustworthy Machine&nbspLearning"
+CONFERENCE_NAME = "4th IEEE Conference on Secure and Trustworthy Machine Learning"
 CONFERENCE_LOCATION = "Technical University of Munich, Germany"
-CONFERENCE_DATE = "April 9–11, 2026"
+CONFERENCE_DATE = "March 23–25, 2026"
 
 CHAIRS = json.loads(Path('data/chairs.json').read_text())
 STEERING_COMMITTEE = json.loads(Path('data/steering.json').read_text())

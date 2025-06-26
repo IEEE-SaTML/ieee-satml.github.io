@@ -1,8 +1,7 @@
 title: Call for Competitions
 template: page
 menu_order: 150
-menu_title: Competitions
-status: skip
+menu_title: Call for Competitions
 
 ## Competition track
 
