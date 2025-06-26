@@ -1,12 +1,14 @@
 {
-    "General chair": [ "Amartya Sanyal", "University of Copenhagen" ],
-    "Program chairs": [
-        [ "Konrad Rieck", "BIFOLD & TU Berlin" ],
-        [ "Somesh Jha", "University of Wisconsin" ]
+    "General chairs": [
+        [ "Orestis Papakyriakopoulos", "TU München" ],
+        [ "Lea Schönherr", "CISPA Helmholtz Center for Information Security" ]
     ],
-    "Treasurer": [ "Kathrin Grosse", "IBM" ],
-    "Social media chair": [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
-    "Donations chair": [ "Lea Schönherr", "CISPA Helmholtz Center for Information Security" ],
+    "Program chairs": [
+        [ "Rachel Cummings", "Columbia University" ],
+        [ "Konrad Rieck", "BIFOLD & TU Berlin" ]
+    ],
+    "Social media chair": 
+        [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
     "Web chairs": [
         [ "Thorsten Eisenhofer", "BIFOLD & TU Berlin" ],
         [ "Stefan Czybik", "BIFOLD & TU Berlin" ]

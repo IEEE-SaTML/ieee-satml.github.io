@@ -2,10 +2,11 @@ title: Call for Competitions
 template: page
 menu_order: 150
 menu_title: Competitions
+status: skip
 
 ## Competition track
 
-The SaTML 2025 conference will feature a competition track. We invite proposals for competitions on topics that advance trustworthy and secure machine learning. The results of these competitions will be presented and discussed by participants and organizers at the conference. Further details on the organization will be released in the following months.
+The SaTML 2026 conference will feature a competition track. We invite proposals for competitions on topics that advance trustworthy and secure machine learning. The results of these competitions will be presented and discussed by participants and organizers at the conference. Further details on the organization will be released in the following months.
 
 We seek proposals with a clear scientific question in areas where machine learning can advance scientific, technological, or business domains. We especially encourage submissions that demonstrate a positive societal impact, particularly those using AI to support disadvantaged communities.
 
@@ -29,11 +30,11 @@ Proposals will be evaluated based on factors such as:
 
 The competition track includes the following dates:
 
-* Competition proposal deadline: **August 7, 2024**
-* Acceptance notification: **August 16, 2024**
-* Competition track (during the conference): **April 9-11, 2025**
+* Competition proposal deadline: **August 6, 2025**
+* Acceptance notification: **August 27, 2025**
+* Competition track (during the conference): **March 23-25, 2026**
 
-Competition organizers should propose a timeline for running the competition to ensure participants have enough time to contribute high-quality entries. It is recommended that competitions be completed by **early March 2025** (one month prior to the SaTML conference) at the absolute latest.
+Competition organizers should propose a timeline for running the competition to ensure participants have enough time to contribute high-quality entries. It is recommended that competitions be completed by **late February 2026** (one month prior to the SaTML conference) at the absolute latest.
 
 ## Contact and help
 

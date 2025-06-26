@@ -6,17 +6,19 @@ menu_title: Home
 ## News & Updates
 
 - The website for SatML 2026 is now online!
+
 <!-- - The program for SaTML 2025 is <a href="program">now available</a>. We are looking forward to 3 days packed with secure and trustworthy learning. -->
 <!-- - The list of accepted papers for SaTML 2025 is <a href="accepted-papers">now available</a>. Congratulations to all authors! -->
 <!-- - We are offering travel scholarships for students and postdocs, thanks to generous sponsor support. <a href="scholarships">Learn more</a>. -->
 <!-- - The <a href="https://eventsignup.ku.dk/ieeesatml2025/conference">registration page</a> for SaTML 2025 is now open!  -->
 
 ## Important dates
-  * Paper submission deadline: **Friday, September 27, 2025**
-  * Early reject notification: **Thursday, October 31, 2025**
-  * Interactive discussion & revision phase: **November 21 - December 5, 2025**
-  * Decision notification: **Thursday, December 12, 2025**
-  * Conference dates: **April 9-11, 2026**
+
+- Paper submission deadline: **Wednesday, September 24, 2025**
+- Early reject notification: **Wednesday, October 29, 2025**
+- Interactive discussion & revision phase: **November 19 - December 3, 2025**
+- Decision notification: **Wednesday, December 10, 2025**
+- Conference dates: **March 23-25, 2026**
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 
@@ -53,28 +55,24 @@ We are excited to have the following keynote speakers in the SATML 2025 program.
 </div>
 -->
 
-
 ## Overview
+
 This conference will expand on the theoretical and practical understandings of vulnerabilities inherent to machine learning (ML), explore the robustness of learning algorithms and systems, and aid in developing a unified, coherent scientific community which aims to establish trustworthy machine learning. Topics of interest include (but are not limited to):
 
-* Novel attacks on machine learning
-* Novel defenses for machine learning
-* Secure and safe machine learning in practice
-* Verification of algorithms and systems
-* Privacy in machine learning
-* Forensic analysis of machine learning
-* Fairness and interpretability
-* Trustworthy data curation
+- Novel attacks on machine learning
+- Novel defenses for machine learning
+- Secure and safe machine learning in practice
+- Verification of algorithms and systems
+- Privacy in machine learning
+- Forensic analysis of machine learning
+- Fairness and interpretability
+- Trustworthy data curation
 
-We solicit research papers, systematization of knowledge papers, and position
-papers (see [Call for Papers](/call-for-papers.html) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions.html) for details).
+We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers.html) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions.html) for details).
 
 ## Venue
-IEEE SaTML 2025 will be hosted on the campus of the Technical University of Munich on April
-9-11, 2026. The venue for the conference will be the <a
-href="#"
-target="_blank">xxx</a>.
 
+IEEE SaTML 2026 will be hosted on the campus of the Technical University of Munich on March 23-25, 2026. More details on the venue will follow.
 
 <!-- 
 ## Sponsors and Supporters
