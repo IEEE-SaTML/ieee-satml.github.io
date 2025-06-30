@@ -10,7 +10,7 @@ To set things up locally, create a virtual environment and install the required 
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install "pelican[markdown]"
+python -m pip install -r requirements.txt
 ```
 
 ## Running the Development Server
