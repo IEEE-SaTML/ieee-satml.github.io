@@ -27,10 +27,10 @@ DEFAULT_DATE = 'fs'
 
 DISPLAY_PAGES_ON_MENU = True
 PAGE_PATHS = ['', 'hidden']
-PAGE_URL = '{slug}.html'
+PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}.html'
 
-THEME_STATIC_DIR = '.'
+THEME_STATIC_DIR = ''
 
 INDEX_SAVE_AS = ''
 
