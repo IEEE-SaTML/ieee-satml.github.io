@@ -5,7 +5,7 @@
         "venue": "University of Copenhagen",
         "location": "Copenhagen, Denmark",
         "date": "April 9–11",
-        "url" : "https://satml.org/2025"
+        "url" : "https://satml.org/2025/"
     },
     {
         "year": 2024,
@@ -13,7 +13,7 @@
         "venue": "University of Toronto",
         "location": "Toronto, Canada",
         "date": "April 9–11",
-        "url" : "https://satml.org/2024"
+        "url" : "https://satml.org/2024/"
     },
     {
         "year": 2023,
@@ -21,6 +21,6 @@
         "venue": "Hilton Raleigh North Hills",
         "location": "Raleigh, United States",
         "date": "February 8–10",
-        "url" : "https://satml.org/2023"
+        "url" : "https://satml.org/2023/"
     }
 ]
