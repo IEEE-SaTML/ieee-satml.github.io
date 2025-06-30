@@ -1,5 +1,5 @@
 name: Deploy GitHub Pages
-run-name: "${{ github.event.head_commit.message }}" from ${{ github.actor }} 🚀
+run-name: Deploy "${{ github.event.head_commit.message }}" from ${{ github.actor }} 🚀
 on:
   push:
     branches:
