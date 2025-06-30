@@ -10,14 +10,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup python
         uses: actions/setup-python@v5
         with:
           python-version: '3'
+
       - name: Setup pelican
         run: pip install -r requirements.txt
+
       - name: Build
         run: python -m pelican
+
+      # FIXME
+      - name: Copy index page to root
+        run: cp output/index/index.html output/index.html
 
       - name: Upload files
         id: deployment
@@ -43,15 +50,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
-
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   # If you’re changing the branch from main,
-      #   # also change the `main` in `refs/heads/main`
-      #   # below accordingly.
-      #   if: ${{ github.ref == 'refs/heads/main' }}
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
-      #     force_orphan: true
-      #     cname: bookish-telegram.thrsten.pages.github.io
