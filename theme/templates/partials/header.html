@@ -38,7 +38,7 @@
   <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
     
     <div class="navbar-brand">
-      <a class="navbar-item pr-6" style="font-size: 1.2rem; font-weight: 500;" href="/">
+      <a class="navbar-item pr-6" style="font-size: 1.2rem; font-weight: 500;" href="{{SITEURL}}">
         {{ SITENAME }}
       </a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
@@ -53,19 +53,19 @@
 
       <div class="navbar-start">
         {% for p in pages|sort(attribute='menu_order') %}
-          <a href="{{ SITEURL }}/{{ p.url }}" class="navbar-item" style="font-weight: 420;">{{ p.menu_title }}</a>
+          <a href="{{SITEURL}}/{{ p.url }}" class="navbar-item" style="font-weight: 420;">{{ p.menu_title }}</a>
         {% endfor %}
       </div>
 
       <div class="navbar-end">
         <div class="navbar-item px-4">
           <a href="mailto:{{ SOCIAL['mail'] }}">
-            <img src="{{ THEME_STATIC_DIR }}/images/social/envelope.svg" alt="Email" style="margin-top: 7px; height: 1rem;" />
+            <img src="{{SITEURL}}/{{THEME_STATIC_DIR}}/images/social/envelope.svg" alt="Email" style="margin-top: 7px; height: 1rem;" />
           </a>
         </div>
         <div class="navbar-item px-4 pr-6">
           <a href="{{ SOCIAL['bluesky'] }}" target="_blank" rel="noopener noreferrer">
-            <img src="{{ THEME_STATIC_DIR }}/images/social/bluesky.svg" alt="Bluesky" style="margin-top: 7px; height: 1rem;" />
+            <img src="{{SITEURL}}/{{THEME_STATIC_DIR}}/images/social/bluesky.svg" alt="Bluesky" style="margin-top: 7px; height: 1rem;" />
           </a>
         </div>
       </div>
