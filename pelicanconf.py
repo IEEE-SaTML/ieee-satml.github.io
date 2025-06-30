@@ -28,7 +28,7 @@ DEFAULT_DATE = 'fs'
 DISPLAY_PAGES_ON_MENU = True
 PAGE_PATHS = ['', 'hidden']
 PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = '{slug}.html'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 THEME_STATIC_DIR = ''
 
