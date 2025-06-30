@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 SITENAME = 'IEEE SaTML 2026'
-SITEURL = "https://satml.org/studious-tribble"
+SITEURL = "https://satml.org/"
 
 CONFERENCE_NAME = "4th IEEE Conference on Secure and Trustworthy Machine Learning"
 CONFERENCE_LOCATION = "Technical University of Munich, Germany"
