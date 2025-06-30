@@ -1,0 +1,57 @@
+name: Deploy GitHub Pages
+run-name: Deploy "${{ github.event.head_commit.message }}" from ${{ github.actor }} 🚀
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3'
+      - name: Setup pelican
+        run: pip install -r requirements.txt
+      - name: Build
+        run: python -m pelican
+
+      - name: Upload files
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/  
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   # If you’re changing the branch from main,
+      #   # also change the `main` in `refs/heads/main`
+      #   # below accordingly.
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./public
+      #     force_orphan: true
+      #     cname: bookish-telegram.thrsten.pages.github.io
