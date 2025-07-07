@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available.
 - The website for SatML 2026 is now online!
 
 <!-- - The program for SaTML 2025 is <a href="program">now available</a>. We are looking forward to 3 days packed with secure and trustworthy learning. -->
