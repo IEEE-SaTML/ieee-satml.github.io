@@ -42,7 +42,7 @@ These papers should either consolidate and clarify ideas in a major research are
 
 All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline. The submission site is available here:
 
-- **Submission site: announced soon**
+- **Submission site: [hotcrp.satml.org](https://hotcrp.satml.org)**
 
 Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously in submission to a journal, conference, or workshop with published proceedings. However, authors may choose to give talks about their work, post a preprint of the paper online, and disclose security vulnerabilities to vendors.
 

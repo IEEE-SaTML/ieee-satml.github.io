@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The [submission site](https://hotcrp.satml.org) for papers is now finally online and open.
 - The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available.
 - The website for SatML 2026 is now online!
 
