@@ -6,6 +6,8 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
+DEVCONFFILE=$(BASEDIR)/pelicandevconf.py
+
 # PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 DEBUG ?= 0
@@ -34,6 +36,10 @@ help:
 
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
+	cp $(OUTPUTDIR)/index/index.html $(OUTPUTDIR)/index.html
+
+htmldev:
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(DEVCONFFILE)" $(PELICANOPTS)
 	cp $(OUTPUTDIR)/index/index.html $(OUTPUTDIR)/index.html
 
 clean:

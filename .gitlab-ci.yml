@@ -18,7 +18,7 @@ build:
   script:
     - pip install --no-cache-dir pelican[markdown]
     - echo "Build website"
-    - make html
+    - make htmldev
   artifacts:
     expire_in: 7 days
     paths:

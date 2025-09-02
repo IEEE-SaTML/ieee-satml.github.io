@@ -47,3 +47,8 @@ To add a new edition:
    - This repository will serve the new edition directly under `https://satml.org`.
    - It should be completely independent of the previous one.
    - Include links pointing to past editions (e.g., 2023, 2024, etc.).
+
+### Misc
+
+- The files `gitlab-ci.yml` and `pelicandevconf.py` are used for the development server at TU Berlin. They are not required for deployment on GitHub and may be removed in a future cleanup.
+- The deployment workflow for GitHub Pages is defined in `.github/workflows/deploy.yml`.
