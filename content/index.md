@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- There will be four [Competitions](/competitions) at SaTML 2026. We invite you to participate!
 - We updated the [Call for Papers](/call-for-papers) with a statement about LLM usage in submissions.
 - The [Submission Site](https://hotcrp.satml.org) for papers is now finally online and open.
 - The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available.

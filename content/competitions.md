@@ -2,7 +2,6 @@ title: Competitions
 menu_title: Competitions
 template: page
 menu_order: 300
-status: skip
 
 ## Competition Track
 
@@ -13,24 +12,24 @@ SaTML traditionally includes a *Competition Track* as part of its program. Parti
 For this year, the following competitions have been accepted for the conference. Interested researchers can participate in any of these by following the instructions provided on the competition websites. For more information or specific inquiries, please contact the respective competition organizers directly.
 
 <a class="anchor" name="competition1"></a>
-### 🏁  Adaptive Prompt Injection: LLMail Inject
+### 🏁 Detecting Manipulations of AI Models in Space Operations
 
-Website: <https://microsoft.github.io/llmail-inject/>
+Website: <https://assurance-ai.space-codev.org/competitions/>
 
-> This competition invites participants to navigate and evade multiple prompt injection defences within an LLM-integrated email client. As an attacker, your goal is to craft emails with instructions for the LLM to execute your chosen task while avoiding detection. The competition is structured into various scenarios, each reflecting different levels of attacker knowledge and requiring successful email delivery, retrieval, and processing.
+> The competition is a part of the "Assurance for Space Domain AI Applications" project funded by the European Space Agency. It looks for effective algorithms to identify security issues in AI models across two real-life space operation scenarios: 1) manipulated outputs from LLM-based summarization of space-related texts ("Impostor Hunt") and 2) hidden triggers in models for spacecraft telemetry forecasting ("Trojan Horse Hunt").
 
-Organizers: Sahar Abdelnabi, Giovanni Cherubin, Aideen Fay, Andrew Paverd, Mark Russinovich, Ahmed Salem, Egor Zverev, and Javier Rando.
+Organizers: Agata Kaczmarek, Dawid Płudowski, Piotr Wilczyński, Przemysław Biecek, Artur Janicki, Krzysztof Kotowski, Ramez Shendy, Jakub Nalepa, and Evridiki Ntagiou.
 
 <a class="anchor" name="competition2"></a>
-### 🏁 Inference Attacks Against Document VQA
+### 🏁 Anti-BAD: An Anti-Backdoor Challenge for Post-Trained Large Language Models
 
-Website: <https://benchmarks.elsa-ai.eu/?ch=2&com=introduction>
+Website: <https://anti-bad.github.io/>
 
-> This competition invites the development of inference attacks to extract sensitive information from Document Visual Question Answering models. These models are especially vulnerable to leakage of private data, and so are especially relevant in the contexts of privacy risks and privacy-preserving ML. We provide a competition framework to encourage the implementation of practical methods that expose such privacy vulnerabilities, with the aim of better understanding real-world threat models and the robustness of differential privacy in multimodal models.
+> This competition invites participants to defend against backdoors in large language models under practical deployment constraints (i.e., without access to training data or poisoned prior knowledge). Spanning generation, classification, and multilingual tracks, Anti-BAD encourages lightweight yet effective defenses that restore model integrity while preserving utility in practical post-trained scenarios common to model-sharing ecosystems.
 
-Organizers: Dimosthenis Karatzas,  Andrey Barsky, Mohamed Ali Souibgui, Khanh Nguyen, Raouf Kerkouche, Marlon Tobaben, Kangsoo Jung, Joonas Jälkö,  Vincent Poulain, Aurélie Joseph, Ernest Valveny, Josep Lladós, Catuscia Palamidessi, Antti Honkela, and Mario Fritz.
+Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu.
 
-<a class="anchor" name="competition3"></a>
+<!-- <a class="anchor" name="competition3"></a>
 ##### 🏁 Membership Inference on Diffusion-model-based Synthetic Tabular Data
 
 Website: <https://vectorinstitute.github.io/MIDST>
@@ -46,4 +45,4 @@ Website: <https://ramd-competition.github.io>
 
 > The Robust Android Malware Detection Competition aims to evaluate machine learning-based detectors with respect to (i) temporal data drift due to the evolution of both malware and legitimate applications and (ii) adversarial manipulations of malware samples to evade detection. The competition consists of three separate tracks (i.e., Adversarial Robustness to Feature-space Attacks, Adversarial Robustness to Problem-space Attacks, and Temporal Robustness to Data Drift).
 
-Organizers: Angelo Sotgiu, Maura Pintor, Ambra Demontis, and Battista Biggio.
+Organizers: Angelo Sotgiu, Maura Pintor, Ambra Demontis, and Battista Biggio. -->
