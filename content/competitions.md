@@ -30,7 +30,7 @@ Website: <https://anti-bad.github.io/>
 Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu.
 
 <a class="anchor" name="competition3"></a>
-##### 🏁 Agentic System Capture-the-Flag Competition
+### 🏁 Agentic System Capture-the-Flag Competition
 
 Website: <https://ctf.secure-agent.com/>
 
@@ -39,7 +39,7 @@ Website: <https://ctf.secure-agent.com/>
 Organizers: Berkeley RDI Center
 
 <a class="anchor" name="competition4"></a>
-##### 🏁 TBD
+### 🏁 TBD
 
 Website: <https://TBD>
 
