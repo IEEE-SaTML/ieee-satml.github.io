@@ -18,7 +18,7 @@ Website: <https://assurance-ai.space-codev.org/competitions/>
 
 > The competition is a part of the "Assurance for Space Domain AI Applications" project funded by the European Space Agency. It looks for effective algorithms to identify security issues in AI models across two real-life space operation scenarios: 1) manipulated outputs from LLM-based summarization of space-related texts ("Impostor Hunt") and 2) hidden triggers in models for spacecraft telemetry forecasting ("Trojan Horse Hunt").
 
-Organizers: Agata Kaczmarek, Dawid Płudowski, Piotr Wilczyński, Przemysław Biecek, Artur Janicki, Krzysztof Kotowski, Ramez Shendy, Jakub Nalepa, and Evridiki Ntagiou.
+Organizers: Agata Kaczmarek, Dawid Płudowski, Piotr Wilczyński, Przemysław Biecek, Artur Janicki, Krzysztof Kotowski, Ramez Shendy, Jakub Nalepa, and Evridiki Ntagiou
 
 <a class="anchor" name="competition2"></a>
 ### 🏁 Anti-BAD: An Anti-Backdoor Challenge for Post-Trained Large Language Models
@@ -27,7 +27,7 @@ Website: <https://anti-bad.github.io/>
 
 > This competition invites participants to defend against backdoors in large language models under practical deployment constraints (i.e., without access to training data or poisoned prior knowledge). Spanning generation, classification, and multilingual tracks, Anti-BAD encourages lightweight yet effective defenses that restore model integrity while preserving utility in practical post-trained scenarios common to model-sharing ecosystems.
 
-Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu.
+Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu
 
 <a class="anchor" name="competition3"></a>
 ### 🏁 Agentic System Capture-the-Flag Competition
