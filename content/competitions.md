@@ -27,7 +27,7 @@ Website: <https://anti-bad.github.io/>
 
 > This competition invites participants to defend against backdoors in large language models under practical deployment constraints (i.e., without access to training data or poisoned prior knowledge). Spanning generation, classification, and multilingual tracks, Anti-BAD encourages lightweight yet effective defenses that restore model integrity while preserving utility in practical post-trained scenarios common to model-sharing ecosystems.
 
-Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu
+Organizers: Weijun Li, Jinrui Yang, Ansh Arora, Yiyi Chen, Josephine Bakka, Xuanli He, Heather Lent, Johannes Bjerva, Mark Dras, and Qiongkai Xu
 
 <a class="anchor" name="competition3"></a>
 ### 🏁 Agentic System Capture-the-Flag Competition
