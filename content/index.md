@@ -83,7 +83,7 @@ IEEE SaTML 2026 will be hosted on the campus of the Technical University of Muni
 <div class="pt-4 columns is-vcentered is-centered">
   <div class="column is-one-third">
     <a href="https://tumthinktank.de/">
-      <img src="../images/sponsors/tum-tt-logo.svg" width="70%" alt="TUM ThinkTank">
+      <img src="../images/sponsors/tum-tt.svg" width="70%" alt="TUM ThinkTank">
     </a>
   </div>
   <div class="column is-one-third">
