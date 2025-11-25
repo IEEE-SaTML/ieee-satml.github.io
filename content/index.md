@@ -78,22 +78,22 @@ We solicit research papers, systematization of knowledge papers, and position pa
 
 IEEE SaTML 2026 will be hosted on the campus of the Technical University of Munich on March 23-25, 2026. More details on the venue will follow.
 
-<!-- 
 ## Sponsors and Supporters
 
 <div class="pt-4 columns is-vcentered is-centered">
   <div class="column is-one-third">
-    <a href="https://novonordiskfonden.dk/en/">
-      <img src="images/sponsors/nnf.png" width="70%" alt="Novo Nordisk Foundation">
+    <a href="https://tumthinktank.de/">
+      <img src="../images/sponsors/tum-tt-logo.svg" width="70%" alt="TUM ThinkTank">
     </a>
   </div>
   <div class="column is-one-third">
-    <a href="https://www.ddsa.dk/">
-      <img src="images/sponsors/ddsa.png" width="100%" alt="Danish Data Science Academy">
+    <a href="https://www.bifold.berlin/">
+      <img src="../images/sponsors/bifold-logo.svg" width="85%" alt="BIFOLD">
     </a>
   </div>
 </div>
 
+<!--
 <div class="columns is-vcentered is-centered">
   <div class="column is-one-third">
     <a href="https://www.aicentre.dk">
