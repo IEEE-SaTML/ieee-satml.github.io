@@ -41,7 +41,7 @@ Organizers: Berkeley RDI Center
 <a class="anchor" name="competition4"></a>
 ### 🏁 PET-ARENA: Privacy-Preserving Database Systems CTF Competition 
 
-Website: <https://tiktok-privacy-innovation.github.io/pet-arena/>
+Website: <https://www.antigranular.com/competitions/pet-arena-ctf-competition>
 
 > This "CTF on Privacy-Preserving Database Systems" invites participants to design and conduct red-team exercises to produce findings and recommendations on a provided interactive database system (DBS). Registered participants will have access to the DBS that support privacy-preserving aggregate queries on various datasets. Assuming the role of an ethical red-teaming adversary, participants design/execute novel or known privacy attacks in both white-box and black-box settings across several tracks and missions. 
 
