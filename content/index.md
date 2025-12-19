@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The <a href="https://cvent.me/50dM5d">registration page</a> for SaTML 2026 is now open! 
 - The list of accepted papers for SaTML 2026 is <a href="accepted-papers">now available</a>. Congratulations to all authors!
 - There will be four [Competitions](/competitions) at SaTML 2026. We invite you to participate!
 - We updated the [Call for Papers](/call-for-papers) with a statement about LLM usage in submissions.
@@ -13,7 +14,6 @@ menu_title: Home
 - The website for SatML 2026 is now online!
 
 <!-- - The program for SaTML 2025 is <a href="program">now available</a>. We are looking forward to 3 days packed with secure and trustworthy learning. -->
-<!-- - The list of accepted papers for SaTML 2025 is <a href="accepted-papers">now available</a>. Congratulations to all authors! -->
 <!-- - We are offering travel scholarships for students and postdocs, thanks to generous sponsor support. <a href="scholarships">Learn more</a>. -->
 <!-- - The <a href="https://eventsignup.ku.dk/ieeesatml2025/conference">registration page</a> for SaTML 2025 is now open!  -->
 

@@ -3,51 +3,56 @@ template: page
 menu_order: 400
 menu_title: Attend
 slug: attend
-status: skip
 
 ## Venue
 
-<a href="https://www.biocenter.ku.dk/english/auditorium/"><img src="/images/lundbeckfond.jpg" alt="Conference venue" style="float: right; margin: 0 0 20px 20px; max-width: 200px;"></a>
-IEEE SaTML 2025 will be held on the campus of the University of
-Copenhagen in Denmark from April 9 to 11, 2025. The conference venue
-for all three days will be the <a
-href="https://www.biocenter.ku.dk/english/auditorium/"> Lundbeckfond Auditorium</a>.
+The conference will take place at the Technical University of Munich (TUM), in Munich, Germany. The building is Theresianum, Room 602.
+
+The address is <a href="https://maps.app.goo.gl/2vSYSGg9PkZCZFaFA">Arcisstr. 21, 80333 Munich</a>, with access from <a href="https://www.google.com/maps/place/Theresienstra%C3%9Fe+90,+80333+M%C3%BCnchen,+Germany/@48.1502864,11.569307,18.25z/data=!4m6!3m5!1s">Theresienstraße 90, 80333 Munich</a>. 
+
+The official address is Theresienstraße 90, but there are several buildings sharing that address. The entrance to the conference venue is on the south side of Theresienstraße, halfway along the block between Luisenstraße (to the west) and Arcisstraße (to the east). Please see <a href="https://nav.tum.de/en/room/0506.EG.602">this map</a> for more information.
+
+The main campus of the Technical University of Munich is located near Munich Central Station and is easily accessible by public transport. There is very little parking in the immediate vicinity. Munich’s main airport is München Flughafen / Munich Airport (MUC). Munich is also accessible by train (e.g., 3.5 hrs from Frankfurt Airport).
 
 ## Registration
 
-The registration for the conference is open and can be accessed via the <a href="https://eventsignup.ku.dk/ieeesatml2025/conference">registration website</a>.
+The registration for the conference is open and can be accessed via the <a href="https://cvent.me/50dM5d">registration website</a>.
 
 ## Accommodation
 
-We have negotiated special room rates with hotels in Copenhagen. There
-may be more to come but we recommend booking them early as April can
-be a busy time for hotels leading to fast emptying vacancies. 
+Below you find a list of selected hotels that are within walking distance or have very good public transport connections. We do not have any hotel contingents, so availability must be requested individually. The well-known booking portals offer, of course, an even larger selection with current capacities.
 
-### Budget Hotels
+- **Motel One München Hauptbahnhof (3 stars)** [Link](https://www.motel-one.com/de/hotels/muenchen/hotel-muenchen-hauptbahnhof/)
+    - Luisenstraße 4 – 80333 Munich
+    - +49 89 27782660
 
-- **Wakeup Copenhagen**: Click [here](https://www.wakeupcopenhagen.com/arpbe/web/en/login/105500586) to book at a reduced room rate.
+- **Ruby Lilly Hotel Munich** [Link](https://www.ruby-hotels.com/en/destinations/munich/ruby-lilly)
+    - Dachauer Straße 37 – 80335 Munich
+    - +49 89 954570820 
 
-- **Cabinn Copenhagen**: Click [here](https://www.cabinn.com/hotel/cabinn-copenhagen?utm_source=google&utm_medium=cpc&utm_campaign=kobenhavn&utm_term=cabinn%20copenhagen&utm_content=105140912838&gad_source=1&gclid=EAIaIQobChMIwJH_hZaOigMVvVSRBR1v0wVOEAAYASAAEgL5PvD_BwE&gclsrc=aw.ds) to book a room rate and use the booking code **BLKSATMLD**.
+- **NH Collection München Bavaria (4 stars)** [Link](https://www.nh-hotels.com/de/hotel/nh-collection-muenchen-bavaria)
+    - Arnulfstr. 2 – 80335 Munich
+    - +49 30 22388599
 
-### Mid-Range Hotels
+- **Hotel Europa (4 stars)** [Link](https://hotel-europa.de/de/zimmer-und-preise/angebote-und-preise.html)
+    - Dachauer Str. 115 – 80335 Munich
+    - +49 89 542420
 
-Below is a list of mid-range hotels recommended for conference attendees:
+- **KING’s Hotel First (4 stars)** [Link](https://www.kingshotels.de/first-hotel-muenchen/)
+    - Dachauer Str. 13 – 80335 Munich
+    - +49 89 551870
 
-- **Hotel Arthur** [Link](https://arthurhotels.com/hotel-kong-arthur/)
+- **Rocco Forte The Charles Hotel (5 stars)** [Link](https://www.roccofortehotels.com/de/hotels-and-resorts/the-charles-hotel)
+    - Sopienstr. 28 – 80333 Munich
+    - +49 89 5445550
 
-- **Hotel Ibsen** [Link](https://arthurhotels.dk/ibsens-hotel/)
-
-- **Hotel Christian IV** [Link](https://www.hotelchristianiv.dk/en/) 
-
-- **Scandic Copenhagen** [Link](https://www.scandichotels.com/hotels/denmark/copenhagen/scandic-copenhagen/rooms)
+- **Hotel Bayerischer Hof (5 stars)** [Link](https://www.bayerischerhof.de/de/index.html)
+    - Promenadeplatz 2-6 – 80333 Munich
+    - +49 69 380789655
 
 ## Visa Support
 
-Should you require a visa support letter to attend the conference, please remember to indicate this during the <a href="https://eventsignup.ku.dk/ieeesatml2025/conference">registration process</a>. It can take a long time to get a visa for Denmark, so please consider registering and applying as soon as possible and at least 3 months before the conference begins. We will review and process visa support letters every two weeks, so please take into consideration this time when planning your visa application.
-
-## Travel Scholarships
-
-The conference will be using the generous support we received from our sponsors to support students and postdoctoral researchers traveling to IEEE SaTML 2025 who do not have sufficient funding. For more information about the scholarship application, important deadlines, and scholarship criteria and conditions, please visit our <a href="../scholarships">travel scholarship page</a>.
+Should you require a visa support letter to attend the conference, please remember to indicate this during the <a href="https://cvent.me/50dM5d">registration process</a>. It can take a long time to get a visa for Germany. We will review and process visa support letters every two weeks, so please take into consideration this time when planning your visa application.
 
 ## Code of Conduct
 
@@ -95,10 +100,12 @@ A goal of the IEEE Computer Society is to foster an environment in which all ind
 
 IEEE Computer Society meetings, conferences and workshops must provide a welcoming, open and safe environment, that embraces the value of every person, regardless of race, color, sex, sexual orientation, gender identity or expression, age, marital status, religion, national origin, ancestry, or disability. All individuals are entitled to participate in any IEEE Computer Society activity free of discrimination, including harassment based on any of the above factors.
 
+
 ## Event Conduct and Safety Statement 
 
 IEEE believes that science, technology, and engineering are fundamental human activities, for which openness, international collaboration, and the free flow of talent and ideas are essential. Its meetings, conferences, and other events seek to enable engaging, thought provoking conversations that support IEEE’s core mission of advancing technology for humanity. Accordingly, IEEE is committed to providing a safe, productive, and welcoming environment to all participants, including staff and vendors, at IEEE-related events.
 
 IEEE has no tolerance for discrimination, harassment, or bullying in any form at IEEE-related events. All participants have the right to pursue shared interests without harassment or discrimination in an environment that supports diversity and inclusion. Participants are expected to adhere to these principles and respect the rights of others.
 
-IEEE seeks to provide a secure environment at its events. Participants should report any behavior inconsistent with the principles outlined here, to on site staff, security or venue personnel, or to eventconduct@ieee.org
+IEEE seeks to provide a secure environment at its events. Participants should report any behavior inconsistent with the principles outlined here, to on site staff, security or venue personnel, or to
+[eventconduct@ieee.org](mailto:eventconduct@ieee.org).
