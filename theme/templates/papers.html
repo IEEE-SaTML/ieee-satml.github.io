@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% macro render_paper(paper, index) %}
+<blockquote>
+  <div class="block" style="margin-bottom: 0.2rem">
+    <strong>{{ paper["title"] }}</strong>
+  </div>
+  <div class="block" style="margin-bottom: 0.2rem">
+  {% for author in paper["authors"] -%}
+    {{ author.first }} {{ author.last }}
+    {%- set this_aff = author.get("affiliation") -%}
+    {%- set next_aff = None -%}
+    {%- if not loop.last -%}
+      {%- set next_aff = paper["authors"][loop.index].get("affiliation") -%}
+    {%- endif -%}
+    {%- if this_aff and this_aff != next_aff %} ({{ this_aff }}){%- endif -%}
+    {%- if not loop.last -%}
+      {%- if loop.index == loop.length - 1 %} and {% else %}, {% endif -%}
+    {%- endif -%}
+  {%- endfor %}
+  </div>
+  <div class="block" style="margin-bottom: 0.5rem">
+    <button class="tag paper-button" onclick="toggleAbstract('{{ index }}')">
+      <small style="filter: grayscale(100%);">📃</small>&nbsp;Abstract
+    </button>
+    {% if paper.get("arxiv") %}
+    <a class="tag paper-button" href="{{ paper['arxiv'] }}" target="_blank" style="text-decoration: none !important;">
+      <small style="filter: grayscale(100%);">📚</small>&nbsp;Arxiv
+    </a>
+    {% endif %}
+  </div>
+  <div class="block" id="abstract-{{ index }}" style="margin-bottom: 0.15rem; display: none;">
+    <p style="font-size: 0.9em; font-style: italic;">{{ paper["abstract"] | safe }}</p>
+  </div>
+</blockquote>
+{% endmacro %}
+
+{% block content %}
+<style>
+.paper-button {
+  color: teal !important;
+  border: 1px solid #AAAAAA !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+blockquote {
+  background-color: #F8F8F8 !important;
+  border-left: 2px solid #DDDDDD !important;
+  margin: 0 0 0.7rem 0 !important;
+  padding: 0.5rem 1.5rem !important;
+}
+</style>
+
+<script>
+function toggleAbstract(paperId) {
+  var abstract = document.getElementById('abstract-' + paperId);
+  abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h1>{{ page.title }}</h1>
+      {{ page.content }}
+    </div>
+  </div>
+</section>
+
+{% for category, title in [("research", "Research Papers"), ("sok", "Systematization of Knowledge Papers"), ("position", "Position Papers")] %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h2>{{ title }}</h2>
+      {% for paper in PAPERS[category] %}
+        {{ render_paper(paper, category[0] + loop.index|string) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
+{% endblock %}

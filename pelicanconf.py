@@ -14,6 +14,8 @@ PROGRAM_COMMITTEE = json.loads(Path('data/pc.json').read_text())
 
 PAST_EDITIONS = json.loads(Path('data/past-editions.json').read_text())
 
+PAPERS = json.loads(Path('data/papers.json').read_text())
+
 SOCIAL = {
     "mail" : "contact@satml.org",
     "bluesky" : "https://bsky.app/profile/satml.org",
