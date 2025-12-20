@@ -77,7 +77,7 @@ We solicit research papers, systematization of knowledge papers, and position pa
 
 ## Venue
 
-IEEE SaTML 2026 will be hosted on the campus of the Technical University of Munich on March 23-25, 2026. More details on the venue will follow.
+IEEE SaTML 2026 will be hosted on the campus of the Technical University of Munich on March 23-25, 2026. See [Attending the Conference](/attend) for details.
 
 ## Sponsors and Supporters
 
