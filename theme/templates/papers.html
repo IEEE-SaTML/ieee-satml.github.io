@@ -68,17 +68,61 @@ function toggleAbstract(paperId) {
   </div>
 </section>
 
-{% for category, title in [("research", "Research Papers"), ("sok", "Systematization of Knowledge Papers"), ("position", "Position Papers")] %}
+{# Extract papers into categories #}
+{% set research_papers = [] %}
+{% set sok_papers = [] %}
+{% set position_papers = [] %}
+
+{% for paper in PAPERS %}
+  {% if paper["title"].startswith("SoK:") %}
+    {% set _ = sok_papers.append(paper) %}
+  {% elif paper["title"].startswith("Position:") %}
+    {% set _ = position_papers.append(paper) %}
+  {% else %}
+    {% set _ = research_papers.append(paper) %}
+  {% endif %}
+{% endfor %}
+
+{# Research Papers #}
+{% if research_papers %}
 <section class="section">
   <div class="container">
     <div class="content">
-      <h2>{{ title }}</h2>
-      {% for paper in PAPERS[category] %}
-        {{ render_paper(paper, category[0] + loop.index|string) }}
+      <h2>Research Papers</h2>
+      {% for paper in research_papers %}
+        {{ render_paper(paper, 'r' + loop.index|string) }}
       {% endfor %}
     </div>
   </div>
 </section>
-{% endfor %}
+{% endif %}
+
+{# SoK Papers #}
+{% if sok_papers %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h2>Systematization of Knowledge Papers</h2>
+      {% for paper in sok_papers %}
+        {{ render_paper(paper, 's' + loop.index|string) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# Position Papers #}
+{% if position_papers %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      <h2>Position Papers</h2>
+      {% for paper in position_papers %}
+        {{ render_paper(paper, 'p' + loop.index|string) }}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 {% endblock %}
