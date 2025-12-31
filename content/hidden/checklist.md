@@ -64,3 +64,7 @@ This page provides a checklist for common formatting issues in preparing the fin
 - When using dashes in text, please use `---` instead of `--`, with no space before or after the dash---like this.
 
 - Use `\url` commands to reference URLs in papers. This causes hyperref to make the hyperlinks work nicely.
+
+- You may also check out Andreas Zeller's [LaTeX Korrektor](https://www.youtube.com/watch?v=EhsMdQQJ_bE&list=PL6dh-k4faL8qTs8LQOsfbY70owETfWy5L) to learn about common LaTeX mistakes.
+
+- Further advice on LaTeX writing is available from Diomidis Spinellis' [tutorial](https://github.com/dspinellis/latex-advice)
