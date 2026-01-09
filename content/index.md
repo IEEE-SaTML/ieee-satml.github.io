@@ -28,7 +28,7 @@ All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to 
 
 ## Keynotes 
 
-We are excited to have the following keynote speakers in the SATML 2026 program. For more details about each talk, please visit the [keynotes page](/keynotes).
+We are excited to have the following keynote speakers in the SaTML 2026 program. For more details about each talk, please visit the [keynotes page](/keynotes).
 
 <style>
 .keynotes img {
