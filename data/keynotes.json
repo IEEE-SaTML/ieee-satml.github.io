@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Embracing the Tyranny of Testing",
+    "image": "speakers/moritz.jpg",
+    "speaker": {
+      "name": "Moritz Hardt",
+      "url": "https://mrtz.org",
+      "affiliation": "Max Planck Institute for Intelligent Systems"
+    },
+    "abstract": [
+      "We all remember cramming for a test, scrambling to prepare in the final stretch by specifically targeting what we knew would be covered. When a benchmark catches on, it incentivizes model builders to do the engineering equivalent of cramming for the test, preparing models to excel on the specific benchmark. Although not a form of cheating, this potent practice of training on the test task confounds model comparisons and threatens benchmark validity.",
+      "But what if the problem also charted a path forward? If adapting to the test distribution is so effective, why not push the logic to the extreme: adapt the model to each test instance? Doing so is, in fact, the essence of test-time training, an evolving conceptual toolkit to improve models at test-time by turning each test instance into its own learning problem.",
+      "In this talk, I’ll speculate about a connection between the problem of training on the test task and test-time training. The natural limit point for both is instance-optimal adaptation, pointing at a confluence between model testing and model training: As test-time compute budgets grow, the line between training and testing diminishes. I’ll conclude by imagining a future of machine learning that fully embraces the tyranny of testing."
+    ],
+    "bio": [
+      "Moritz Hardt is a director at the Max Planck Institute for Intelligent Systems and an honorary professor at the University of Tübingen. Previously, he was Associate Professor with tenure in Electrical Engineering and Computer Sciences at the University of California, Berkeley. Hardt’s research contributes to the scientific foundations of machine learning in the social world. His upcoming book “The Emerging Science of Machine Learning Benchmarks” will appear with Princeton University Press in 2026. He also co-authored the textbooks ”Patterns, Predictions, and Actions: Foundations of Machine Learning” (Princeton) and ”Fairness and Machine Learning: Limitations and Opportunities” (MIT Press)."
+    ]
+  },
+  {
+    "title": "The Continual Challenge: Differential Privacy for Evolving Datasets",
+    "image": "speakers/monika.jpg",
+    "speaker": {
+      "name": "Monika Henzinger",
+      "url": "https://ist.ac.at/de/forschung/henzinger_monika-gruppe/",
+      "affiliation": " Institute of Science and Technology Austria"
+    },
+    "abstract": [
+      "In an era of pervasive and continuous data collection, protecting individual privacy in dynamic environments has become increasingly critical. This talk focuses on differential privacy in the continual observation setting, where data evolves over time and new outputs are released after each update. Unlike static settings, continual observation introduces unique challenges, including cumulative privacy loss and the risk of adversarial inference from correlated outputs. We will introduce the core principles of differential privacy and examine how they extend to streaming scenarios, including new composition theorems for the continual setting and highlighting key techniques and trade-offs involved in maintaining privacy over time."
+    ],
+    "bio": [
+      "Monika Henzinger is a professor of Computer Science and the Vice President of Technology Transfer at the Institute of Science and Technology Austria (ISTA). She holds a PhD in Computer Science from Princeton University, was an assistant professor at Cornell University, a member of technical staff at the DEC Systems Research Center, the director of research at Google, and a professor of computer science at EPFL and at the University of Vienna. Monika is an ACM and EATCS Fellow and a member of the Austrian Academy of Sciences and the German National Academy of Sciences (Leopoldina). She has received an honorary doctorate from the Technical University of Dortmund, two Advanced Grants of the European Research Council, the Carus Medal of the Leopoldina, and the Wittgenstein Award of the Austrian Science Fund."
+    ]
+  },
+  {
+    "title": "tbd",
+    "image": "speakers/ashia.jpg",
+    "speaker": {
+      "name": "Ashia Wilson",
+      "url": "https://www.ashiawilson.com",
+      "affiliation": "Massachusetts Institute of Technology"
+    },
+    "abstract": [
+      "tbd"
+    ],
+    "bio": [
+      "Ashia Wilson is a Lister Brothers Career Development Assistant Professor at MIT whose research builds the theory and practice of reliable AI. Her group studies four core themes: privacy and unlearning mechanisms for modern models, optimization and sampling methods for large-scale training, the dynamics of homogenization and algorithmic influence, and evaluation frameworks that enable rigorous measurement of model behavior. She draws on statistics, optimization, and dynamical systems to analyze and design AI systems that are both scientifically grounded and socially responsible. Ashia earned her Ph.D. in statistics from UC Berkeley and previously held a postdoctoral position at Microsoft Research. Her work has been recognized with best paper and spotlight awards at FAccT, NeurIPS, and OptML."
+    ]
+  },
+  {
+    "title": "tbd",
+    "image": "speakers/lorenzo.jpg",
+    "speaker": {
+      "name": "Lorenzo Cavallaro",
+      "url": "https://s2lab.cs.ucl.ac.uk/people/sullivan/",
+      "affiliation": "University College London"
+    },
+    "abstract": [
+      "tbd"
+    ],
+    "bio": [
+      "tbd"
+    ]
+  }
+]

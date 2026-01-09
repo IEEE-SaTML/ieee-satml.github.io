@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+.keynotes img {
+  width: 150px !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+</style>
+
+{% for k in KEYNOTES %}
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {% if loop.first %}
+        <h1>{{ page.title }}</h1>
+        {{ page.content }}
+      {% endif %}
+      <a class="anchor" name="keynote{{ loop.index }}"></a>
+      <div class="columns is-4 is-vcentered keynotes">
+        <div class="column is-narrow">
+          <img src="/images/{{ k.image }}" alt="{{ k.speaker.name }}">
+        </div>
+        <div class="column">
+          <h2>Keynote {{ loop.index }}:<br>{{ k.title }}</h2>
+          <a href="{{ k.speaker.url }}">{{ k.speaker.name }}</a>,
+          <i>{{ k.speaker.affiliation }}</i>
+        </div>
+      </div>
+      {% if k.abstract %}
+        <h6>Abstract</h6>
+        {% for p in k.abstract %}
+          <p>{{ p }}</p>
+        {% endfor %}
+      {% endif %}
+      {% if k.bio %}
+        <h6>Speaker Bio</h6>
+        {% for p in k.bio %}
+          <p>{{ p }}</p>
+        {% endfor %}
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

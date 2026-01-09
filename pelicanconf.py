@@ -16,6 +16,8 @@ PAST_EDITIONS = json.loads(Path('data/past-editions.json').read_text())
 
 PAPERS = json.loads(Path('data/papers.json').read_text())
 
+KEYNOTES = json.loads(Path('data/keynotes.json').read_text())
+
 SOCIAL = {
     "mail" : "contact@satml.org",
     "bluesky" : "https://bsky.app/profile/satml.org",

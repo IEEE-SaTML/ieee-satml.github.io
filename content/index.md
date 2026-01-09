@@ -15,7 +15,6 @@ menu_title: Home
 
 <!-- - The program for SaTML 2025 is <a href="program">now available</a>. We are looking forward to 3 days packed with secure and trustworthy learning. -->
 <!-- - We are offering travel scholarships for students and postdocs, thanks to generous sponsor support. <a href="scholarships">Learn more</a>. -->
-<!-- - The <a href="https://eventsignup.ku.dk/ieeesatml2025/conference">registration page</a> for SaTML 2025 is now open!  -->
 
 ## Important dates
 
@@ -27,15 +26,16 @@ menu_title: Home
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 
-<!-- 
 ## Keynotes 
 
-We are excited to have the following keynote speakers in the SATML 2025 program. For more details about each talk, please visit the <a href="keynotes">keynotes page</a>.
+We are excited to have the following keynote speakers in the SATML 2026 program. For more details about each talk, please visit the [keynotes page](/keynotes).
 
 <style>
 .keynotes img {
   width: 80%;
   max-width: 240px !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 50%;
   padding: 20px;
 } 
@@ -43,22 +43,26 @@ We are excited to have the following keynote speakers in the SATML 2025 program.
 
 <div class="columns keynotes has-text-centered">
   <div class="column">
-    <img src="images/speakers/michael.jpg">
-    <br><a href="keynotes/#keynote1"><b>Michael Veale</b></a>
-    <br>University College London
+    <img src="/images/speakers/moritz.jpg">
+    <br><a href="/keynotes/#keynote1"><b>Moritz Hardt</b></a>
+    <br>Max Planck Institute for Intelligent&nbsp;Systems
   </div>
   <div class="column">
-    <img src="images/speakers/kamalika2.jpg">
-    <br><a href="keynotes/#keynote2"><b>Kamalika Chaudhuri</b></a>
-    <br>University of California San Diego
+    <img src="/images/speakers/monika.jpg">
+    <br><a href="/keynotes/#keynote2"><b>Monika Henzinger</b></a>
+    <br>Institute of Science and Technology&nbsp;Austria
   </div>
     <div class="column">
-    <img src="images/speakers/matt.jpg">    
-    <br><a href="keynotes/#keynote3"><b>Matt Turek</b></a>
-    <br>Defense Advanced Research Agency
+    <img src="/images/speakers/ashia.jpg">    
+    <br><a href="/keynotes/#keynote3"><b>Ashia Wilson</b></a>
+    <br>Massachusetts Institute of&nbsp;Technology
+  </div>
+      <div class="column">
+    <img src="/images/speakers/lorenzo.jpg">    
+    <br><a href="/keynotes/#keynote4"><b>Lorenzo Cavallaro</b></a>
+    <br>University College London
   </div>
 </div>
--->
 
 ## Overview
 
@@ -93,23 +97,3 @@ IEEE SaTML 2026 will be hosted on the campus of the Technical University of Muni
     </a>
   </div>
 </div>
-
-<!--
-<div class="columns is-vcentered is-centered">
-  <div class="column is-one-third">
-    <a href="https://www.aicentre.dk">
-      <img src="images/sponsors/pcai.png" width="80%" alt="Pioneer Center for Artificial Intelligence" style="margin-bottom: 10px;">
-    </a>
-  </div>
-  <div class="column is-one-third">
-    <a href="https://casa.rub.de/en/">
-      <img src="images/sponsors/casa.png" width="70%" alt="Cluster of Excellence for Cyber Security in the Age of Large-Scale Adversaries">
-    </a>
-  </div>
-  <div class="column is-one-third">
-    <a href="https://www.bifold.berlin/">
-      <img src="images/sponsors/bifold.png" width="95%" alt="Berlin Institute for the Foundations of Learning and Data" style="margin-top: -20px;">
-    </a>
-  </div>
-</div>
--->
