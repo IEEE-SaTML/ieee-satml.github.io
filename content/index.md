@@ -43,14 +43,14 @@ We are excited to have the following keynote speakers in the SaTML 2026 program.
 
 <div class="columns keynotes has-text-centered">
   <div class="column">
-    <img src="/images/speakers/moritz.jpg">
-    <br><a href="/keynotes/#keynote1"><b>Moritz Hardt</b></a>
-    <br>Max Planck Institute for Intelligent&nbsp;Systems
+    <img src="/images/speakers/monika.jpg">
+    <br><a href="/keynotes/#keynote1"><b>Monika Henzinger</b></a>
+    <br>Institute of Science and Technology&nbsp;Austria
   </div>
   <div class="column">
-    <img src="/images/speakers/monika.jpg">
-    <br><a href="/keynotes/#keynote2"><b>Monika Henzinger</b></a>
-    <br>Institute of Science and Technology&nbsp;Austria
+    <img src="/images/speakers/moritz.jpg">
+    <br><a href="/keynotes/#keynote2"><b>Moritz Hardt</b></a>
+    <br>Max Planck Institute for Intelligent&nbsp;Systems
   </div>
     <div class="column">
     <img src="/images/speakers/ashia.jpg">    

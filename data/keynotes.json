@@ -1,4 +1,19 @@
-[
+[  
+  {
+    "title": "The Continual Challenge: Differential Privacy for Evolving Datasets",
+    "image": "speakers/monika.jpg",
+    "speaker": {
+      "name": "Monika Henzinger",
+      "url": "https://ist.ac.at/de/forschung/henzinger_monika-gruppe/",
+      "affiliation": " Institute of Science and Technology Austria"
+    },
+    "abstract": [
+      "In an era of pervasive and continuous data collection, protecting individual privacy in dynamic environments has become increasingly critical. This talk focuses on differential privacy in the continual observation setting, where data evolves over time and new outputs are released after each update. Unlike static settings, continual observation introduces unique challenges, including cumulative privacy loss and the risk of adversarial inference from correlated outputs. We will introduce the core principles of differential privacy and examine how they extend to streaming scenarios, including new composition theorems for the continual setting and highlighting key techniques and trade-offs involved in maintaining privacy over time."
+    ],
+    "bio": [
+      "Monika Henzinger is a professor of Computer Science and the Vice President of Technology Transfer at the Institute of Science and Technology Austria (ISTA). She holds a PhD in Computer Science from Princeton University, was an assistant professor at Cornell University, a member of technical staff at the DEC Systems Research Center, the director of research at Google, and a professor of computer science at EPFL and at the University of Vienna. Monika is an ACM and EATCS Fellow and a member of the Austrian Academy of Sciences and the German National Academy of Sciences (Leopoldina). She has received an honorary doctorate from the Technical University of Dortmund, two Advanced Grants of the European Research Council, the Carus Medal of the Leopoldina, and the Wittgenstein Award of the Austrian Science Fund."
+    ]
+  },
   {
     "title": "Embracing the Tyranny of Testing",
     "image": "speakers/moritz.jpg",
@@ -14,21 +29,6 @@
     ],
     "bio": [
       "Moritz Hardt is a director at the Max Planck Institute for Intelligent Systems and an honorary professor at the University of Tübingen. Previously, he was Associate Professor with tenure in Electrical Engineering and Computer Sciences at the University of California, Berkeley. Hardt’s research contributes to the scientific foundations of machine learning in the social world. His upcoming book “The Emerging Science of Machine Learning Benchmarks” will appear with Princeton University Press in 2026. He also co-authored the textbooks ”Patterns, Predictions, and Actions: Foundations of Machine Learning” (Princeton) and ”Fairness and Machine Learning: Limitations and Opportunities” (MIT Press)."
-    ]
-  },
-  {
-    "title": "The Continual Challenge: Differential Privacy for Evolving Datasets",
-    "image": "speakers/monika.jpg",
-    "speaker": {
-      "name": "Monika Henzinger",
-      "url": "https://ist.ac.at/de/forschung/henzinger_monika-gruppe/",
-      "affiliation": " Institute of Science and Technology Austria"
-    },
-    "abstract": [
-      "In an era of pervasive and continuous data collection, protecting individual privacy in dynamic environments has become increasingly critical. This talk focuses on differential privacy in the continual observation setting, where data evolves over time and new outputs are released after each update. Unlike static settings, continual observation introduces unique challenges, including cumulative privacy loss and the risk of adversarial inference from correlated outputs. We will introduce the core principles of differential privacy and examine how they extend to streaming scenarios, including new composition theorems for the continual setting and highlighting key techniques and trade-offs involved in maintaining privacy over time."
-    ],
-    "bio": [
-      "Monika Henzinger is a professor of Computer Science and the Vice President of Technology Transfer at the Institute of Science and Technology Austria (ISTA). She holds a PhD in Computer Science from Princeton University, was an assistant professor at Cornell University, a member of technical staff at the DEC Systems Research Center, the director of research at Google, and a professor of computer science at EPFL and at the University of Vienna. Monika is an ACM and EATCS Fellow and a member of the Austrian Academy of Sciences and the German National Academy of Sciences (Leopoldina). She has received an honorary doctorate from the Technical University of Dortmund, two Advanced Grants of the European Research Council, the Carus Medal of the Leopoldina, and the Wittgenstein Award of the Austrian Science Fund."
     ]
   },
   {
