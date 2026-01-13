@@ -47,7 +47,7 @@
     ]
   },
   {
-    "title": "tbd",
+    "title": "Trustworthy AI… for Systems Security",
     "image": "speakers/lorenzo.jpg",
     "speaker": {
       "name": "Lorenzo Cavallaro",
@@ -55,10 +55,10 @@
       "affiliation": "University College London"
     },
     "abstract": [
-      "tbd"
+      "No day goes by without reading about machine learning (ML) success stories in every walk of life. Systems security is no exception, where ML’s tantalizing performance may leave us wondering whether any problems remain unsolved. Yet ML has no clairvoyant abilities, and once the magic wears off, we are left in uncharted territory. Can it truly help us build secure systems? In this talk, I will argue that performance alone is not enough. I will highlight the consequences of adversarial attacks and distribution shifts in realistic settings, and discuss how semantics may provide a path forward. My goal is to foster a deeper understanding of machine learning’s role in systems security and its potential for future advancements."
     ],
     "bio": [
-      "tbd"
+      "Lorenzo Cavallaro grew up on pizza, spaghetti, and Phrack, and soon developed a passion for underground and academic research. He is a Full Professor of Computer Science at University College London (UCL), where he leads the Systems Security Research Lab — https://s2lab.cs.ucl.ac.uk. Lorenzo’s research vision is to enhance the effectiveness of machine learning for systems security in adversarial settings. To this end, he and his team investigate the interplay among program analysis abstractions, engineered and learned representations, and grounded models, and their crucial role in creating Trustworthy AI for Systems Security.  Lorenzo publishes at and sits on the Program Committee of leading conferences in computer security and ML, received the Distinguished Paper Award at USENIX Security 2022, ICML 2024 Spotlight Paper, and DLSP 2025 Best Paper Award (co-located with IEEE S&P). He is also Associate Editor of ACM TOPS and IEEE TDSC. Lorenzo is co-founder & Chief Scientific Officer of BynarIO — https://bynar.io, a startup that's pioneering AI to autonomously identify and repair vulnerabilities in software, restoring trust and control over what you run. In addition to his love for food, Lorenzo finds his Flow in science, music, and family."
     ]
   }
 ]
