@@ -23,7 +23,8 @@
         <div class="column is-narrow">
           <img src="/images/{{ k.image }}" alt="{{ k.speaker.name }}">
         </div>
-        <div class="column">
+{% endfor %}
+{% endblock %}        <div class="column">
           <h2>Keynote {{ loop.index }}:<br>{{ k.title }}</h2>
           <a href="{{ k.speaker.url }}">{{ k.speaker.name }}</a>,
           <i>{{ k.speaker.affiliation }}</i>
@@ -45,5 +46,3 @@
     </div>
   </div>
 </section>
-{% endfor %}
-{% endblock %}
