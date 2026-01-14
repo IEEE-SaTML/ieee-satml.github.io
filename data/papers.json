@@ -802,8 +802,8 @@
     ]
   },
   {
-    "title": "Stealthy Fake News and Lost Profits: Manipulating Headlines in LLM-Driven Algorithmic Trading",
-    "abstract": "We study the security of news\u2013driven algorithmic trading systems (ATS) that integrate sentiment extracted from financial headlines by large language models (LLMs).  \nWhile adversarial risks to LLMs and perturbations against machine-learning (ML) predictors for stock prices have been examined, the impact of attacks against _financial LLMs for news ingestion_ is still unknown. Specifically, we wonder: can we quantify the economic losses stemming from an LLM misled by \"fake news\" that is integrated in a full-fledged algorithmic trading system?\n\n\n\nWe hypothesize a constrained but realistic adversary with no access to the targeted LLM-driven ATS, but who can alter a stock-related headline on a single day.\nWithin this setting, we evaluate two human-imperceptible manipulations in the finance context: _Unicode homoglyph_ substitutions that misroute headlines during stock-name recognition; and _hidden-text_ clauses that are invisible to humans but parsed by models.  \nWe implement a realistic ATS in Backtrader that fuses an LSTM-based price forecast with LLM-derived sentiment (FinBERT, FinGPT, FinLLaMA, and six general-purpose LLMs), and we quantify the _economic impact_ using portfolio metrics.  \nExperiments on real-world data show that manipulating a single headline over the course of 14 months can reliably distort sentiment and reduce annual returns by up to 17.7 percentage points.  \nTo further assess the real-world feasibility of these adversarial tactics, we analyze widely used scraping libraries and trading platforms, and survey 27 practitioners from the FinTech sector, confirming our hypotheses. We alerted the owners of trading platforms of this security issue.",
+    "title": "Adversarial News and Lost Profits: Manipulating Headlines in LLM-Driven Algorithmic Trading",
+    "abstract": "Large Language Models (LLMs) are increasingly adopted in the financial domain. Their exceptional capabilities to analyse textual data make them well-suited for inferring the sentiment of finance-related news. Such feedback can be leveraged by algorithmic trading systems (ATS) to guide buy/sell decisions. However, this practice bears the risk that a threat actor may craft \u201cadversarial news\u201d intended to mislead an LLM. In particular, the news headline may include \u201cmalicious\u201d content that remains invisible to human readers but which is still ingested by the LLM. Although prior work has studied textual adversarial examples, their system-wide impact on LLM-supported ATS has not yet been quantified in terms of monetary risk.\n \nTo address this threat, we consider an adversary with no direct access to an ATS but able to alter stock-related news headlines on a single day. We evaluate two human-imperceptible manipulations in a financial context: Unicode homoglyph substitutions that misroute models during stock-name recognition, and hidden-text clauses that alter the sentiment of the news headline. We implement a realistic ATS in Backtrader that fuses an LSTM-based price forecast with LLM-derived sentiment (FinBERT, FinGPT, FinLLaMA, and six general-purpose LLMs), and quantify monetary impact using portfolio metrics. Experiments on real-world data show that manipulating a one-day attack over 14 months can reliably mislead LLMs and reduce annual returns by up to 17.7 percentage points. To assess real-world feasibility, we analyze popular scraping libraries and trading platforms and survey 27 FinTech practitioners, confirming our hypotheses. We notified trading platform owners of this security issue.",
     "authors": [
       {
         "first": "Advije",
@@ -813,7 +813,7 @@
       {
         "first": "Giovanni",
         "last": "Apruzzese",
-        "affiliation": "University of Liechtenstein"
+        "affiliation": "University of Liechtenstein and Reykjavik University"
       },
       {
         "first": "Pavel",
@@ -927,7 +927,7 @@
     ]
   },
   {
-    "title": "SoK: Decentralized AI (DeAI)",
+    "title": "SoK: Blockchain-Based Decentralized AI (DeAI)",
     "abstract": "Centralization enhances the efficiency of Artificial Intelligence (AI) but also introduces critical challenges, including single points of failure, inherent biases, data privacy risks, and scalability limitations. To address these issues, blockchain-based Decentralized Artificial Intelligence (DeAI) has emerged as a promising paradigm that leverages decentralization and transparency to improve the trustworthiness of AI systems. Despite rapid adoption in industry, the academic community lacks a systematic analysis of DeAI \u2019s technical foundations, opportunities, and challenges. This work presents the first Systematization of Knowledge (SoK) on DeAI, offering a formal definition and precise mathematical model, a taxonomy of existing solutions based on the AI lifecycle, and an in-depth investigation of the roles of blockchain in enabling secure and incentive-compatible collaboration. We further review security risks across the DeAI lifecycle and empirically evaluate representative mitigation techniques. Finally, we highlight open research challenges and future directions for advancing blockchain-based DeAI.",
     "authors": [
       {
