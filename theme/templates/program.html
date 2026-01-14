@@ -154,7 +154,7 @@ function toggleAbstract(paperId) {
 
                 {% set extra_html %}
                   <div id="abstract-{{ uid }}" style="display:none;">
-                    <p style="font-size:0.9em; font-style:italic;">{{ paper.abstract | safe }}</p>
+                    <p style="font-size:0.9em;">{{ paper.abstract | safe }}</p>
                   </div>
                 {% endset %}
 
