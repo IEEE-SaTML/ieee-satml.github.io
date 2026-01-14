@@ -1,0 +1,102 @@
+{
+  "Wednesday, April 9, 2025": [
+    {
+      "time": "08:40–09:00",
+      "title": "Opening Remarks"
+    },
+    {
+      "time": "09:00–09:40",
+      "title": "Keynote 1",
+      "session_chair": "Konrad Rieck",
+      "keynote": {
+        "title": "Keynote 1",
+        "speaker": "Speaker (Affiliation)",
+        "abstract": "https://satml.org/2026/keynotes/#keynote1",
+        "profile": "#"
+      }
+    },
+    {
+      "time": "09:40–10:00",
+      "title": "Coffee Break"
+    },
+    {
+      "time": "10:00–11:00",
+      "title": "Session: Security of LLMs",
+      "session_chair": "tbd",
+      "presentations": [
+        {
+        "title": "Paper 1",
+        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "authors": [
+            {
+            "first": "Author",
+            "last": "1",
+            "affiliation": "Affiliation 1"
+            },
+            {
+            "first": "Author",
+            "last": "2",
+            "affiliation": "Affiliation 2"
+            },
+            {
+            "first": "Author",
+            "last": "3",
+            "affiliation": "Affiliation 2"
+            }
+        ]
+        },
+        {
+        "title": "Paper 2",
+        "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "authors": [
+            {
+            "first": "Author",
+            "last": "1",
+            "affiliation": "Affiliation 1"
+            }
+        ],
+        "video_talk": true
+        }
+      ]
+    },
+    {
+      "time": "09:40–10:00",
+      "title": "Break"
+    },
+    {
+      "time": "14:50–15:20",
+      "title": "Competitions",
+      "session_chair": "tbd",
+      "competitions": [
+        {
+          "title": "Competition 1",
+          "abstract": "#",
+          "website": "#"
+        },
+        {
+          "title": "Competition 2",
+          "abstract": "#",
+          "website": "#"
+        }
+      ]
+    },
+    {
+      "time": "16:40–17:00",
+      "title": "Poster Session and Reception",
+      "content": "<b>Note:</b> The poster session and reception will be held at HC. Ørsted Institute, ground floor lobby. It is located just a <a href=\"https://maps.app.goo.gl/T7TCK8F5FEuSFnqj8\">6-minute walk</a> from the Lundbeck Auditorium. The address is <a href=\"https://maps.app.goo.gl/byv7nKUB1xSqnRB57\">Universitetsparken 5, 2100 Copenhagen</a>."
+    }
+  ],
+  "Thursday, April 10, 2025": [
+   {
+      "time": "09:00–09:40",
+      "title": "Keynote 2",
+      "session_chair": "tbd",
+      "keynote": {
+        "title": "Keynote 2",
+        "speaker": "Speaker (Affiliation)",
+        "abstract": "#",
+        "profile": "#"
+      }
+    }
+]
+}

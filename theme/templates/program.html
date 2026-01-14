@@ -1,0 +1,201 @@
+{% extends "base.html" %}
+
+{% macro render_authors(authors) %}
+  {% for author in authors -%}
+    {{ author.first }} {{ author.last }}
+    {%- set this_aff = author.get("affiliation") -%}
+    {%- set next_aff = None -%}
+    {%- if not loop.last -%}
+      {%- set next_aff = authors[loop.index].get("affiliation") -%}
+    {%- endif -%}
+    {%- if this_aff and this_aff != next_aff %} ({{ this_aff }}){%- endif -%}
+    {%- if not loop.last -%}
+      {%- if loop.index == loop.length - 1 %} and {% else %}, {% endif -%}
+    {%- endif -%}
+  {%- endfor %}
+{% endmacro %}
+
+{% macro action_link(label, icon, href) %}
+  <a class="tag paper-button" href="{{ href }}" target="_blank" style="text-decoration: none !important;">
+      <span class="icon">{{ icon }}</span>&nbsp;{{ label }}
+  </a>
+{% endmacro %}
+
+{% macro action_toggle(label, icon, toggle_id) %}
+  <button class="tag paper-button" onclick="toggleAbstract('{{ toggle_id }}')">
+      <span class="icon">{{ icon }}</span>&nbsp;{{ label }}
+  </button>
+{% endmacro %}
+
+{% macro render_block(title, body_html=None, buttons_html=None, extra_html=None, style=None) %}
+<blockquote {% if style %} style="{{ style }}"{% endif %}>
+  <div class="block" style="margin-bottom: 0.2rem">
+    <strong>{{ title }}</strong>
+  </div>
+  {% if body_html %}
+  <div class="block" style="margin-bottom: 0.2rem">
+    {{ body_html | safe }}
+  </div>
+  {% endif %}
+  {% if buttons_html %}
+  <div class="block" style="margin-bottom: 0.5rem">
+    {{ buttons_html | safe }}
+  </div>
+  {% endif %}
+  {% if extra_html %}
+  <div class="block" style="margin-bottom: 0.15rem;">
+    {{ extra_html | safe }}
+  </div>
+  {% endif %}
+</blockquote>
+{% endmacro %}
+
+{% block content %}
+<style>
+.paper-button {
+  color: teal !important;
+  border: 1px solid #AAAAAA !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  padding: 0rem 0.4rem !important;
+}
+.paper-button:hover {
+  background-color: rgba(0, 128, 128, 0.08) !important;
+}
+.paper-button:focus {
+  outline: none;
+}
+.paper-button .icon {
+  font-size: 0.7em;
+  filter: grayscale(100%);
+  margin-right: 4px;
+}
+
+blockquote {
+  background-color: #F8F8F8 !important;
+  border-left: 2px solid #DDDDDD !important;
+  margin: 0 0 0.3rem 0 !important;
+  padding: 0.45rem 1.5rem 0.25rem 1.5rem !important;
+}
+</style>
+
+<script>
+function toggleAbstract(paperId) {
+  var abstract = document.getElementById('abstract-' + paperId);
+  abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+
+{% for day, items in PROGRAM.items() %}
+  {% set ns = namespace(p=0) %}
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        {% if loop.first %}
+          <h1>{{ page.title }}</h1>
+          {{ page.content }}
+        {% endif %}
+        <hr id="day{{ loop.index }}" class="mb-5 mt-5">
+        <h2  class="pb-3">{{ day }}</h2>
+        {% for item in items %}
+          <div class="block">
+            {# TIME & TITLE #}
+            {% set dim_title = 'break' in (item.title|default('')|lower) %}
+            <p>
+              {{ item.time }}
+              <strong class="pl-4 has-text-weight-extrabold {{ 'has-text-grey' if dim_title else '' }}">{{ item.title }}</strong>
+            </p>
+
+            {# SESSION CHAIR #}
+            {% if item.get("session_chair") %}
+              <p class="pl-5">Session Chair: <strong class="has-text-weight-medium">{{ item.session_chair }}</strong></p>
+            {% endif %}
+
+            {# KEYNOTES #}
+            {% if item.get("keynote") %}
+              {% set k = item.keynote %}
+
+              {% set buttons_html %}
+                {{ action_link("Abstract", "📃", k.abstract) }}
+                {{ action_link("Speaker", "👤", k.profile) }}
+              {% endset %}
+
+              {{ render_block(
+                  title=k.title,
+                  body_html=k.speaker,
+                  buttons_html=buttons_html,
+                  style="background-color: #f6f6e8 !important; border-left: 2px solid #EEC !important;"
+              ) }}
+            {% endif %}
+
+            {# PAPERS #}
+            {% if item.get("presentations") %}
+              {% for paper in item.presentations %}
+                {% set ns.p = ns.p + 1 %}
+                {% set uid = day|replace(" ", "_") ~ "-p-" ~ ns.p %}
+
+                {% set body_html %}
+                  {{ render_authors(paper.authors) }}
+                {% endset %}
+
+                {% set buttons_html %}
+                  {{ action_toggle("Abstract", "📃", uid) }}
+                  {% if paper.get("arxiv") %}
+                    {{ action_link("Arxiv", "📚", paper.arxiv) }}
+                  {% endif %}
+                  {% if paper.get("video_talk") %}
+                    <span class="tag paper-button"
+                          style="border:none !important; color: black !important;background:none !important; cursor:default; pointer-events:none;">
+                      <span class="icon" style="filter:none;">⚠️</span>Video talk
+                    </span>
+                  {% endif %}
+                {% endset %}
+
+                {% set extra_html %}
+                  <div id="abstract-{{ uid }}" style="display:none;">
+                    <p style="font-size:0.9em; font-style:italic;">{{ paper.abstract | safe }}</p>
+                  </div>
+                {% endset %}
+
+                {{ render_block(
+                    title=paper.title,
+                    body_html=body_html,
+                    buttons_html=buttons_html,
+                    extra_html=extra_html
+                ) }}
+              {% endfor %}
+            {% endif %}
+
+            {# COMPETITIONS #}
+            {% if item.get("competitions") %}
+              {% for c in item.competitions %}
+
+                {% set buttons_html %}
+                  {{ action_link("Abstract", "📃", c.abstract) }}
+                  {{ action_link("Website", "🌐", c.website) }}
+                {% endset %}
+
+                {{ render_block(
+                    title="🏁 " ~ c.title,
+                    buttons_html=buttons_html,
+                    style="background-color: #edf6ed !important; border-left: 2px solid #DED !important;"
+                ) }}
+              {% endfor %}
+            {% endif %}
+
+            {# GENERIC CONTENT #}
+            {% if item.get("content") %}
+              {{ render_block(
+                  body_html="<p>" ~ item.content ~ "</p>",
+                  style="background-color: #ededf6 !important; border-left: 2px solid #DDE !important;"
+              ) }}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endfor %}
+
+{% endblock %}
