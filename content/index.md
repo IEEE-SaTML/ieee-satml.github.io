@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- [Apply to volunteer](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform) and be considered for complimentary registration!
 - The <a href="https://cvent.me/50dM5d">registration page</a> for SaTML 2026 is now open! 
 - The list of accepted papers for SaTML 2026 is [now available](/accepted-papers). Congratulations to all authors!
 - There will be four [Competitions](/competitions) at SaTML 2026. We invite you to participate!
