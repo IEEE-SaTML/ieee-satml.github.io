@@ -674,7 +674,7 @@
     {
       "time": "17:00–20:00",
       "title": "Poster Session",
-      "content": "The first poster session will take place in the main conference room: <b>Room 602.</b>"
+      "content": "The poster session will be held in the main conference room. Posters will be presented for all accepted submissions, numbered #1–#123."
     }
   ],
   "Tuesday, March 24, 2026": [
@@ -1248,20 +1248,14 @@
     },
     {
       "time": "14:40–15:20",
-      "title": "Competitions",
+      "title": "Keynote 3",
       "session_chair": "tbd",
-      "competitions": [
-        {
-          "title": "Detecting Manipulations of AI Models in Space Operations",
-          "abstract": "/competitions/#competition1",
-          "website": "https://assurance-ai.space-codev.org/competitions/"
-        },
-        {
-          "title": "An Anti-Backdoor Challenge for Post-Trained Large Language Models",
-          "abstract": "/competitions/#competition2",
-          "website": "https://anti-bad.github.io/"
-        }
-      ]
+      "keynote": {
+        "title": "Governing Open-Weight Generative Models",
+        "speaker": "Ashia Wilson (Massachusetts Institute of Technology)",
+        "abstract": "/keynotes/#keynote3",
+        "profile": "https://www.ashiawilson.com/"
+      }
     },
     {
       "time": "15:20–15:40",
@@ -1453,7 +1447,7 @@
     {
       "time": "17:00–20:00",
       "title": "Poster Session",
-      "content": "The second poster session will take place in the main conference room: <b>Room 602.</b>"
+      "content": "The poster session will be held in the main conference room. Posters will be presented for all accepted submissions, numbered #124–#252."
     }
   ],
   "Wednesday, March 25, 2026": [
@@ -1962,14 +1956,20 @@
     },
     {
       "time": "14:40–15:20",
-      "title": "Keynote 3",
+      "title": "Competitions",
       "session_chair": "tbd",
-      "keynote": {
-        "title": "Governing Open-Weight Generative Models",
-        "speaker": "Ashia Wilson (Massachusetts Institute of Technology)",
-        "abstract": "/keynotes/#keynote3",
-        "profile": "https://www.ashiawilson.com/"
-      }
+      "competitions": [
+        {
+          "title": "Detecting Manipulations of AI Models in Space Operations",
+          "abstract": "/competitions/#competition1",
+          "website": "https://assurance-ai.space-codev.org/competitions/"
+        },
+        {
+          "title": "An Anti-Backdoor Challenge for Post-Trained Large Language Models",
+          "abstract": "/competitions/#competition2",
+          "website": "https://anti-bad.github.io/"
+        }
+      ]
     },
     {
       "time": "15:20–15:40",
