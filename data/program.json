@@ -3,12 +3,12 @@
     {
       "time": "08:40–09:00",
       "title": "Opening Remarks",
-      "content": "Program Chairs: Rachel Cummings and Konrad Rieck"
+      "program_chairs": "Rachel Cummings and Konrad Rieck"
     },
     {
       "time": "09:00–09:40",
       "title": "Keynote 1",
-      "session_chair": "tbd",
+      "session_chair": "Carmela Troncoso",
       "keynote": {
         "title": "The Continual Challenge: Differential Privacy for Evolving Datasets",
         "speaker": "Monika Henzinger (Institute of Science and Technology Austria)",
@@ -1455,7 +1455,7 @@
     {
       "time": "09:00–09:40",
       "title": "Keynote 4",
-      "session_chair": "tbd",
+      "session_chair": "Konrad Rieck",
       "keynote": {
         "title": "Trustworthy AI… for Systems Security",
         "speaker": "Lorenzo Cavallaro (University College London)",
@@ -2126,7 +2126,7 @@
     {
       "time": "16:40–17:00",
       "title": "Closing",
-      "content": "Program Chairs: Rachel Cummings and Konrad Rieck"
+      "program_chairs": "Rachel Cummings and Konrad Rieck"
     }
   ]
 }
