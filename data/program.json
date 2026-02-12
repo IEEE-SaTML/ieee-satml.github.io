@@ -2,7 +2,8 @@
   "Monday, March 23, 2026": [
     {
       "time": "08:40–09:00",
-      "title": "Opening Remarks"
+      "title": "Opening Remarks",
+      "content": "Program Chairs: Rachel Cummings and Konrad Rieck"
     },
     {
       "time": "09:00–09:40",
@@ -2124,7 +2125,8 @@
     },
     {
       "time": "16:40–17:00",
-      "title": "Closing"
+      "title": "Closing",
+      "content": "Program Chairs: Rachel Cummings and Konrad Rieck"
     }
   ]
 }
