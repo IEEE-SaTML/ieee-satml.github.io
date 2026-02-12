@@ -7,17 +7,17 @@ status: skip
 
 ## Overview
 
-The SaTML 2025 conference will be held from April 9–11, 2025, at the University of Copenhagen. The program features keynote talks, paper presentations, a poster session, and a competition track.
+The SaTML 2026 conference will be held from March 23–25, 2026, at Technical University of Munich, Germany. The program features keynote talks, paper presentations, a poster session, and a competition track.
 
-- [Day 1 - Wednesday, April 9](#day1)
-- [Day 2 - Thursday, April 10](#day2)
-- [Day 3 - Friday, April 11](#day3)
-
-For a high-level overview of the conference schedule, please visit our [Google Calendar](https://calendar.google.com/calendar/embed?src=c_ae1443e18cf0a904339e64b26cc4704d039fb9efdfbb5dcac5b96cef2dcc9da7%40group.calendar.google.com&ctz=Europe%2FBerlin&mode=WEEK&dates=20250409%2F20250411). You can also subscribe to the calendar via this [iCal Link](https://calendar.google.com/calendar/ical/c_ae1443e18cf0a904339e64b26cc4704d039fb9efdfbb5dcac5b96cef2dcc9da7%40group.calendar.google.com/public/basic.ics).
+- [Day 1 - Monday, March 23](#day1)
+- [Day 2 - Tuesday, March 24](#day2)
+- [Day 3 - Wednesday, March 25](#day3)
 
 ## Location
 
-All events will take place in the [Lundbeckfond Auditorium](https://www.biocenter.ku.dk/english/auditorium/) at the University of Copenhagen, except for the poster session and reception. The poster session and reception will be held in the ground floor lobby of the HC Ørsted Institute, located just a [6-minute walk](https://maps.app.goo.gl/T7TCK8F5FEuSFnqj8) from the auditorium. 
+The conference will take place at the Technical University of Munich (TUM), in Munich, Germany. The building is *Theresianum, Room 602*.
 
+The address is <a href="https://maps.app.goo.gl/2vSYSGg9PkZCZFaFA">Arcisstr. 21, 80333 Munich</a>, with access from <a href="https://www.google.com/maps/place/Theresienstra%C3%9Fe+90,+80333+M%C3%BCnchen,+Germany/@48.1502864,11.569307,18.25z/data=!4m6!3m5!1s">Theresienstraße 90, 80333 Munich</a>. 
 
+The official address is Theresienstraße 90, but there are several buildings sharing that address. The entrance to the conference venue is on the south side of Theresienstraße, halfway along the block between Luisenstraße (to the west) and Arcisstraße (to the east). Please see <a href="https://nav.tum.de/en/room/0506.EG.602">this map</a> for more information.
 
