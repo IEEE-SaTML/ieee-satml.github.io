@@ -127,7 +127,8 @@
               "last": "Zhang",
               "affiliation": "CISPA Helmholtz Center for Information Security"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/pdf/2501.10466"
         },
         {
           "title": "They’re Closer Than We Think: Tackling Near-OOD Problem",
@@ -294,7 +295,8 @@
               "last": "Liem",
               "affiliation": "Delft University of Technology"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.16205"
         }
       ]
     },
@@ -513,7 +515,8 @@
               "last": "Juarez",
               "affiliation": "University of Edinburgh"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2512.11771"
         },
         {
           "title": "Optimal Robust Recourse with $L^p$-Bounded Model Change",
@@ -591,7 +594,8 @@
               "last": "Samavi",
               "affiliation": "Toronto Metropolitan University"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2602.04236"
         },
         {
           "title": "On the Robustness of Tabular Foundation Models: Test-Time Attacks and In-Context Defenses",
@@ -728,7 +732,8 @@
               "last": "Honkela",
               "affiliation": "University of Helsinki"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2406.17298"
         },
         {
           "title": "SoK: The Hitchhiker’s Guide to Efficient, End-to-End, and Tight DP Auditing",
@@ -1023,7 +1028,8 @@
               "last": "Matthes",
               "affiliation": "Technical University of Munich"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.03979"
         }
       ]
     },
@@ -1239,7 +1245,8 @@
               "last": "Wicker",
               "affiliation": "Imperial College London"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2512.01899"
         }
       ]
     },
@@ -1358,7 +1365,8 @@
               "last": "Gal",
               "affiliation": "University of Oxford"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2509.05739"
         },
         {
           "title": "Accelerating Targeted Hard-Label Adversarial Attacks in Low-Query Black-Box Settings",
@@ -1374,7 +1382,8 @@
               "last": "Akgün",
               "affiliation": "Eberhard Karls Universität Tübingen"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2505.16313"
         },
         {
           "title": "Safe But Not Robust: Security Evaluation of VLM by Jailbreaking MSTS",
@@ -1640,7 +1649,8 @@
               "last": "Cardenas",
               "affiliation": "University of California, Santa Cruz"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2510.00181"
         }
       ]
     },
@@ -1682,7 +1692,8 @@
               "last": "Wu",
               "affiliation": "University of Arizona"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.21287"
         },
         {
           "title": "SoK: Enhancing Cryptographic Collaborative Learning with Differential Privacy",
@@ -1703,7 +1714,8 @@
               "last": "Weggenmann",
               "affiliation": "Technische Hochschule Würzburg Schweinfurt"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.09460"
         },
         {
           "title": "Towards Verifiable AI with Lightweight Cryptographic Proofs of Inference",
@@ -1765,7 +1777,8 @@
               "last": "Ghodsi",
               "affiliation": "Purdue University"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2602.09182"
         },
         {
           "title": "RobPI: Robust Private Inference against Malicious Client",
@@ -1896,7 +1909,8 @@
               "last": "Eshete",
               "affiliation": "University of Michigan, Dearborn"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.03429"
         },
         {
           "title": "A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond Surface-level Privacy Leakage",
@@ -2041,7 +2055,8 @@
               "last": "Vidal",
               "affiliation": "Polytechnique Montréal"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2502.05307"
         },
         {
           "title": "SoK: On the Survivability of Backdoor Attacks on Unconstrained Face Recognition Systems",
@@ -2072,7 +2087,8 @@
               "last": "Bourbao",
               "affiliation": "Thales Group"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2507.01607"
         },
         {
           "title": "Architectural Backdoors for Within-Batch Data Stealing and Model Inference Manipulation",
