@@ -498,7 +498,7 @@
     },
     {
       "time": "15:40–17:00",
-      "title": "Session: Robustness",
+      "title": "Session: Adversarial Robustness",
       "session_chair": "tbd",
       "presentations": [
         {
@@ -686,7 +686,7 @@
     {
       "time": "09:00–09:40",
       "title": "Keynote 2",
-      "session_chair": "tbd",
+      "session_chair": "Nicolas Papernot",
       "keynote": {
         "title": "Embracing the Tyranny of Testing",
         "speaker": "Moritz Hardt (Max Planck Institute for Intelligent Systems)",
@@ -1257,7 +1257,7 @@
     {
       "time": "14:40–15:20",
       "title": "Keynote 3",
-      "session_chair": "tbd",
+      "session_chair": "Rachel Cummings",
       "keynote": {
         "title": "Governing Open-Weight Generative Models",
         "speaker": "Ashia Wilson (Massachusetts Institute of Technology)",
@@ -1271,7 +1271,7 @@
     },
     {
       "time": "15:40–17:00",
-      "title": "Session: Attacks",
+      "title": "Session: Attacks and Vulnerabilities",
       "session_chair": "tbd",
       "presentations": [
         {
@@ -1478,7 +1478,7 @@
     },
     {
       "time": "10:00–11:00",
-      "title": "Session: Applications",
+      "title": "Session: Security in Applications",
       "session_chair": "tbd",
       "presentations": [
         {
@@ -1660,7 +1660,7 @@
     },
     {
       "time": "11:20–12:20",
-      "title": "Session: Cryptography",
+      "title": "Session: Cryptography in Learning",
       "session_chair": "tbd",
       "presentations": [
         {
