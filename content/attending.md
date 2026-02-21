@@ -18,11 +18,13 @@ The main campus of the Technical University of Munich is located near Munich Cen
 
 The registration for the conference is open and can be accessed via the <a href="https://cvent.me/50dM5d">registration website</a>.
 
-## Volunteer Application
+### Financial Support
 
-Apply to volunteer for SaTML 2026 and be considered for complimentary registration in exchange for event support: [Application Form](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform).
+We are committed to enabling broad participation in the conference. Individuals who are unable to cover the registration fee or travel expenses may apply for financial support. Support may include a registration fee waiver and/or a travel grant. Applications can be submitted through the following [application form](https://forms.gle/S9VLdB1issmbt3BfA).
 
-There is no fixed deadline, applications are reviewed on a first-come, first-served basis.
+### Volunteer Application
+
+Apply to volunteer for SaTML 2026 and be considered for complimentary registration in exchange for event support: [Application Form](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform). There is no fixed deadline, applications are reviewed on a first-come, first-served basis.
 
 ## Accommodation
 

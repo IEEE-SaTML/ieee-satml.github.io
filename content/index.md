@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- We offer [financial support](/attend) for participants who cannot cover registration or travel costs.
 - The [program](/program) for SaTML 2026 is [now available](/program).
 - [Apply to volunteer](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform) and be considered for complimentary registration!
 - The <a href="https://cvent.me/50dM5d">registration page</a> for SaTML 2026 is now open! 
