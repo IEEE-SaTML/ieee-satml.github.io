@@ -404,7 +404,8 @@
         "last": "McDaniel",
         "affiliation": "University of Wisconsin-Madison"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2501.16534"
   },
   {
     "title": "Optimal Robust Recourse with $L^p$-Bounded Model Change",
@@ -458,7 +459,8 @@
         "last": "Wu",
         "affiliation": "University of Arizona"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2601.21287"
   },
   {
     "title": "Evaluating Black-Box Vulnerabilities with Wasserstein-Constrained Data Perturbations",
@@ -635,7 +637,8 @@
         "last": "Wicker",
         "affiliation": "Imperial College London"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2512.01899"
   },
   {
     "title": "Homophily-aware Supervised Contrastive Counterfactual Augmented Fair Graph Neural Network",
@@ -684,7 +687,8 @@
         "last": "Zhang",
         "affiliation": "CISPA Helmholtz Center for Information Security"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/pdf/2501.10466"
   },
   {
     "title": "Exact Unlearning of Finetuning Data via Model Merging at Scale",
@@ -791,7 +795,8 @@
         "last": "Jagielski",
         "affiliation": "Anthropic"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/pdf/2508.10836"
   },
   {
     "title": "Architectural Backdoors for Within-Batch Data Stealing and Model Inference Manipulation",
@@ -905,27 +910,27 @@
       {
         "first": "Bal\u00e1zs",
         "last": "Pej\u00f3",
-        "affiliation": "EGroup"
+        "affiliation": "CrySyS Lab, Budapest Univ. of Technology and Economics & HUN-REN-BME Information Systems RG"
       },
       {
         "first": "Marcell",
         "last": "Frank",
-        "affiliation": "VIK - BME"
+        "affiliation": "E-Group"
       },
       {
-        "first": "Krisztian",
+        "first": "Kriszti\u00e1n",
         "last": "Varga",
-        "affiliation": "TTK - BME"
+        "affiliation": "Faculty of Natural Sciences, Budapest Univ. of Technology and Economics"
       },
       {
-        "first": "Peter",
+        "first": "P\u00e9ter",
         "last": "Veliczky",
-        "affiliation": "TTK - BME"
+        "affiliation": "Faculty of Natural Sciences, Budapest Univ. of Technology and Economics"
       },
       {
         "first": "Gergely",
-        "last": "Biczok",
-        "affiliation": "HUN-REN"
+        "last": "Bicz\u00f3k",
+        "affiliation": "CrySyS Lab, Budapest Univ. of Technology and Economics & HUN-REN-BME Information Systems RG"
       }
     ]
   },
@@ -979,6 +984,11 @@
     "pid": 148,
     "authors": [
       {
+        "first": "Peter",
+        "last": "Horvath",
+        "affiliation": "Radboud University"
+      },
+      {
         "first": "Ilia",
         "last": "Shumailov",
         "affiliation": "AI Sequrity Company"
@@ -997,11 +1007,6 @@
         "first": "Yuval",
         "last": "Yarom",
         "affiliation": "Ruhr University Bochum"
-      },
-      {
-        "first": "Peter",
-        "last": "Horvath",
-        "affiliation": "Radboud University"
       }
     ]
   },
@@ -1232,7 +1237,8 @@
         "last": "Kaissis",
         "affiliation": "Technical University of Munich, Google Deepmind"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2601.12922"
   },
   {
     "title": "Counterfactual Training: Teaching Models Plausible and Actionable Explanations",
@@ -1387,7 +1393,8 @@
         "last": "Cardenas",
         "affiliation": "University of California, Santa Cruz"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2510.00181"
   },
   {
     "title": "Are Robust LLM Fingerprints Adversarially Robust?",
@@ -1483,7 +1490,8 @@
         "last": "Ghodsi",
         "affiliation": "Purdue University"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2602.09182"
   },
   {
     "title": "Safe But Not Robust: Security Evaluation of VLM by Jailbreaking MSTS",
@@ -1552,7 +1560,8 @@
         "last": "Grosse",
         "affiliation": "University of Toronto"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2602.10568"
   },
   {
     "title": "A False Sense of Privacy: Evaluating Textual Data Sanitization Beyond Surface-level Privacy Leakage",
@@ -1673,7 +1682,8 @@
         "last": "Samavi",
         "affiliation": "Toronto Metropolitan University"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2602.04236"
   },
   {
     "title": "RobPI: Robust Private Inference against Malicious Client",
