@@ -23,7 +23,7 @@
     {
       "time": "10:00–11:00",
       "title": "Session: Learning and Security",
-      "session_chair": "tbd",
+      "session_chair": "Martin Pawelczyk",
       "presentations": [
         {
           "title": "SoK: Data Minimization in Machine Learning",
@@ -176,7 +176,7 @@
     {
       "time": "11:20–12:20",
       "title": "Session: LLMs and GenAI",
-      "session_chair": "tbd",
+      "session_chair": "Klim Kireev",
       "presentations": [
         {
           "title": "Position: Stateless Yet Not Forgetful: Implicit Memory as a Hidden Channel in LLMs",
@@ -308,7 +308,7 @@
     {
       "time": "13:20–14:20",
       "title": "Session: Distributed Learning",
-      "session_chair": "tbd",
+      "session_chair": "Fabio Pierazzi",
       "presentations": [
         {
           "title": "On the Fragility of Contribution Evaluation in Federated Learning",
@@ -500,7 +500,7 @@
     {
       "time": "15:40–17:00",
       "title": "Session: Adversarial Robustness",
-      "session_chair": "tbd",
+      "session_chair": "Pavel Laskov",
       "presentations": [
         {
           "title": "Smudged Fingerprints: A Systematic Evaluation of the Robustness of AI Image Fingerprints",
@@ -702,7 +702,7 @@
     {
       "time": "10:00–11:00",
       "title": "Session: Differential Privacy",
-      "session_chair": "tbd",
+      "session_chair": "Ana-Maria Cretu",
       "presentations": [
         {
           "title": "Efficient and Scalable Implementation of Differentially Private Deep Learning without Shortcuts",
@@ -880,7 +880,7 @@
     {
       "time": "11:20–12:20",
       "title": "Session: Unlearning and Privacy",
-      "session_chair": "tbd",
+      "session_chair": "Vera Rimmer",
       "presentations": [
         {
           "title": "Evaluating Deep Unlearning in Large Language Models",
@@ -1043,7 +1043,7 @@
     {
       "time": "13:20–14:20",
       "title": "Session: Safety and Alignment",
-      "session_chair": "tbd",
+      "session_chair": "Kirill Bykov",
       "presentations": [
         {
           "title": "Defeating Prompt Injections by Design",
@@ -1276,7 +1276,7 @@
     {
       "time": "15:40–17:00",
       "title": "Session: Attacks and Vulnerabilities",
-      "session_chair": "tbd",
+      "session_chair": "Giovanni Apruzzese",
       "presentations": [
         {
           "title": "Kraken: Higher-order EM side-channel attacks on DNNs in near and far field",
@@ -1483,7 +1483,7 @@
     {
       "time": "10:00–11:00",
       "title": "Session: Security in Applications",
-      "session_chair": "tbd",
+      "session_chair": "Daniel Arp",
       "presentations": [
         {
           "title": "ConCap: Practical Network Traffic Generation for (ML- and) Flow-based Intrusion Detection Systems",
@@ -1665,7 +1665,7 @@
     {
       "time": "11:20–12:20",
       "title": "Session: Cryptography in Learning",
-      "session_chair": "tbd",
+      "session_chair": "Kathrin Grosse",
       "presentations": [
         {
           "title": "Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption",
@@ -1814,7 +1814,7 @@
     {
       "time": "13:20–14:20",
       "title": "Session: Membership Inference",
-      "session_chair": "tbd",
+      "session_chair": "Sébastien Gambs",
       "presentations": [
         {
           "title": "Privacy Risks in Time Series Forecasting: User- and Record-Level Membership Inference",
@@ -1997,7 +1997,7 @@
     {
       "time": "15:40–16:40",
       "title": "Session: Reconstruction and Backdoors",
-      "session_chair": "tbd",
+      "session_chair": "Xiaoyun Xu",
       "presentations": [
         {
           "title": "Reconstructing Training Data from Models Trained with Transfer Learning",
