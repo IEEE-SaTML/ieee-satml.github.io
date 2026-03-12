@@ -1,5 +1,25 @@
 {% extends "base.html" %}
 
+{% macro slot_id(day_string, time_range) -%}
+  {%- set months = {
+    'January': '01', 'February': '02', 'March': '03', 'April': '04',
+    'May': '05', 'June': '06', 'July': '07', 'August': '08',
+    'September': '09', 'October': '10', 'November': '11', 'December': '12'
+  } -%}
+
+  {%- set day_parts = day_string.split(',') -%}
+  {%- set month_day = day_parts[1].strip().split(' ') -%}
+  {%- set month = months[month_day[0]] -%}
+  {%- set day = '%02d'|format(month_day[1]|int) -%}
+  {%- set year = day_parts[2].strip() -%}
+
+  {%- set times = time_range.replace('–','-').split('-') -%}
+  {%- set start = times[0].strip().replace(':','') -%}
+  {%- set end = times[1].strip().replace(':','') -%}
+
+  {{- 'slot-' ~ year ~ '-' ~ month ~ '-' ~ day ~ '-' ~ start ~ '-' ~ end -}}
+{%- endmacro %}
+
 {% macro render_authors(authors) %}
   {% for author in authors -%}
     {{ author.first }} {{ author.last }}
@@ -78,6 +98,17 @@ blockquote {
   margin: 0 0 0.3rem 0 !important;
   padding: 0.45rem 1.5rem 0.25rem 1.5rem !important;
 }
+
+.program-slot {
+  scroll-margin-top: 2rem;
+}
+
+.program-slot-current {
+  outline: 2px solid rgba(0, 128, 128, 0.25);
+  border-radius: 4px;
+  outline-offset: 1rem;
+  margin-top: 2rem;
+}
 </style>
 
 <script>
@@ -85,6 +116,60 @@ function toggleAbstract(paperId) {
   var abstract = document.getElementById('abstract-' + paperId);
   abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
 }
+
+// Automatically scroll to the current program slot:
+// - Do nothing if the current time is before the conference starts or after it ends.
+// - If a slot is currently running, scroll to it.
+// - Otherwise scroll to the next upcoming slot.
+//
+// Slot times are encoded in the element id as:
+//   slot-YYYY-MM-DD-HHMM-HHMM
+
+document.addEventListener('DOMContentLoaded', () => {
+  const slots = [...document.querySelectorAll('.program-slot')];
+  if (!slots.length) return;
+
+  const now = new Date();
+
+  const parsed = slots.map(slot => {
+    const s = slot.id.slice(5); // YYYY-MM-DD-HHMM-HHMM
+    if (s.length !== 20) return null;
+
+    const start = new Date(
+      +s.slice(0,4),
+      +s.slice(5,7) - 1,
+      +s.slice(8,10),
+      +s.slice(11,13),
+      +s.slice(13,15)
+    );
+
+    const end = new Date(
+      +s.slice(0,4),
+      +s.slice(5,7) - 1,
+      +s.slice(8,10),
+      +s.slice(16,18),
+      +s.slice(18,20)
+    );
+
+    return { slot, start, end };
+  }).filter(Boolean);
+
+  if (!parsed.length) return;
+
+  const conferenceStart = parsed[0].start;
+  const conferenceEnd = parsed.at(-1).end;
+
+  if (now < conferenceStart || now > conferenceEnd) return;
+
+  const target =
+    parsed.find(p => p.start <= now && now < p.end)?.slot ||
+    parsed.find(p => now < p.start)?.slot;
+
+  if (!target) return;
+
+  target.classList.add('program-slot-current');
+  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 </script>
 
 {% for day, items in PROGRAM.items() %}
@@ -99,7 +184,7 @@ function toggleAbstract(paperId) {
         <hr id="day{{ loop.index }}" class="mb-5 mt-5">
         <h2  class="pb-3">{{ day }}</h2>
         {% for item in items %}
-          <div class="block">
+            <div class="block program-slot" id="{{ slot_id(day, item.time) }}">
             {# TIME & TITLE #}
             {% set dim_title = 'break' in (item.title|default('')|lower) %}
             <p>
