@@ -239,7 +239,8 @@
               "last": "Zarrinkalam",
               "affiliation": "College of Engineering, University of Guelph"
             }
-          ]
+          ],
+          "video_talk": true
         },
         {
           "title": "Defending Against Prompt Injection with DataFilter",
@@ -1892,7 +1893,8 @@
               "affiliation": "American University of Beirut"
             }
           ],
-          "arxiv": "https://arxiv.org/abs/2512.13352"
+          "arxiv": "https://arxiv.org/abs/2512.13352",
+          "video_talk": true
         },
         {
           "title": "DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage",
