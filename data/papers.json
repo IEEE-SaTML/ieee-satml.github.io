@@ -427,7 +427,8 @@
         "last": "Jabbari",
         "affiliation": "Drexel University"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2509.21293"
   },
   {
     "title": "Towards Zero Rotation and Beyond: Architecting Neural Networks for Fast Secure Inference with Homomorphic Encryption",
@@ -551,7 +552,8 @@
         "last": "Viswanath",
         "affiliation": "Virginia Tech"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2602.22197"
   },
   {
     "title": "Membership Inference Attacks for Retrieval Based In-Context Learning for Document Question Answering",
@@ -1116,7 +1118,8 @@
         "last": "Mohammadi",
         "affiliation": "University of Lubeck"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2211.02003"
   },
   {
     "title": "SoK: Blockchain-Based Decentralized AI (DeAI)",
@@ -1655,7 +1658,8 @@
         "last": "Lou",
         "affiliation": "Virginia Tech"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2507.09095"
   },
   {
     "title": "Cascading Robustness Verification: Toward Efficient Model\u2011Agnostic Certification",
@@ -1827,7 +1831,8 @@
         "last": "Tajeddine",
         "affiliation": "American University of Beirut"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2512.13352"
   },
   {
     "title": "SoK: Enhancing Cryptographic Collaborative Learning with Differential Privacy",

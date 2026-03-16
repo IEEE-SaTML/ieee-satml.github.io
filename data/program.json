@@ -386,7 +386,8 @@
               "last": "Mohammadi",
               "affiliation": "University of Lubeck"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2211.02003"
         },
         {
           "title": "SoK: Blockchain-Based Decentralized AI (DeAI)",
@@ -538,7 +539,8 @@
               "last": "Jabbari",
               "affiliation": "Drexel University"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2509.21293"
         },
         {
           "title": "Are Robust LLM Fingerprints Adversarially Robust?",
@@ -1172,7 +1174,8 @@
               "last": "Lou",
               "affiliation": "Virginia Tech"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2507.09095"
         },
         {
           "title": "Position: Mind the Gap---Closing the Growing Disconnect Between Vulnerability Disclosure and AI Security",
@@ -1454,7 +1457,8 @@
               "last": "Viswanath",
               "affiliation": "Virginia Tech"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2602.22197"
         }
       ]
     },
@@ -1887,7 +1891,8 @@
               "last": "Tajeddine",
               "affiliation": "American University of Beirut"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2512.13352"
         },
         {
           "title": "DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage",
