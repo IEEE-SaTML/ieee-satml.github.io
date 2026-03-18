@@ -100,3 +100,15 @@ IEEE SaTML 2026 will be hosted on the campus of the Technical University of Muni
     </a>
   </div>
 </div>
+<div class="pt-4 columns is-vcentered is-centered">
+  <div class="column is-one-third">
+    <a href="http://google.org/">
+      <img src="../images/sponsors/google.png" width="70%" alt="Google">
+    </a>
+  </div>
+  <div class="column is-one-third">
+    <a href="https://schmidtsciences.org">
+      <img src="../images/sponsors/schmidtsciences.png" width="85%" alt="Schmidt Sciences">
+    </a>
+  </div>
+</div>
