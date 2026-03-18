@@ -481,7 +481,7 @@
     {
       "time": "14:40–15:20",
       "title": "Competitions",
-      "session_chair": "tbd",
+      "session_chair": "Thorsten Eisenhofer",
       "competitions": [
         {
           "title": "Privacy-Preserving Database Systems CTF Competition",
@@ -1265,7 +1265,7 @@
     {
       "time": "14:40–15:20",
       "title": "Keynote 3",
-      "session_chair": "Rachel Cummings",
+      "session_chair": "Orestis Papakyriakopoulos",
       "keynote": {
         "title": "Governing Open-Weight Generative Models",
         "speaker": "Ashia Wilson (Massachusetts Institute of Technology)",
@@ -1612,7 +1612,8 @@
               "last": "Nandakumar",
               "affiliation": "Mohamed bin Zayed University of Artificial Intelligence, UAE. Michigan State University, USA"
             }
-          ]
+          ],
+          "video_talk": true
         },
         {
           "title": "Structured Command Hijacking against Embodied Artificial Intelligence with Text-based Controls",
@@ -1983,7 +1984,7 @@
     {
       "time": "14:40–15:20",
       "title": "Competitions",
-      "session_chair": "tbd",
+      "session_chair": "Christian Wressnegger",
       "competitions": [
         {
           "title": "Detecting Manipulations of AI Models in Space Operations",
@@ -2040,7 +2041,8 @@
               "last": "Haim",
               "affiliation": "Weizmann Institute of Science"
             }
-          ]
+          ],
+          "video_talk": true
         },
         {
           "title": "Training Set Reconstruction from Differentially Private Forests: How Effective is DP?",
