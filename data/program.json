@@ -221,28 +221,6 @@
           ]
         },
         {
-          "title": "“Org-Wide, We’re Not Ready\": C-Level Lessons on Securing Generative AI Systems",
-          "abstract": "Enterprises are adopting generative AI (GenAI) faster than they can secure it. We report an empirical study of 20 Canadian Chief Information Security Officers (CISO) that combined semi-structured interviews with a full-day, practitioner-led think tank. We ask (RQ1) how leaders prioritize GenAI threats, (RQ2) where organizations are prepared across the lifecycle, and (RQ3) where governance and assurance frameworks fall short. CISOs consistently rank three exposures as high-likelihood, high-impact: (1) data movement and leakage via everyday assistant use and downstream logs/backups, (2) prompt/model misuse that steers assistants, especially RAG-backed ones, outside intended retrieval scope, and (3) deepfake voice used for authority spoofing and urgent fraud. Readiness is strongest upstream (intake reviews, data classification/lineage, architectural zoning) and weakest at runtime: few teams have EDR-like telemetry for prompts, tool calls, or agent routing, so detection remains largely human-in-the-loop. Current frameworks are principle-heavy but procedure-light and insufficiently sector-tuned. We translate these observations into actionable controls: minimum “AI-EDR” telemetry, sector-ready governance runbooks, and a red-teaming program that moves from single-prompt tests to end-to-end exercises spanning data to tools/APIs. Our findings align investment and policy with the blast-radius CISOs face today, and provide a pragmatic path from static compliance to operational assurance.",
-          "authors": [
-            {
-              "first": "Elnaz",
-              "last": "Rabieinejad Balagafsheh",
-              "affiliation": "Cyber Science Lab, Canada Cyber Foundry, University of Guelph"
-            },
-            {
-              "first": "Ali",
-              "last": "Dehghantanha",
-              "affiliation": "Cyber Science Lab, Canada Cyber Foundry, University of Guelph"
-            },
-            {
-              "first": "Fattane",
-              "last": "Zarrinkalam",
-              "affiliation": "College of Engineering, University of Guelph"
-            }
-          ],
-          "video_talk": true
-        },
-        {
           "title": "Defending Against Prompt Injection with DataFilter",
           "abstract": "When large language model (LLM) agents are increasingly deployed to automate tasks and interact with untrusted external data, prompt injection emerges as a significant security threat. By injecting malicious instructions into the data that LLMs access, an attacker can arbitrarily override the original user task and redirect the agent toward unintended, potentially harmful actions. Existing defenses either require access to model weights (fine-tuning), incur substantial utility loss (detection-based), or demand non-trivial system redesign (system-level). Motivated by this, we propose DataFilter, a test-time model-agnostic defense that removes malicious instructions from the data before it reaches the backend LLM. DataFilter is trained with supervised fine-tuning on simulated injections and leverages both the user's instruction and the data to selectively strip adversarial content while preserving benign information. Across multiple benchmarks, DataFilter consistently reduces the attack success rates to near zero while maintaining the utility of undefended models. DataFilter delivers strong security, high utility, and plug-and-play deployment, making it a strong practical defense to secure black-box commercial LLMs against prompt injection. Code and scripts for reproducing our results will be made publicly available.",
           "authors": [
@@ -299,6 +277,28 @@
             }
           ],
           "arxiv": "https://arxiv.org/abs/2601.16205"
+        },
+        {
+          "title": "“Org-Wide, We’re Not Ready\": C-Level Lessons on Securing Generative AI Systems",
+          "abstract": "Enterprises are adopting generative AI (GenAI) faster than they can secure it. We report an empirical study of 20 Canadian Chief Information Security Officers (CISO) that combined semi-structured interviews with a full-day, practitioner-led think tank. We ask (RQ1) how leaders prioritize GenAI threats, (RQ2) where organizations are prepared across the lifecycle, and (RQ3) where governance and assurance frameworks fall short. CISOs consistently rank three exposures as high-likelihood, high-impact: (1) data movement and leakage via everyday assistant use and downstream logs/backups, (2) prompt/model misuse that steers assistants, especially RAG-backed ones, outside intended retrieval scope, and (3) deepfake voice used for authority spoofing and urgent fraud. Readiness is strongest upstream (intake reviews, data classification/lineage, architectural zoning) and weakest at runtime: few teams have EDR-like telemetry for prompts, tool calls, or agent routing, so detection remains largely human-in-the-loop. Current frameworks are principle-heavy but procedure-light and insufficiently sector-tuned. We translate these observations into actionable controls: minimum “AI-EDR” telemetry, sector-ready governance runbooks, and a red-teaming program that moves from single-prompt tests to end-to-end exercises spanning data to tools/APIs. Our findings align investment and policy with the blast-radius CISOs face today, and provide a pragmatic path from static compliance to operational assurance.",
+          "authors": [
+            {
+              "first": "Elnaz",
+              "last": "Rabieinejad Balagafsheh",
+              "affiliation": "Cyber Science Lab, Canada Cyber Foundry, University of Guelph"
+            },
+            {
+              "first": "Ali",
+              "last": "Dehghantanha",
+              "affiliation": "Cyber Science Lab, Canada Cyber Foundry, University of Guelph"
+            },
+            {
+              "first": "Fattane",
+              "last": "Zarrinkalam",
+              "affiliation": "College of Engineering, University of Guelph"
+            }
+          ],
+          "video_talk": true
         }
       ]
     },
@@ -768,7 +768,8 @@
               "last": "De Cristofaro",
               "affiliation": "UC Riverside"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2506.16666"
         },
         {
           "title": "Differentially Private Adaptation of Diffusion Models via Noisy Aggregated Embeddings",
@@ -840,7 +841,8 @@
               "last": "Honkela",
               "affiliation": "University of Helsinki"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2503.10945"
         },
         {
           "title": "Your Privacy Depends on Others: Collusion Vulnerabilities in Individual Differential Privacy",
@@ -1581,7 +1583,8 @@
               "last": "Laskov",
               "affiliation": "University of Liechtenstein"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2601.13082"
         },
         {
           "title": "Protecting Facial Biometrics from Malicious Generative Editing via Latent Optimization",
@@ -1612,8 +1615,7 @@
               "last": "Nandakumar",
               "affiliation": "Mohamed bin Zayed University of Artificial Intelligence, UAE. Michigan State University, USA"
             }
-          ],
-          "video_talk": true
+          ]
         },
         {
           "title": "Structured Command Hijacking against Embodied Artificial Intelligence with Text-based Controls",
@@ -1766,7 +1768,8 @@
               "last": "Ozdemir",
               "affiliation": "CUNY Graduate Center"
             }
-          ]
+          ],
+          "arxiv": "https://arxiv.org/abs/2603.19025"
         },
         {
           "title": "One RNG to Rule Them All - How Randomness Becomes an Attack Vector in Machine Learning",
@@ -1875,29 +1878,6 @@
           ]
         },
         {
-          "title": "On the Effectiveness of Membership Inference in Targeted Data Extraction from Large Language Models",
-          "abstract": "Abstract—Large Language Models (LLMs) are prone to mem- orizing  training  data,  which  poses  serious  privacy  risks.  Two of  the  most  prominent  concerns  are  training  data  extraction and Membership Inference Attacks (MIAs). Prior research has shown  that  these  threats  are  interconnected:  adversaries  can extract training data from an LLM by querying the model to generate a large volume of text and subsequently applying MIAs to verify whether a particular data point was included in the training set. In this study, we integrate multiple MIA techniques into  the  data  extraction  pipeline  to  systematically  benchmark their effectiveness. We then compare their performance in this integrated setting against results from conventional MIA bench- marks, allowing us to evaluate their practical utility in real-world\nextraction scenarios.",
-          "authors": [
-            {
-              "first": "Ali",
-              "last": "Al Sahili",
-              "affiliation": "American University of Beirut"
-            },
-            {
-              "first": "Ali",
-              "last": "Chehab",
-              "affiliation": "American University of Beirut"
-            },
-            {
-              "first": "Razan",
-              "last": "Tajeddine",
-              "affiliation": "American University of Beirut"
-            }
-          ],
-          "arxiv": "https://arxiv.org/abs/2512.13352",
-          "video_talk": true
-        },
-        {
           "title": "DeepLeak: Privacy Enhancing Hardening of Model Explanations Against Membership Leakage",
           "abstract": "Machine learning (ML) explainability is central to algorithmic transparency in high-stakes settings such as predictive diagnostics and loan approval. Yet these same domains demand rigorous privacy guarantees, creating tension between interpretability and privacy. While prior work has shown that explanation methods can leak membership information, practitioners still lack systematic guidance for selecting or deploying explanation techniques that balance transparency with privacy. \n\nWe present DeepLeak, a system to audit and mitigate privacy risks in post-hoc explanation methods. DeepLeak advances the state-of-the-art in three ways: (1) comprehensive leakage profiling: we develop a stronger explanation-aware membership inference attack (MIA) to quantify how much representative explanation methods leak membership information under default configurations; (2) lightweight hardening strategies: we introduce practical, model-agnostic mitigations, including sensitivity-calibrated noise, attribution clipping, and masking, that substantially reduce membership leakage while preserving explanation utility; and (3) root-cause analysis: through controlled experiments, we pinpoint algorithmic properties (e.g., attribution sparsity and sensitivity) that drive leakage.\n\nEvaluating 15 explanation techniques across four families on image benchmarks, DeepLeak shows that default settings can leak up to 74.9% more membership information than previously reported. Our mitigations cut leakage by up to 95% (minimum 46.5%) with only 3.3% utility loss on average. DeepLeak offers a systematic, reproducible path to safer explainability in privacy-sensitive ML.",
           "authors": [
@@ -1974,6 +1954,29 @@
               "affiliation": "University of Washington"
             }
           ]
+        },
+        {
+          "title": "On the Effectiveness of Membership Inference in Targeted Data Extraction from Large Language Models",
+          "abstract": "Abstract—Large Language Models (LLMs) are prone to mem- orizing  training  data,  which  poses  serious  privacy  risks.  Two of  the  most  prominent  concerns  are  training  data  extraction and Membership Inference Attacks (MIAs). Prior research has shown  that  these  threats  are  interconnected:  adversaries  can extract training data from an LLM by querying the model to generate a large volume of text and subsequently applying MIAs to verify whether a particular data point was included in the training set. In this study, we integrate multiple MIA techniques into  the  data  extraction  pipeline  to  systematically  benchmark their effectiveness. We then compare their performance in this integrated setting against results from conventional MIA bench- marks, allowing us to evaluate their practical utility in real-world\nextraction scenarios.",
+          "authors": [
+            {
+              "first": "Ali",
+              "last": "Al Sahili",
+              "affiliation": "American University of Beirut"
+            },
+            {
+              "first": "Ali",
+              "last": "Chehab",
+              "affiliation": "American University of Beirut"
+            },
+            {
+              "first": "Razan",
+              "last": "Tajeddine",
+              "affiliation": "American University of Beirut"
+            }
+          ],
+          "arxiv": "https://arxiv.org/abs/2512.13352",
+          "video_talk": true
         }
       ]
     },
@@ -2041,8 +2044,7 @@
               "last": "Haim",
               "affiliation": "Weizmann Institute of Science"
             }
-          ],
-          "video_talk": true
+          ]
         },
         {
           "title": "Training Set Reconstruction from Differentially Private Forests: How Effective is DP?",

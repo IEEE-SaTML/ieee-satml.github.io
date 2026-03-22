@@ -510,7 +510,8 @@
         "last": "De Cristofaro",
         "affiliation": "UC Riverside"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2506.16666"
   },
   {
     "title": "Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Image Protection Schemes",
@@ -978,7 +979,8 @@
         "last": "Laskov",
         "affiliation": "University of Liechtenstein"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2601.13082"
   },
   {
     "title": "Kraken: Higher-order EM side-channel attacks on DNNs in near and far field",
@@ -1208,7 +1210,8 @@
         "last": "Honkela",
         "affiliation": "University of Helsinki"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2503.10945"
   },
   {
     "title": "Your Privacy Depends on Others: Collusion Vulnerabilities in Individual Differential Privacy",
@@ -1471,7 +1474,8 @@
         "last": "Ozdemir",
         "affiliation": "CUNY Graduate Center"
       }
-    ]
+    ],
+    "arxiv": "https://arxiv.org/abs/2603.19025"
   },
   {
     "title": "One RNG to Rule Them All - How Randomness Becomes an Attack Vector in Machine Learning",
