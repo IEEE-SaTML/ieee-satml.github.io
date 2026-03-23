@@ -15,6 +15,7 @@ PROGRAM_COMMITTEE = json.loads(Path('data/pc.json').read_text())
 PAST_EDITIONS = json.loads(Path('data/past-editions.json').read_text())
 PAPERS = json.loads(Path('data/papers.json').read_text())
 POSTER_GROUP_SPLIT = [123]  # Thresholds splitting papers into poster groups (e.g. [123, 200] → 3 groups)
+POSTER_GROUP_ANCHORS = ['slot-2026-03-23-1700-2000', 'slot-2026-03-24-1700-2000']  # Program anchor IDs for each group
 KEYNOTES = json.loads(Path('data/keynotes.json').read_text())
 PROGRAM = json.loads(Path('data/program.json').read_text())
 

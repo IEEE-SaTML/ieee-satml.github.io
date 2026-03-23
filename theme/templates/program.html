@@ -177,6 +177,8 @@ window.addEventListener('load', () => {
 
     currentTargetId = target.id;
 
+    if (window.location.hash) return;
+
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         window.scrollTo({
@@ -250,10 +252,11 @@ window.addEventListener('load', () => {
                     {{ action_link("Arxiv", "📚", paper.arxiv) }}
                   {% endif %}
                   {% if paper.get("pid") %}
-                    <span class="tag paper-button"
-                          style="cursor: default; pointer-events: none; color: #555 !important;">
-                      <span class="icon" style="filter: grayscale(100%);">📌</span>Poster Group {{ 1 if paper.pid <= 123 else 2 }}
-                    </span>
+                    {% set _pg = namespace(g=1) %}{% for t in POSTER_GROUP_SPLIT %}{% if paper["pid"] > t %}{% set _pg.g = loop.index + 1 %}{% endif %}{% endfor %}
+                    <a class="tag paper-button" href="/program/#{{ POSTER_GROUP_ANCHORS[_pg.g - 1] }}"
+                       style="text-decoration: none !important;">
+                      <span class="icon" style="filter: grayscale(100%);">📌</span>Group {{ _pg.g }}
+                    </a>
                   {% endif %}
                   {% if paper.get("video_talk") %}
                     <span class="tag paper-button"
