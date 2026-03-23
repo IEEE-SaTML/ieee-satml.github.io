@@ -28,6 +28,11 @@
       <small style="filter: grayscale(100%);">📚</small>&nbsp;Arxiv
     </a>
     {% endif %}
+    {% if paper.get("pid") %}
+    <span class="tag paper-button" style="cursor: default; pointer-events: none; color: #555 !important;">
+      <small style="filter: grayscale(100%);">📌</small>&nbsp;Poster Group {{ 1 if paper["pid"] <= 123 else 2 }}
+    </span>
+    {% endif %}
   </div>
   <div class="block" id="abstract-{{ index }}" style="margin-bottom: 0.15rem; display: none;">
     <p style="font-size: 0.9em;">{{ paper["abstract"] | safe }}</p>

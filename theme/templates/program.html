@@ -249,6 +249,12 @@ window.addEventListener('load', () => {
                   {% if paper.get("arxiv") %}
                     {{ action_link("Arxiv", "📚", paper.arxiv) }}
                   {% endif %}
+                  {% if paper.get("pid") %}
+                    <span class="tag paper-button"
+                          style="cursor: default; pointer-events: none; color: #555 !important;">
+                      <span class="icon" style="filter: grayscale(100%);">📌</span>Poster Group {{ 1 if paper.pid <= 123 else 2 }}
+                    </span>
+                  {% endif %}
                   {% if paper.get("video_talk") %}
                     <span class="tag paper-button"
                           style="border:none !important; color: black !important;background:none !important; cursor:default; pointer-events:none;">

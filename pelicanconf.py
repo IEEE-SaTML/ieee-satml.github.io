@@ -17,6 +17,14 @@ PAPERS = json.loads(Path('data/papers.json').read_text())
 KEYNOTES = json.loads(Path('data/keynotes.json').read_text())
 PROGRAM = json.loads(Path('data/program.json').read_text())
 
+# Enrich program papers with pid from papers.json
+_pid_map = {p['title']: p['pid'] for p in PAPERS}
+for _items in PROGRAM.values():
+    for _item in _items:
+        for _paper in _item.get('presentations', []):
+            if _paper['title'] in _pid_map:
+                _paper['pid'] = _pid_map[_paper['title']]
+
 SOCIAL = {
     "mail" : "contact@satml.org",
     "bluesky" : "https://bsky.app/profile/satml.org",
