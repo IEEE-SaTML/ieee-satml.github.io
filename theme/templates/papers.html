@@ -30,7 +30,7 @@
     {% endif %}
     {% if paper.get("pid") %}
     <span class="tag paper-button" style="cursor: default; pointer-events: none; color: #555 !important;">
-      <small style="filter: grayscale(100%);">📌</small>&nbsp;Poster Group {% set _pg = namespace(g=1) %}{% for t in POSTER_GROUP_SPLIT %}{% if paper["pid"] > t %}{% set _pg.g = loop.index + 1 %}{% endif %}{% endfor %}{{ _pg.g }}
+      <small style="filter: grayscale(100%);">📌</small>&nbsp;Group {% set _pg = namespace(g=1) %}{% for t in POSTER_GROUP_SPLIT %}{% if paper["pid"] > t %}{% set _pg.g = loop.index + 1 %}{% endif %}{% endfor %}{{ _pg.g }}
     </span>
     {% endif %}
   </div>
