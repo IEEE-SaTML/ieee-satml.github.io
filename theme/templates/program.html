@@ -126,7 +126,7 @@ function toggleAbstract(paperId) {
 // Slot times are encoded in the element id as:
 //   slot-YYYY-MM-DD-HHMM-HHMM
 
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
   const slots = [...document.querySelectorAll('.program-slot')];
   if (!slots.length) return;
 
@@ -162,27 +162,31 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateCurrentSlot() {
     const now = new Date();
 
-    const targetObj =
-      (now >= conferenceStart && now <= conferenceEnd) &&
-      (parsed.find(p => p.start <= now && now < p.end) ||
-      parsed.find(p => now < p.start));
+    const target =
+      now < conferenceStart || now > conferenceEnd
+        ? null
+        : (parsed.find(p => p.start <= now && now < p.end) ||
+           parsed.find(p => now < p.start) ||
+           null)?.slot;
 
-    const target = targetObj?.slot;
+    parsed.forEach(({ slot }) => {
+      slot.classList.toggle('program-slot-current', slot === target);
+    });
 
-    // Clear previous highlight
-    parsed.forEach(p => p.slot.classList.remove('program-slot-current'));
+    if (!target || target.id === currentTargetId) return;
 
-    if (!target) {
-      currentTargetId = null;
-      return;
-    }
+    currentTargetId = target.id;
 
-    target.classList.add('program-slot-current');
-    if (target.id !== currentTargetId) {
-      currentTargetId = target.id;
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        window.scrollTo({
+          top: target.getBoundingClientRect().top + window.pageYOffset - 32,
+          behavior: 'smooth'
+        });
+      });
+    });
   }
+
   updateCurrentSlot();
   setInterval(updateCurrentSlot, 5000);
 });
