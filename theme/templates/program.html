@@ -117,10 +117,11 @@ function toggleAbstract(paperId) {
   abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
 }
 
-// Automatically scroll to the current program slot:
+// Automatically keep the page aligned with the current program slot.
 // - Do nothing if the current time is before the conference starts or after it ends.
 // - If a slot is currently running, scroll to it.
 // - Otherwise scroll to the next upcoming slot.
+// - Re-check regularly, but only scroll when the target slot changes.
 //
 // Slot times are encoded in the element id as:
 //   slot-YYYY-MM-DD-HHMM-HHMM
@@ -128,8 +129,6 @@ function toggleAbstract(paperId) {
 document.addEventListener('DOMContentLoaded', () => {
   const slots = [...document.querySelectorAll('.program-slot')];
   if (!slots.length) return;
-
-  const now = new Date();
 
   const parsed = slots.map(slot => {
     const s = slot.id.slice(5); // YYYY-MM-DD-HHMM-HHMM
@@ -158,17 +157,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const conferenceStart = parsed[0].start;
   const conferenceEnd = parsed.at(-1).end;
+  let currentTargetId = null;
 
-  if (now < conferenceStart || now > conferenceEnd) return;
+  function updateCurrentSlot() {
+    const now = new Date();
 
-  const target =
-    parsed.find(p => p.start <= now && now < p.end)?.slot ||
-    parsed.find(p => now < p.start)?.slot;
+    const targetObj =
+      (now >= conferenceStart && now <= conferenceEnd) &&
+      (parsed.find(p => p.start <= now && now < p.end) ||
+      parsed.find(p => now < p.start));
 
-  if (!target) return;
+    const target = targetObj?.slot;
 
-  target.classList.add('program-slot-current');
-  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Clear previous highlight
+    parsed.forEach(p => p.slot.classList.remove('program-slot-current'));
+
+    if (!target) {
+      currentTargetId = null;
+      return;
+    }
+
+    target.classList.add('program-slot-current');
+    if (target.id !== currentTargetId) {
+      currentTargetId = target.id;
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+  updateCurrentSlot();
+  setInterval(updateCurrentSlot, 5000);
 });
 </script>
 
