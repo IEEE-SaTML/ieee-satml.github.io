@@ -5,6 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
+- SaTML 2026 has successfully concluded. We are now <a href="https://forms.gle/zBxnZrXEbWKL5Etk6">looking for a host for SaTML 2027</a>!
 - We offer [financial support](/attend) for participants who cannot cover registration or travel costs.
 - The [program](/program) for SaTML 2026 is [now available](/program).
 - [Apply to volunteer](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform) and be considered for complimentary registration!
