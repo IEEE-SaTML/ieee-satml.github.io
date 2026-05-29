@@ -82,7 +82,7 @@ We solicit research papers, systematization of knowledge papers, and position pa
 
 ## Venue
 
-IEEE SaTML 2026 will be hosted on the campus of the Reykjavik University on TBD, 2027.
+IEEE SaTML 2027 will be hosted on the campus of the Reykjavik University on TBD, 2027.
 <!-- 
 ## Sponsors and Supporters
 

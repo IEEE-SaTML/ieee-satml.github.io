@@ -6,4 +6,4 @@ menu_title: Call for Workshops
 
 ## Workshops
 
-The SaTML 2027 conference will feature workshop day.
+The SaTML 2027 conference will feature a workshop day.
