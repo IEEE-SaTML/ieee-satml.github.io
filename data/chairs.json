@@ -1,16 +1,18 @@
 {
-    "General chairs": [
-        [ "Orestis Papakyriakopoulos", "TU München" ],
-        [ "Lea Schönherr", "CISPA Helmholtz Center for Information Security" ]
+    "General chair": [
+        [ "Giovanni Apruzzese", "Reykjavik University" ]
     ],
     "Program chairs": [
-        [ "Rachel Cummings", "Columbia University" ],
-        [ "Konrad Rieck", "BIFOLD & TU Berlin" ]
+        [ "Fabio Pierazzi", "University College London" ],
+        [ "Florian Tramèr", "ETH Zürich" ]
+    ],
+    "Workshop chairs": [
+        [ "Thorsten Eisenhofer", "CISPA Helmholtz Center for Information Security" ]
     ],
     "Social media chair": 
         [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
     "Web chairs": [
-        [ "Thorsten Eisenhofer", "BIFOLD & TU Berlin" ],
-        [ "Stefan Czybik", "BIFOLD & TU Berlin" ]
+        [ "TBA", "Reykjavik University" ],
+        [ "Thorsten Eisenhofer", "CISPA Helmholtz Center for Information Security" ]
     ]
 }

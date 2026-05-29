@@ -2,6 +2,7 @@ title: Competitions
 menu_title: Competitions
 template: page
 menu_order: 300
+status: skip
 
 ## Competition Track
 

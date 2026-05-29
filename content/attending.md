@@ -3,6 +3,7 @@ template: page
 menu_order: 400
 menu_title: Attend
 slug: attend
+status: skip
 
 ## Venue
 

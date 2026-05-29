@@ -5,7 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
-- SaTML 2026 has successfully concluded. We are now <a href="https://forms.gle/zBxnZrXEbWKL5Etk6">looking for a host for SaTML 2027</a>!
+<!-- - SaTML 2026 has successfully concluded. We are now <a href="https://forms.gle/zBxnZrXEbWKL5Etk6">looking for a host for SaTML 2027</a>!
 - We offer [financial support](/attend) for participants who cannot cover registration or travel costs.
 - The [program](/program) for SaTML 2026 is [now available](/program).
 - [Apply to volunteer](https://docs.google.com/forms/d/e/1FAIpQLScXq18h3XyGucLCT8poeBUrs0f0EgBsBwQya9T7ImZaaNj6dA/viewform) and be considered for complimentary registration!
@@ -14,22 +14,19 @@ menu_title: Home
 - There will be four [Competitions](/competitions) at SaTML 2026. We invite you to participate!
 - We updated the [Call for Papers](/call-for-papers) with a statement about LLM usage in submissions.
 - The [Submission Site](https://hotcrp.satml.org) for papers is now finally online and open.
-- The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available.
-- The website for SatML 2026 is now online!
-
-<!-- - The program for SaTML 2025 is <a href="program">now available</a>. We are looking forward to 3 days packed with secure and trustworthy learning. -->
-<!-- - We are offering travel scholarships for students and postdocs, thanks to generous sponsor support. <a href="scholarships">Learn more</a>. -->
+- The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available. -->
+- The website for SatML 2027 is now online!
 
 ## Important dates
 
-- Paper submission deadline: **Wednesday, September 24, 2025**
-- Early reject notification: **Wednesday, October 29, 2025**
-- Interactive discussion & revision phase: **November 19 - December 3, 2025**
-- Decision notification: **Wednesday, December 10, 2025**
-- Conference dates: **March 23-25, 2026**
+- Paper submission deadline: **TBD**
+- Early reject notification: **TBD**
+- Interactive discussion & revision phase: **TBD**
+- Decision notification: **TBD**
+- Conference dates: **TBD**
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
-
+<!-- 
 ## Keynotes 
 
 We are excited to have the following keynote speakers in the SaTML 2026 program. For more details about each talk, please visit the [keynotes page](/keynotes).
@@ -66,7 +63,7 @@ We are excited to have the following keynote speakers in the SaTML 2026 program.
     <br><a href="/keynotes/#keynote4"><b>Lorenzo Cavallaro</b></a>
     <br>University College London
   </div>
-</div>
+</div> -->
 
 ## Overview
 
@@ -81,12 +78,12 @@ This conference will expand on the theoretical and practical understandings of v
 - Fairness and interpretability
 - Trustworthy data curation
 
-We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details).
+We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details) and workshops (see [Call for Workshops](/call-for-workshops) for details).
 
 ## Venue
 
-IEEE SaTML 2026 will be hosted on the campus of the Technical University of Munich on March 23-25, 2026. See [Attending the Conference](/attend) for details.
-
+IEEE SaTML 2026 will be hosted on the campus of the Reykjavik University on TBD, 2027.
+<!-- 
 ## Sponsors and Supporters
 
 <div class="pt-4 columns is-vcentered is-centered">
@@ -112,4 +109,4 @@ IEEE SaTML 2026 will be hosted on the campus of the Technical University of Muni
       <img src="../images/sponsors/schmidtsciences.png" width="85%" alt="Schmidt Sciences">
     </a>
   </div>
-</div>
+</div> -->

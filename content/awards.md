@@ -2,6 +2,7 @@ title: Awards
 menu_title: Awards
 template: page
 menu_order: 401
+status: skip
 
 At SaTML 2026, we recognize exceptional contributions to the field through a Best Paper Award and Distinguished Reviewer recognitions. Congratulations to all recipients!
 

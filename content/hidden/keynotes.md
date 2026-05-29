@@ -1,4 +1,4 @@
 title: Keynote Talks
-status: hidden
+status: skip
 template: keynotes
 slug: keynotes

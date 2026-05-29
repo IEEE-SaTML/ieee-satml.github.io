@@ -1,6 +1,14 @@
 [
     {
         "year": 2025,
+        "image": "images/past/2026.jpg",
+        "venue": "Technical University of Munich",
+        "location": "Munich, Germany",
+        "date": "March 23–25",
+        "url" : "https://satml.org/2026/"
+    },
+    {
+        "year": 2025,
         "image": "images/past/2025.jpg",
         "venue": "University of Copenhagen",
         "location": "Copenhagen, Denmark",

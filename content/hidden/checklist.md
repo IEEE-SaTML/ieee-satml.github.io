@@ -1,6 +1,6 @@
 title: Final Submission Checklist 
 template: page
-status: hidden
+status: skip
 slug: checklist
 
 This page provides a checklist for common formatting issues in preparing the final version of your paper for SaTML. The checklist is largely taken from the excellent author instructions provided by [JMLR](https://www.jmlr.org/format/formatting-errors.html).  

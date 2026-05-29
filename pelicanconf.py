@@ -1,12 +1,12 @@
 from pathlib import Path
 import json
 
-SITENAME = 'IEEE SaTML 2026'
+SITENAME = 'IEEE SaTML 2027'
 SITEURL = "https://satml.org/"
 
-CONFERENCE_NAME = "4th IEEE Conference on Secure and Trustworthy Machine Learning"
-CONFERENCE_LOCATION = "Technical University of Munich, Germany"
-CONFERENCE_DATE = "March 23–25, 2026"
+CONFERENCE_NAME = "5th IEEE Conference on Secure and Trustworthy Machine Learning"
+CONFERENCE_LOCATION = "Reykjavik University, Iceland"
+CONFERENCE_DATE = "TBD, 2027"
 
 CHAIRS = json.loads(Path('data/chairs.json').read_text())
 STEERING_COMMITTEE = json.loads(Path('data/steering.json').read_text())
