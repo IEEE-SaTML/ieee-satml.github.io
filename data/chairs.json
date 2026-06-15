@@ -7,7 +7,11 @@
         [ "Florian Tramèr", "ETH Zürich" ]
     ],
     "Workshop chairs": [
+        [ "Qingying Hao", "ShanghaiTech University" ],
         [ "Thorsten Eisenhofer", "CISPA Helmholtz Center for Information Security" ]
+    ],
+    "Financial chair" : [
+        [ "Alberto Giarretta", "Örebro University"]
     ],
     "Social media chair": 
         [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
