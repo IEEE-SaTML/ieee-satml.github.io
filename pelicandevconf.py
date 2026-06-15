@@ -5,7 +5,7 @@ SITENAME = 'IEEE SaTML 2027'
 SITEURL = "https://dev.satml.org/"
 
 CONFERENCE_NAME = "5th IEEE Conference on Secure and Trustworthy Machine Learning"
-CONFERENCE_LOCATION = "Reykjavik University, Iceland"
+CONFERENCE_LOCATION = "Reykjavik, Iceland"
 CONFERENCE_DATE = "TBD, 2027"
 
 CHAIRS = json.loads(Path('data/chairs.json').read_text())
