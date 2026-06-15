@@ -97,17 +97,19 @@ If you are being harassed by a member of the SaTML community outside event space
 
 If a participant engages in harassing behavior, they may be sanctioned or expelled from the event without a refund at the discretion of the organizers. Further action may be taken by IEEE in accordance with its policies covering code of conduct (9.25 Civility Policy, 9.26 Policy Against Discrimination and Harassment), whose consequences may include expulsion from membership in the IEEE; see the [IEEE policies](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/corporate/ieee-policies.pdf), [IEEE Technical Activities procedures](https://ta.ieee.org/images/files/ta_ops_manual.pdf) and the [IEEE Member Code of Conduct](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/about/ieee_code_of_conduct.pdf) for more information on these further IEEE actions.
 
-## Open Conference Statement
+## IEEE Computer Society Open Conference Statement
 
-Equity, Diversity, and Inclusion are central to the goals of the IEEE Computer Society and all of its conferences.
+Expanding participation in computing is central to the goals of the IEEE Computer Society and all
+of its conferences. The IEEE Computer Society is firmly committed to broad participation in all
+sponsored activities, including but not limited to, technical communities, steering committees,
+conference organizations, standards committees, and ad hoc committees that welcome the
+entire global community.
 
-- Equity at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed.
-- Diversity is fundamentally about valuing human differences and recognizing diverse talents.
-- Inclusion is the active engagement of Diversity and Equity.
+IEEE’s mission to foster technological innovation and excellence to benefit humanity requires
+the talents and perspectives of people with many disciplinary backgrounds.
 
-A goal of the IEEE Computer Society is to foster an environment in which all individuals are entitled to participate in any IEEE Computer Society activity free of discrimination. For this reason, the IEEE Computer Society is firmly committed to team compositions in all sponsored activities, including but not limited to, technical committees, steering committees, conference organizations, standards committees, and ad hoc committees that display Equity, Diversity, and Inclusion.
-
-IEEE Computer Society meetings, conferences and workshops must provide a welcoming, open and safe environment, that embraces the value of every person, regardless of race, color, sex, sexual orientation, gender identity or expression, age, marital status, religion, national origin, ancestry, or disability. All individuals are entitled to participate in any IEEE Computer Society activity free of discrimination, including harassment based on any of the above factors.
+All individuals are entitled to participate in any IEEE Computer Society activity free of
+discrimination and harassment.
 
 
 ## Event Conduct and Safety Statement 
