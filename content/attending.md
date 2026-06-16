@@ -3,9 +3,8 @@ template: page
 menu_order: 400
 menu_title: Attend
 slug: attend
-status: skip
 
-## Venue
+<!-- ## Venue
 
 The conference will take place at the Technical University of Munich (TUM), in Munich, Germany. The building is Theresianum, Room 602.
 
@@ -61,7 +60,9 @@ Below you find a list of selected hotels that are within walking distance or hav
 
 ## Visa Support
 
-Should you require a visa support letter to attend the conference, please remember to indicate this during the <a href="https://cvent.me/50dM5d">registration process</a>. It can take a long time to get a visa for Germany. We will review and process visa support letters every two weeks, so please take into consideration this time when planning your visa application.
+Should you require a visa support letter to attend the conference, please remember to indicate this during the <a href="https://cvent.me/50dM5d">registration process</a>. It can take a long time to get a visa for Germany. We will review and process visa support letters every two weeks, so please take into consideration this time when planning your visa application. -->
+
+We look forward to welcoming you to IEEE SaTML 2027. This page will be updated as the conference approaches with information on registration, travel, accommodation, visa support, the venue, and other practical details to help you plan your visit.
 
 ## Code of Conduct
 
@@ -110,7 +111,6 @@ the talents and perspectives of people with many disciplinary backgrounds.
 
 All individuals are entitled to participate in any IEEE Computer Society activity free of
 discrimination and harassment.
-
 
 ## Event Conduct and Safety Statement 
 
