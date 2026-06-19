@@ -13,10 +13,13 @@
     "Financial chair" : [
         [ "Alberto Giarretta", "Örebro University"]
     ],
+    "Publication chair" : [
+        [ "Blaine Hoak", "University of Texas at Dallas" ]
+    ],
     "Social media chair": 
         [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
     "Web chairs": [
-        [ "TBA", "Reykjavik University" ],
+        [ "Miguel Faisco", "Reykjavik University" ],
         [ "Thorsten Eisenhofer", "CISPA Helmholtz Center for Information Security" ]
     ]
 }
