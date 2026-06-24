@@ -20,7 +20,7 @@ IEEE SaTML expands upon the theoretical and practical understandings of vulnerab
 ## Important dates
 
 - Paper submission deadline: **Tue, Sep 29, 2026**
-- Early reject notification: **TBD**
+- Early reject notification: **Wed, Nov 4, 2026**
 - Interactive discussion & revision phase: **Wed, Nov 25, 2026 - Wed, Dec 9, 2026**
 - Decision notification: **Wed, Dec 16, 2026**
 - Conference dates: **Ealry May, 2027**
