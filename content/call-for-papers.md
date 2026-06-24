@@ -29,7 +29,7 @@ All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to 
 
 ## Submission information
 
-Further details regarding the submission requirements will be announced soon.
+At SaTML 2027, we will welcome research papers, systematization of knowledge papers, and position papers. Further details regarding the submission requirements will be announced soon.
 
 <!-- ## Submission categories
 
