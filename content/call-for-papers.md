@@ -27,7 +27,11 @@ IEEE SaTML expands upon the theoretical and practical understandings of vulnerab
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 
-## Submission categories
+## Submission information
+
+Further details regarding the submission requirements will be announced soon.
+
+<!-- ## Submission categories
 
 We solicit research papers, systematization of knowledge papers, and position papers:
 
@@ -96,4 +100,4 @@ Outstanding paper(s) will be selected by the Program Committee, with input from 
 
 At least one author of accepted papers must present their work at the conference on site, and their papers will appear in the conference’s formal IEEE proceedings. In the event of difficulty obtaining visas for travel or other exceptional circumstances, exceptions may be made and will be discussed on a case-by-case basis.
 
-If you have any questions, please email us at [pcchairs@satml.org](mailto:pcchairs@satml.org)
+If you have any questions, please email us at [pcchairs@satml.org](mailto:pcchairs@satml.org) -->
