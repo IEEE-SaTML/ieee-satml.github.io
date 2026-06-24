@@ -80,9 +80,9 @@ This conference will expand on the theoretical and practical understandings of v
 
 We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details) and workshops (see [Call for Workshops](/call-for-workshops) for details).
 
-## Venue
+<!-- ## Venue
 
-IEEE SaTML 2027 will be hosted on the campus of the Reykjavik University on TBD, 2027.
+IEEE SaTML 2027 will be hosted on the campus of the Reykjavik University on TBD, 2027. -->
 <!-- 
 ## Sponsors and Supporters
 
