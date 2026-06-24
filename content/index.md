@@ -15,7 +15,7 @@ menu_title: Home
 - We updated the [Call for Papers](/call-for-papers) with a statement about LLM usage in submissions.
 - The [Submission Site](https://hotcrp.satml.org) for papers is now finally online and open.
 - The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available. -->
-- The website for SatML 2027 is now online!
+- The website for SaTML 2027 is now online!
 
 ## Important dates
 
