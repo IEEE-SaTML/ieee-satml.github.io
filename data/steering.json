@@ -1,10 +1,9 @@
 {
     "Nicolas Papernot" : "University of Toronto & Vector Institute",
-    "Carmela Troncoso" : "Max Planck Institute for Security and Privacy",
-    "Been Kim" : "Google Brain",
-    "Ben Zhao" : "University of Chicago",
+    "Carmela Troncoso" : "EPFL & MPI-SP",
     "Bo Li" : "University of Illinois at Urbana–Champaign",
     "Zico Kolter" : "Carnegie Mellon University",
     "Somesh Jha" : "University of Wisconsin–Madison",
-    "Timnit Gebru" :"Distributed AI Research Institute"
+    "Timnit Gebru" :"Distributed AI Research Institute",
+    "Konrad Rieck" : "BIFOLD & TU Berlin"
 }
