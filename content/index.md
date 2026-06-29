@@ -23,7 +23,7 @@ menu_title: Home
 - Early reject notification: **Wed, Nov 4, 2026**
 - Interactive discussion & revision phase: **Wed, Nov 25, 2026 - Wed, Dec 9, 2026**
 - Decision notification: **Wed, Dec 16, 2026**
-- Conference dates: **Ealry May, 2027**
+- Conference dates: **Early May, 2027**
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 <!-- 
