@@ -40,31 +40,6 @@ Submissions and all related communication with organizers will be handled throug
 
 - **Reviewing and selection process:** Proposals will be considered based on the quality and completeness of the submission, the fit and novelty of the topic for the SaTML community, and the feasibility of the plan, including the organizers' relevant experience. As this is the first year of the workshop track, we especially welcome proposals from first-time organizers and warmly encourage reaching out with any questions before submitting.
 
-<!-- * **Workshop title and acronym**
-* **Abstract**, outlining the aim and scope of the workshop
-* **Proposed format** (e.g., research-oriented, hands-on exercises, hot talks)
-* **Planned activities** (e.g., invited speakers, panels)
-* [if applicable] **Expected number of submissions and paper length** (in IEEE conference proceedings format), with justification
-* **Expected number of attendees**, with justification
-* **Program chair(s)**, and if available, tentative program and organizing committees
-* **Biographical sketch** for each main organizer, describing relevant qualifications in research and conference/workshop organizing experience
-* **Past history of the workshop**, if any, including: (1) venues and numbers of submissions, accepted papers, and attendees for the most recent editions; (2) the website for the most recent edition; (3) available statistics on diversity (e.g., among the organizing team, submitting, publishing, and presenting authors, program committee members)
-* **Plan for the review process** (e.g., review load, revisions or shepherding)
-* **Plan for the publication of proceedings**
-* **Appendix** (does not count toward the page limit): a draft CfP articulating the scope and topics covered by the workshop, as close as possible to the final version. The CfP must include "AI Guidelines" consistent with the main conference's CfP, and we strongly encourage referencing or including the main conference's expectations on "Open Science" and "Proactive Prevention of Harm."
-
-Organizers need to closely follow these rules and precisely adhere to the format guidelines. Failure to comply with these rules is grounds for rejection. -->
-
-<!-- ## Reviewing and selection process -->
-
-<!-- * **Quality and completeness**: The quality of the proposal, including the draft call for participation and the organizational plan, will be considered.
-
-* **Topic fit and novelty**: The timeliness, suitability, interest, and relevance of the topic to the SaTML community will all be considered, as will its novelty and differentiation from other workshops in the security and privacy landscape.
-
-* **Feasibility**: The anticipated attendance level and the organizers' experience in running successful technical events will be considered — for workshops that have run in prior years, this includes organization and participation statistics, community reception, and diversity of participants and organizers.
-
-We especially encourage proposals that highlight positive societal impact, including workshops that engage underserved or disadvantaged communities within the trustworthy and secure machine learning landscape. -->
-
 ## Contact and help
 
-If you have any questions, please email the workshop chairs at **TBD**.
+If you have any questions, please email the workshop chairs at [workshops@satml.org](mailto:workshops@satml.org).
