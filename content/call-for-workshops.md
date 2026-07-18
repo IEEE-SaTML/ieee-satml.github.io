@@ -36,7 +36,7 @@ Submissions and all related communication with organizers will be handled throug
 
 - **Submission site:** [TBD](#)
 
-- **Submission format:** We ask that proposals be prepared as a PDF using the [workshop template file]({{SITEURL}}/{{THEME_STATIC_DIR}}/data/workshops.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the workshop's scope and format, planned activities, expected submissions and attendance, the organizing team and their experience, past history of the workshop (if any), and plans for reviewing and publication. We encourage keeping submissions concise, with a maximum length of three pages, to allow for a swift and efficient review process.
+- **Submission format:** We ask that proposals be prepared as a PDF using the [workshop template file](/data/workshops.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the workshop's scope and format, planned activities, expected submissions and attendance, the organizing team and their experience, past history of the workshop (if any), and plans for reviewing and publication. We encourage keeping submissions concise, with a maximum length of three pages, to allow for a swift and efficient review process.
 
 - **Reviewing and selection process:** Proposals will be considered based on the quality and completeness of the submission, the fit and novelty of the topic for the SaTML community, and the feasibility of the plan, including the organizers' relevant experience. As this is the first year of the workshop track, we especially welcome proposals from first-time organizers and warmly encourage reaching out with any questions before submitting.
 
