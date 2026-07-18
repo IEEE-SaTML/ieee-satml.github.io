@@ -24,11 +24,11 @@ Organizers may decide whether to have published proceedings, which can be publis
 
 The workshop track includes the following dates:
 
-* Workshop proposal deadline: **Fri, Oct 9, 2026** <!-- ~2 weeks after main paper submission deadline -->
-* Decision notification: **Fri, Oct 30, 2026** <!-- 3 weeks -->
+* Workshop proposal deadline: **Fri, Aug 28, 2026**
+* Decision notification: **Fri, Sep 18, 2026**
 * Conference dates: **Early May, 2027**
 
-If a workshop includes its own call for papers, organizers should plan their own submission and review timeline. We recommend having a CFP and website live shortly after notification, papers submitted by early February, and any camera-ready versions finalized a few weeks before the conference, allowing time for review and revisions.
+If a workshop includes its own call for papers, organizers should plan their submission and review timeline with the following dates in mind. We recommend having the CFP and website live shortly after notification, with paper submissions due no later than Dec 18, 2026, acceptance notifications sent no later than Jan 31, 2027, and camera-ready papers intended for inclusion in the conference proceedings submitted no later than Mar 31, 2027.
 
 ## Proposal submission
 
