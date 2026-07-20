@@ -79,6 +79,13 @@ li p {
   margin: 15px 0;
 }
 
+/* News dates */
+
+.news-date {
+  font-size: 14px !important;
+  color: #7a7a7a !important;
+}
+
 /* Links */
 
 section.section .container a {
