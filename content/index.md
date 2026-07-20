@@ -13,8 +13,8 @@ menu_title: Home
 - The list of accepted papers for SaTML 2026 is [now available](/accepted-papers). Congratulations to all authors!
 - There will be four [Competitions](/competitions) at SaTML 2026. We invite you to participate!
 - We updated the [Call for Papers](/call-for-papers) with a statement about LLM usage in submissions.
-- The [Submission Site](https://hotcrp.satml.org) for papers is now finally online and open.
-- The [Call for Papers](/call-for-papers) and the [Call for Competitions](/call-for-competitions) are now available. -->
+- The [Submission Site](https://hotcrp.satml.org) for papers is now finally online and open.-->
+- The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available.
 - The website for SaTML 2027 is now online!
 
 ## Important dates

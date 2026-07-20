@@ -11,16 +11,24 @@ We seek proposals with a clear scientific question in areas where machine learni
 
 Our focus is on **data science competitions** where participants will compete to achieve the highest score on a relevant machine learning task. These tasks will be based on well-defined problems and corresponding data sets provided by the competition organizers.
 
+## Important dates
+
+The competition track includes the following dates:
+
+* Competition proposal deadline: **Fri, Aug 28, 2026**
+* Acceptance notification: **Fri, Sep 18, 2026**
+* Competition completed: **no later than Mar 31, 2027**
+* Competition track (during the conference): **Early May, 2027 (Exact Dates TBC)**
+
+Competition organizers should propose a timeline for running the competition to ensure participants have enough time to contribute high-quality entries.
+
 ## Proposal submission
 
-Further details regarding competition proposals, submission requirements, and important dates will be announced soon.
+Submissions and all related communication with organizers will be handled through a dedicated HotCRP instance. Please submit your proposal by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-<!-- 
+- **Submission site:** [TBD](#)
 
-
-## Proposal submission
-
-Proposals for competitions at SaTML must be submitted via email to [pcchairs@satml.org](mailto:pcchairs@satml.org). They should be concise, with a **maximum length of three pages**, to ensure a swift and efficient review process.
+- **Submission format:** We ask that proposals be prepared as a PDF. We encourage keeping submissions concise, with a **maximum length of three pages**, to allow for a swift and efficient review process.
 
 ## Reviewing and selection process
 
@@ -32,16 +40,6 @@ Proposals will be evaluated based on factors such as:
 
 * **Logistics**: The competition schedule, plan for attracting competition participants, and experience and diversity of the organizers will all be considered. The specific plan for attracting competition participants, including groups under-represented at SaTML, will be important during the review process.
 
-## Important dates
-
-The competition track includes the following dates:
-
-* Competition proposal deadline: **TBD**
-* Acceptance notification: **TBD**
-* Competition track (during the conference): **TBD**
-
-Competition organizers should propose a timeline for running the competition to ensure participants have enough time to contribute high-quality entries. It is recommended that competitions be completed by **TBD** (one month prior to the SaTML conference) at the absolute latest.
-
 ## Contact and help
 
-Competition organizers who require help or suggestions regarding competition platforms for running the competition can contact [pcchairs@satml.org](mailto:pcchairs@satml.org) for advice. This call for competitions is adapted from the NeurIPS competition track. -->
+Competition organizers who require help or suggestions regarding competition platforms for running the competition can contact [pcchairs@satml.org](mailto:pcchairs@satml.org) for advice. This call for competitions is adapted from the NeurIPS competition track.

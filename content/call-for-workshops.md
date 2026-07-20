@@ -12,21 +12,13 @@ Workshops should address timely and relevant themes that advance the scientific 
 
 Workshops may take a variety of formats, including invited talks, panel discussions, paper presentations, interactive sessions, tutorials, or community-building activities. We welcome proposals that foster interdisciplinary exchange, encourage broad participation, and help shape future research agendas.
 
-## Organization and logistics
-
-Workshop organizers will be responsible for defining the workshop format, selecting speakers or contributions, and coordinating the workshop program. Accepted workshops will be held on a dedicated workshop day.
-
-Attendees will be able to register for a workshop as part of their main conference registration, or on its own if they only wish to attend the workshop. On our end, we'll take care of the room and catering (coffee break and lunch) for each workshop's day; anything beyond that is for the organizers to arrange.
-
-Organizers may decide whether to have published proceedings, which can be published alongside the main conference proceedings.
-
 ## Important dates
 
 The workshop track includes the following dates:
 
 * Workshop proposal deadline: **Fri, Aug 28, 2026**
-* Decision notification: **Fri, Sep 18, 2026**
-* Conference dates: **Early May, 2027**
+* Acceptance notification: **Fri, Sep 18, 2026**
+* Workshop track (during the conference): **Early May, 2027 (Exact Dates TBC)**
 
 If a workshop includes its own call for papers, organizers should plan their submission and review timeline with the following dates in mind. We recommend having the CFP and website live shortly after notification, with paper submissions due no later than Dec 18, 2026, acceptance notifications sent no later than Jan 31, 2027, and camera-ready papers intended for inclusion in the conference proceedings submitted no later than Mar 31, 2027.
 
@@ -34,11 +26,19 @@ If a workshop includes its own call for papers, organizers should plan their sub
 
 Submissions and all related communication with organizers will be handled through a dedicated HotCRP instance. Please submit your proposal by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-- **Submission site:** [workshops.satml.org](https://workshops.satml.org)
+- **Submission site:** [TBD](#)
 
-- **Submission format:** We ask that proposals be prepared as a PDF using the [workshop template file](/data/workshops.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the workshop's scope and format, planned activities, expected submissions and attendance, the organizing team and their experience, past history of the workshop (if any), and plans for reviewing and publication. We encourage keeping submissions concise, with a maximum length of three pages, to allow for a swift and efficient review process.
+- **Submission format:** We ask that proposals be prepared as a PDF using the [workshop template file](/data/workshops.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the workshop's scope and format, planned activities, expected submissions and attendance, the organizing team and their experience, past history of the workshop (if any), and plans for reviewing and publication. We encourage keeping submissions concise, with a **maximum length of three pages**, to allow for a swift and efficient review process.
 
 - **Reviewing and selection process:** Proposals will be considered based on the quality and completeness of the submission, the fit and novelty of the topic for the SaTML community, and the feasibility of the plan, including the organizers' relevant experience. As this is the first year of the workshop track, we especially welcome proposals from first-time organizers and warmly encourage reaching out with any questions before submitting.
+
+## Organization and logistics
+
+Workshop organizers will be responsible for defining the workshop format, selecting speakers or contributions, and coordinating the workshop program. Accepted workshops will be held on a dedicated workshop day.
+
+Attendees will be able to register for a workshop as part of their main conference registration, or on its own if they only wish to attend the workshop. On our end, we'll take care of the room and catering (coffee break and lunch) for each workshop's day; anything beyond that is for the organizers to arrange.
+
+Organizers may decide whether to have published proceedings, which can be published alongside the main conference proceedings.
 
 ## Contact and help
 
