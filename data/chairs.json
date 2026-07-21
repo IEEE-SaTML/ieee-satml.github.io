@@ -20,6 +20,7 @@
         [ "Gautam Kamath", "University of Waterloo & Vector Institute" ],
     "Web chairs": [
         [ "Miguel Faisco", "Reykjavik University" ],
+        [ "Stefan Czybik", "BIFOLD & TU Berlin"], 
         [ "Thorsten Eisenhofer", "CISPA Helmholtz Center for Information Security" ]
     ]
 }
