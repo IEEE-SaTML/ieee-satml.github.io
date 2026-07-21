@@ -5,7 +5,7 @@ menu_title: Call for Competitions
 
 ## Competition track
 
-The SaTML 2027 conference will feature a competition track. We invite proposals for competitions on topics that advance trustworthy and secure machine learning. The results of these competitions will be presented and discussed by participants and organizers at the conference. Further details on the organization will be released in the following months.
+The SaTML 2027 conference will feature a competition track. We invite proposals for competitions on topics that advance trustworthy and secure machine learning. The results of these competitions will be presented and discussed by participants and organizers at the conference.
 
 We seek proposals with a clear scientific question in areas where machine learning can advance scientific, technological, or business domains. We especially encourage submissions that demonstrate a positive societal impact, particularly those using AI to support disadvantaged communities.
 
