@@ -18,7 +18,7 @@ The workshop track includes the following dates:
 
 * Workshop proposal deadline: **Fri, Aug 28, 2026**
 * Acceptance notification: **Fri, Sep 18, 2026**
-* Workshop track (during the conference): **Early May, 2027 (Exact Dates TBC)**
+* Workshop track: **Early May, 2027 (Exact Dates TBC)**
 
 If a workshop includes its own call for papers, organizers should plan their submission and review timeline with the following dates in mind. We recommend having the CFP and website live shortly after notification, with paper submissions due no later than Dec 18, 2026, acceptance notifications sent no later than Jan 31, 2027, and camera-ready papers intended for inclusion in the conference proceedings submitted no later than Mar 31, 2027.
 
@@ -34,7 +34,7 @@ Submissions and all related communication with organizers will be handled throug
 
 ## Organization and logistics
 
-Workshop organizers will be responsible for defining the workshop format, selecting speakers or contributions, and coordinating the workshop program. Accepted workshops will be held on a dedicated workshop day.
+Workshop organizers will be responsible for defining the workshop format, selecting speakers or contributions, and coordinating the workshop program. Accepted workshops will be held on a dedicated workshop day. We plan workshops to be half-day, but there is the option to discuss longer formats.
 
 Attendees will be able to register for a workshop as part of their main conference registration, or on its own if they only wish to attend the workshop. On our end, we'll take care of the room and catering (coffee break and lunch) for each workshop's day; anything beyond that is for the organizers to arrange.
 

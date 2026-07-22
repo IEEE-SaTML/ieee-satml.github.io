@@ -5,7 +5,7 @@ menu_title: Home
 
 ## News & Updates
 
-- The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 21, 2026)</span>
+- The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 22, 2026)</span>
 - The website for SaTML 2027 is now online! <span class="news-date">(Jun 29, 2026)</span>
 
 
