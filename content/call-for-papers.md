@@ -23,13 +23,14 @@ IEEE SaTML expands upon the theoretical and practical understandings of vulnerab
 - Early reject notification: **Wed, Nov 4, 2026**
 - Interactive discussion & revision phase: **Wed, Nov 25, 2026 - Wed, Dec 9, 2026**
 - Decision notification: **Wed, Dec 16, 2026**
+- Revisions due: **Thu, Jan 21, 2027**
 - Conference dates: **Early May, 2027**
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 
 ## Submission information
 
-SaTML 2027 will continue to welcome research papers, systematization of knowledge papers, and position papers. The full call for papers, with complete submission requirements, will be announced soon.
+SaTML 2027 will continue to welcome research papers, systematization of knowledge papers, and position papers. We expect to publish the full call for papers, with complete submission requirements, by mid-August.
 
 <!-- ## Submission categories
 
