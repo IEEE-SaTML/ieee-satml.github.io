@@ -26,7 +26,7 @@ If a workshop includes its own call for papers, organizers should plan their sub
 
 Submissions and all related communication with organizers will be handled through a dedicated HotCRP instance. Please submit your proposal by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-- **Submission site:** [TBD](#)
+- **Submission site:** [proposals.satml.org](https://proposals.satml.org)
 
 - **Submission format:** We ask that proposals be prepared as a PDF using the [workshop template file](/data/workshops.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the workshop's scope and format, planned activities, expected submissions and attendance, the organizing team and their experience, past history of the workshop (if any), and plans for reviewing and publication. We encourage keeping submissions concise, with a **maximum length of three pages**, to allow for a swift and efficient review process.
 

@@ -26,7 +26,7 @@ Competition organizers should propose a timeline for running the competition to 
 
 Submissions and all related communication with organizers will be handled through a dedicated HotCRP instance. Please submit your proposal by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-- **Submission site:** [TBD](#)
+- **Submission site:** [proposals.satml.org](https://proposals.satml.org)
 
 - **Submission format:** We ask that proposals be prepared as a PDF using the [competition template file](/data/competitions.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the competition’s motivation and task, evaluation protocol, organization and logistics, and the organizing team and their experience. We encourage keeping submissions concise, with a **maximum length of three pages**, to allow for a swift and efficient review process.
 
