@@ -10,7 +10,7 @@ We have introduced some new additions compared to last year:
 - Introduced Abstract Registration Deadline
 - Requirement to release artifacts at submission, unless a valid reason is provided
 - Revised review process: introduced initial review phase (inspired by PETS), and Area Chairs to support the review process
-- Requirement for ORCID and Author Certification by the abstract registration deadline.
+- Requirement for ORCID and Author Certification by the abstract registration deadline
 - Added section in CfP “Planning for growth in submissions”
 - Introduced clarifications on: scope of SoK papers, attendance policy, conflict of interest policy
 - “Best paper award” is now called “Distinguished paper award”; the “Major Revision” outcome is now called “Revision”
