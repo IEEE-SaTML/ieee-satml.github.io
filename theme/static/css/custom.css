@@ -92,3 +92,27 @@ section.section .container a {
   color: teal !important;
   text-decoration: underline !important;
 }
+
+/* Checklist */
+
+ul.checklist {
+  list-style: none !important;
+  margin-left: 0.5rem !important;
+  margin-top: 0.5rem !important;
+}
+
+ul.checklist li {
+  margin: 0 0 0.35rem 0 !important;
+}
+
+ul.checklist label.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+ul.checklist label.checkbox input[type="checkbox"] {
+  flex: 0 0 auto;
+  margin-top: 0.28rem;
+  accent-color: teal;
+}

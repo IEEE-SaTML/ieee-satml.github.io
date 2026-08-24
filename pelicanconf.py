@@ -36,6 +36,9 @@ SOCIAL = {
 PATH = "content"
 THEME = 'theme'
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['checklist']  # renders markdown "- [ ] item" as real checkboxes
+
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_DATE = 'fs'
 
