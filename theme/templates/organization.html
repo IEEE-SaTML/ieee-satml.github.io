@@ -64,6 +64,24 @@
               <tr><td colspan="3"><br></td></tr>
             {% endif %}
 
+            {# Area Chairs #}
+            {% set ac_items = AREA_CHAIRS.items() | list %}
+            {% if ac_items %}
+              <tr>
+                <td><strong>Area chairs</strong></td>
+                <td>{{ ac_items[0][0] }}</td>
+                <td>{{ ac_items[0][1] }}</td>
+              </tr>
+              {% for member in ac_items[1:] %}
+                <tr>
+                  <td></td>
+                  <td>{{ member[0] }}</td>
+                  <td>{{ member[1] }}</td>
+                </tr>
+              {% endfor %}
+              <tr><td colspan="3"><br></td></tr>
+            {% endif %}
+
             {# Program Committee #}
             {% set pc_items = PROGRAM_COMMITTEE.items() | list %}
             {% if pc_items %}

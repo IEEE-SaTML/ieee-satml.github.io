@@ -11,6 +11,7 @@ CONFERENCE_DATE = "Early May, 2027"
 CHAIRS = json.loads(Path('data/chairs.json').read_text())
 STEERING_COMMITTEE = json.loads(Path('data/steering.json').read_text())
 PROGRAM_COMMITTEE = json.loads(Path('data/pc.json').read_text())
+AREA_CHAIRS = json.loads(Path('data/area-chairs.json').read_text())
 
 PAST_EDITIONS = json.loads(Path('data/past-editions.json').read_text())
 PAPERS = json.loads(Path('data/papers.json').read_text())
