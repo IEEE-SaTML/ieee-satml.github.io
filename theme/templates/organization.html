@@ -5,6 +5,13 @@
     .organization strong {
         color: brown;
     }
+    .organization .preliminary {
+        display: block;
+        margin-top: -0.1rem;
+        font-size: 0.85em;
+        line-height: 1.2;
+        color: #7a7a7a;
+    }
     * {
       --bulma-table-cell-border-style: none;
       --bulma-content-table-cell-border: 0px none var(--bulma-border);
@@ -74,7 +81,7 @@
               </tr>
               {% for member in ac_items[1:] %}
                 <tr>
-                  <td></td>
+                  <td>{% if loop.first %}<span class="preliminary">(preliminary)</span>{% endif %}</td>
                   <td>{{ member[0] }}</td>
                   <td>{{ member[1] }}</td>
                 </tr>
@@ -92,7 +99,7 @@
               </tr>
               {% for name, affiliation in pc_items[1:] %}
                 <tr>
-                  <td></td>
+                  <td>{% if loop.first %}<span class="preliminary">(preliminary)</span>{% endif %}</td>
                   <td>{{ name }}</td>
                   <td>{{ affiliation }}</td>
                 </tr>
