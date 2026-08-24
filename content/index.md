@@ -18,10 +18,10 @@ menu_title: Home
 - Early reject notification: **Wed, Nov 4, 2026**  
 - Interactive discussion & revision phase: **Wed, Nov 25, 2026 \- Wed, Dec 9, 2026**  
 - Decision notification: **Wed, Dec 16, 2026**  
-- Final artifacts (of accepted papers) on Zenodo due by: **Thu, Jan 14, 2027**   
+    - Final artifacts (of accepted papers) on Zenodo due by: **Thu, Jan 14, 2027**   
 - Revisions due by: **Thu, Jan 21, 2027**  
 - Revision notification: **Mon,** **Feb 1st, 2027**  
-- Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline  
+    - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline  
 - Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**  
 - Conference dates: **Early May, 2027**
 
