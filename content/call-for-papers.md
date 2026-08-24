@@ -44,7 +44,7 @@ SaTML is the home for work on safe and trustworthy machine learning, theoretical
 The main dates for SaTML 2027 are listed below. Please also see the "Planning for growth in submissions" section, which describes the circumstances under which this timeline may need to be adjusted.
 
 - Mandatory abstract registration deadline: **Tue, Sep 22, 2026**
-    - tentative title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration)
+    - Tentative title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration)
 - Paper submission deadline: **Tue, Sep 29, 2026**
     - Anonymized artifact(s) updated by: **Fri, Oct 2, 2026**  
 - Early reject notification: **Wed, Nov 4, 2026**  
