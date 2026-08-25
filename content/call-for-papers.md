@@ -1,5 +1,5 @@
 title: Call for Papers
-template: page
+template: cfp
 menu_order: 100
 menu_title: Call for Papers
 

@@ -1,0 +1,190 @@
+{% extends "base.html" %}
+
+{# Call for Papers template: page.html plus a sticky "On this page" rail on
+   wide screens. Everything the rail needs lives in this one file:
+
+   - The page body is split into sections at each <h2>, exactly like
+     page.html.
+   - Each section title is turned into an anchor id (a slug of the title,
+     see the macro below). The id is attached to the rendered <h2> and
+     linked from the rail.
+   - The <style> and <script> below handle the layout, the look, and
+     highlighting the section currently being read.
+
+   On screens narrower than 1216px the rail is hidden and the page renders
+   exactly like any other page. #}
+
+{# Turns a section title into an anchor id: "Usage of LLMs" ->
+   "usage-of-llms". Only handles what occurs in CfP titles: letters,
+   spaces, and "&" (dropped, then left-over double spaces collapsed). #}
+{% macro slug(title) -%}
+  {{- title|striptags|lower|replace('&', ' ')|replace('   ', ' ')|replace('  ', ' ')|trim|replace(' ', '-') -}}
+{%- endmacro %}
+
+{% block content %}
+
+{% set preamble = page.content.split('<h2>')[0] %}
+{% set sections = page.content.split('<h2>')[1:] %}
+
+<style>
+  /* Clicking a rail link glides to the section instead of jumping... */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* ...and lands with some air above the heading. */
+  .cfp-body h2 {
+    scroll-margin-top: 1.5rem;
+  }
+
+  /* Rail and content side by side; the rail column only exists on wide
+     screens. */
+  .cfp-layout {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .cfp-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .toc-rail {
+    display: none;
+  }
+
+  @media screen and (min-width: 1216px) {
+    .toc-rail {
+      display: block;
+      flex: 0 0 20rem;
+      /* Sticks to the top edge while the content scrolls. */
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      /* Left padding lines the rail up with the "IEEE SaTML" navbar brand
+         (4rem navbar padding + 0.75rem navbar-item padding). Top padding
+         lines the label up with the "Call for Papers" <h1>. */
+      padding: 2.2rem 1rem 2rem 4.75rem;
+      font-size: 0.9rem;
+    }
+
+    /* The containers normally center themselves in the space next to the
+       rail, which on a wide screen leaves a big gap between rail and text.
+       Pull the content over to the rail instead (the right margin stays
+       auto, so leftover space all ends up on the right). */
+    .cfp-body .container {
+      margin-left: 0;
+    }
+  }
+
+  .toc-rail-label {
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+  }
+
+  .toc-rail ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #ededed;
+  }
+
+  .toc-rail li {
+    margin: 0;
+  }
+
+  /* Same treatment as the navbar links: quiet grey, darken on hover.
+     Each link paints its own segment of the left border so the one being
+     read can accent it. */
+  .toc-rail a {
+    display: block;
+    padding: 0.22rem 0 0.22rem 0.9rem;
+    margin-left: -1px;
+    border-left: 1px solid transparent;
+    color: hsl(0, 0%, 45%);
+    text-decoration: none;
+    font-weight: 420;
+  }
+
+  .toc-rail a:hover {
+    color: hsl(0, 0%, 10%);
+  }
+
+  /* The section currently on screen, set by the script below. Brown to
+     match the section headings. */
+  .toc-rail a.is-active {
+    color: brown;
+    border-left-color: brown;
+  }
+</style>
+
+<div class="cfp-layout">
+
+  <aside class="toc-rail">
+    <nav aria-label="On this page">
+      <p class="toc-rail-label">On this page</p>
+      <ul>
+        {% for section in sections %}
+        {% set title = section.split('</h2>')[0] %}
+        <li><a href="#{{ slug(title) }}">{{ title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <div class="cfp-body">
+    {# From here on this is page.html, plus the id on each <h2>. #}
+    {% for section in sections %}
+    {% set title = section.split('</h2>')[0] %}
+    <section class="section">
+      <div class="container">
+        <div class="content">
+          {% if loop.first %}
+          <h1>{{ page.title }}</h1>
+          {{ preamble }}
+          {% endif %}
+          <h2 id="{{ slug(title) }}">{{ title }}</h2>
+          {{ section.split('</h2>')[1] }}
+        </div>
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+
+</div>
+
+<script>
+  // Highlight the rail link of the section currently being read: the last
+  // heading that has scrolled up past the top quarter of the window.
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = Array.from(document.querySelectorAll('.toc-rail a[href^="#"]'));
+    const headings = links
+      .map(a => document.getElementById(decodeURIComponent(a.hash.slice(1))))
+      .filter(Boolean);
+    if (!headings.length) return;
+    let active = null;
+
+    const update = () => {
+      let current = headings[0];
+      for (const h of headings) {
+        if (h.getBoundingClientRect().top <= window.innerHeight / 4) {
+          current = h;
+        } else {
+          break;
+        }
+      }
+      const link = links[headings.indexOf(current)];
+      if (link !== active) {
+        if (active) active.classList.remove('is-active');
+        link.classList.add('is-active');
+        active = link;
+      }
+    };
+
+    document.addEventListener('scroll', update, { passive: true });
+    update();
+  });
+</script>
+
+{% endblock %}
