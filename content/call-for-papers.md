@@ -44,7 +44,7 @@ SaTML is the home for work on safe and trustworthy machine learning, theoretical
 The main dates for SaTML 2027 are listed below. Please also see the "Planning for growth in submissions" section, which describes the circumstances under which this timeline may need to be adjusted.
 
 - Mandatory abstract registration deadline: **Tue, Sep 22, 2026**
-    - Tentative title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration)
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title)
 - Paper submission deadline: **Tue, Sep 29, 2026**
     - Anonymized artifact(s) updated by: **Fri, Oct 2, 2026**  
 - Early reject notification: **Wed, Nov 4, 2026**  
@@ -71,7 +71,8 @@ We solicit research papers, systematization of knowledge papers, and position pa
 * **Position Papers:** These papers should cover broader issues and visions related to secure and trustworthy machine learning, including open challenges, technical perspectives, educational aspects, societal impact, or notable research results. Submissions must be very well-argued and consist of 5 to 12 pages of body text.  
     * *Position papers must include "Position:" at the beginning of their title.*
 
-⚠️”**New Insights” HotCRP section**: SoK and Position paper submissions will be required to summarize their ‘new insights’ in a dedicated hotcrp submission field (e.g., 300 words), to support the initial review phase. 
+⚠️ **"New Insights” HotCRP section**: SoK and Position paper submissions will be required to summarize their "new insights" in a dedicated HotCRP submission field (e.g., 300 words), to support the initial review phase. 
+For SoK papers, this field should highlight the novelty and significance of the insights derived from the systematization. For Position papers, it should summarize the key position(s), the prior assumptions they challenge, and the impact they may have on the community.
 
 There is no limit on references and appendices. However, reviewers are not required to read appendices, and papers are assessed on the body text. Do not rely on an appendix to carry a claim that is central to the paper.
 
@@ -79,7 +80,7 @@ There is no limit on references and appendices. However, reviewers are not requi
 
 All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline. The submission site is available here: **Submission Link TBC**
 
-* **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. Authors are not allowed to hold an active abstract registration at SaTML and at another venue at the same time. If the paper is already under review elsewhere, you may still register the abstract at SaTML, but you may only submit it if that other submission has been resolved (rejected or withdrawn) by the SaTML paper submission deadline.  
+* **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. If the paper is already under review elsewhere, authors may still register the abstract at SaTML, but they must not submit the full paper unless that other submission has been resolved (rejected or withdrawn) by the SaTML paper submission deadline. Violations of this policy count as "double submission" and will be reported to IEEE.   
 
 * **ORCID:** All authors MUST provide their ORCIDs through the profile page on HotCRP by the abstract registration deadline.   
 
@@ -87,7 +88,7 @@ All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the dead
 
 * **Double-blind review:** SaTML follows a double-blind reviewing process. Submitted papers *must be properly anonymized\!* They must (a) omit any reference to the authors' names or their institutions, and (b) cite the authors' own related work in the third person. It is important, however, to ensure that efforts to maintain anonymity do not compromise the quality of the submission or complicate the review process. Essential background references, for example, should not be omitted or anonymized. Even if a paper is anonymised, it should not make statements such as "our artifacts are already available as open source tools", as it may deanonymize them. In general, any material referenced in the paper should be anonymized, and de-anonymization through additional material such as artifacts are grounds for rejection. Please see this [double-blind FAQ](https://secdev.ieee.org/2019/double-blind-faq/) for the answers to many common concerns about double-blind reviewing.   
 
-* **Preprint/disclosure policy:** Authors may choose to give talks about their work, post a preprint of the paper online, and disclose security vulnerabilities to vendors. However, authors should take care of avoiding behaviors that intentionally aim to inform reviewers of their identity (e.g., publicly advertising their work on social media), as such behaviors may lead to desk rejection of the paper. If in doubt, the authors should contact the PC chairs.   
+* **Preprint/disclosure policy:** Authors may choose to give talks about their work, post a preprint of the paper online, and disclose security vulnerabilities to vendors. However, authors should take care of avoiding behaviors that intentionally aim to inform reviewers of their identity (e.g., publicly advertising their work on social media), as such behaviors may lead to desk rejection of the paper. If in doubt, the authors should contact the PC chairs at [pcchairs@satml.org](mailto:pcchairs@satml.org).   
 
 * **Previous reviews:** For papers that were previously rejected from another conference, authors *must append prior reviews* to their submission along with a description of how those reviews were addressed in the submission. The reviews must be anonymized, but otherwise unedited and complete. Authors are only required to include reviews from the last time the paper was submitted. Authors who try to circumvent this rule (e.g., by changing the title of the paper without significantly changing the contents) may have their papers rejected without further consideration, at the discretion of the PC chairs.  
 
@@ -129,7 +130,7 @@ This year, we are also appointing **Area Chairs** to help manage the submissions
 * fall outside the scope and areas of interest listed above;  
 * are clearly below the quality standard expected at SaTML.
 
-The PC Chairs will make the final decisions on desk rejections after initial review. While we recognise that a decision taken without full reviews is disappointing for authors, we aim to provide a justification for authors to improve towards passing the bar next time. We consider initial review necessary: submission numbers continue to grow, and reviewer effort spent on papers with no realistic path to acceptance is effort taken away from the papers that have one. Authors who are uncertain whether their work falls within scope are welcome to contact the PC Chairs before the submission deadline.
+The PC Chairs will make the final decisions on desk rejections after initial review. While we recognise that a decision taken without full reviews is disappointing for authors, we aim to provide a justification for authors to improve towards passing the bar next time. We consider initial review necessary: submission numbers continue to grow, and reviewer effort spent on papers with no realistic path to acceptance is effort taken away from the papers that have one. Authors who are uncertain whether their work falls within scope are welcome to contact the PC Chairs at [pcchairs@satml.org](mailto:pcchairs@satml.org) before the abstract registration deadline.
 
 **Two review rounds:** Papers passing initial review are initially assigned two reviewers (Round 1). If the PC Chairs conclude, on the basis of these initial reviews, that there is no path to acceptance at SaTML, the paper is early-rejected: no further reviews are assigned and the authors are notified that the paper will not be included in the conference. Then there will be a second review round (Round 2), after which the authors will have the chance to interactively discuss with reviewers (see “Author discussion phase” below).
 
@@ -143,7 +144,7 @@ SaTML will have a discussion period during which authors can exchange messages w
 
 For each submission, one of the following decisions will be made: 
 
-* **Accept**: Papers in this category will be accepted for publication in the proceedings and presentation at the conference. All accepted papers must submit a camera-ready copy incorporating reviewer feedback by the camera ready deadline. The papers will be published in the IEEE Computer Society Digital Library, and authors are encouraged to also make them freely available via arXiv.  
+* **Accept**: Papers in this category will be accepted for publication in the proceedings and presentation at the conference. All accepted papers must submit a camera-ready copy by the corresponding deadline. The papers will be published in the IEEE Computer Society Digital Library, and authors are encouraged to also make them freely available via arXiv.  
     * **Note:** Acceptance is conditional on artifact availability on [zenodo.org](http://zenodo.org) (see “Open Science”), or a valid justification for why this is not possible.
 
 * **Revision**: A limited number of papers will be invited to submit a revision; such papers will receive a detailed summary of expectations for revision, in addition to standard reviewer comments. Requested changes may be textual, experimental, or a combination of both. Authors will have a limited time window to submit a revision after the notification is sent. The authors should clearly explain in a well-marked appendix how the revisions address the comments of the reviewers. The revised paper will then be re-evaluated, and either accepted or rejected. We will assign the same set of reviewers. Authors can choose to withdraw their paper and not submit a revision.  
@@ -172,7 +173,7 @@ Mandatory conflicts of interest to declare include the following people:
 
 For any “Other” declared conflict, authors are required to explain the nature of the conflict to Program Chairs and the Area Chairs. The PC Chairs reserve the right to request further explanation and can remove non-mandatory conflicts at their discretion.
 
-Program-committee members who have a genuine conflict of interest with a paper, including the Program Chairs, will be excluded from evaluation and discussion of that paper. When a Program Chair is conflicted, the other Co-Chair will be responsible for managing that paper. When both Program Chairs are in conflict, a committee member will be appointed to handle the paper. 
+Program-committee members who have a genuine conflict of interest with a paper, including the Program Chairs, will be excluded from evaluation and discussion of that paper. When a Program Chair is conflicted, the other Co-Chair will be responsible for managing that paper. When both Program Chairs are in conflict, an Area Chair will be appointed to handle the paper. 
 
 A Special Note on “Fake Conflicts”: Declaring conflicts of interest to avoid certain (otherwise non-conflicting) PC members is not allowed and can constitute grounds for rejection. The PC Chairs reserve the right to request additional explanation for any declared conflict. If authors have concerns about the fair treatment of their submissions, they should instead contact the chairs and provide convincing arguments for any special consideration that they are requesting.
 
