@@ -17,10 +17,12 @@ python -m pip install -r requirements.txt
 
 To preview the site locally with automatic reloading, run:
 ```
-make devserver
+make devserver RELATIVE=1
 ```
 
 Once it's running, head over to http://localhost:8000 to preview the site.
+
+`RELATIVE=1` makes all generated links relative to the current page instead of absolute against `SITEURL` (`https://satml.org/`) - without it, every link on the local preview would take you to the live site.
 
 ## Structure
 
