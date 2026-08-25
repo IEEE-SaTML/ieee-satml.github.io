@@ -157,33 +157,30 @@ The conference requires cooperation from both authors and program committee memb
 
 Mandatory conflicts of interest to declare include the following people:
 
-#### Advisor/Advisee  
-
+**Advisor/Advisee**
   * who was the advisor or advisee of an author at any time in the past  
 
-#### Recent Collaboration  
-
+**Recent Collaboration**
   * with whom an author has published within the past 12 months  
   * with whom an author had more than one publication in common within the past 24 months  
   * with whom an author has had an active research collaboration within the past 12 months (including work-in-progress papers and funding applications)  
 
-#### Institutional  
+**Institutional**
   * who shares an institutional affiliation with an author at the time of submission or within the 12 months before that (including secondary affiliations and consulting work)  
 
-#### Financial  
+**Financial**  
   * who is a co-PI or holds a sub-award on the same grant or funding of an author in the last 12 months  
   * who is affiliated with a party that provided research funding to an author in the last 12 months, including unrestricted gifts   
 
-#### Personal  
+**Personal**
   * with whom you have a close personal relationship
 
-#### Other
 
-For any “Other” declared conflict, authors are required to explain the nature of the conflict to Program Chairs and the Area Chairs. The PC Chairs reserve the right to request further explanation and can remove non-mandatory conflicts at their discretion.
+For any “**Other**” declared conflict, authors are required to explain the nature of the conflict to Program Chairs and the Area Chairs. The PC Chairs reserve the right to request further explanation and can remove non-mandatory conflicts at their discretion.
 
 Program-committee members who have a genuine conflict of interest with a paper, including the Program and Area Chairs, will be excluded from evaluation and discussion of that paper. When a Program Chair is conflicted, the other Co-Chair will be responsible for managing that paper. When both Program Chairs are in conflict, an Area Chair will be appointed to handle the paper. 
 
-A Special Note on “Fake Conflicts”: Declaring conflicts of interest to avoid certain (otherwise non-conflicting) PC members is not allowed and can constitute grounds for rejection. The PC Chairs reserve the right to request additional explanation for any declared conflict. If authors have concerns about the fair treatment of their submissions, they should instead contact the chairs and provide convincing arguments for any special consideration that they are requesting.
+⚠️ **A Special Note on “Fake Conflicts”**: Declaring conflicts of interest to avoid certain (otherwise non-conflicting) PC members is not allowed and can constitute grounds for rejection. The PC Chairs reserve the right to request additional explanation for any declared conflict. If authors have concerns about the fair treatment of their submissions, they should instead contact the chairs and provide convincing arguments for any special consideration that they are requesting.
 
 Area Chairs can author or co-author submissions. Program Chairs are not allowed to be authors or co-authors of any submissions. 
 
