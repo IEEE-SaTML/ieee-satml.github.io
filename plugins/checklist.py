@@ -1,4 +1,4 @@
-"""Turn markdown task lists into real, tickable checkboxes.
+"""Turn markdown task lists into checkbox-style bullets.
 
 Write plain markdown in the content files:
 
@@ -7,9 +7,10 @@ Write plain markdown in the content files:
 and this renders as:
 
     <ul class="checklist">
-    <li><label class="checkbox"><input type="checkbox"> <span>...</span></label></li>
+    <li><span class="checkitem"><span class="checkitem-box"></span><span>...</span></span></li>
     </ul>
 
+The box is decorative only: it is not a real <input>, so nothing is clickable.
 Styling lives in `theme/static/css/custom.css` under "Checklist".
 """
 
@@ -24,8 +25,8 @@ ITEM = re.compile(r'<li>\[ \]\s*(.*?)\s*</li>', re.DOTALL)
 
 
 def _item(match):
-    return ('<li><label class="checkbox"><input type="checkbox"> '
-            f'<span>{match.group(1)}</span></label></li>')
+    return ('<li><span class="checkitem"><span class="checkitem-box" aria-hidden="true"></span>'
+            f'<span>{match.group(1)}</span></span></li>')
 
 
 def _list(match):
