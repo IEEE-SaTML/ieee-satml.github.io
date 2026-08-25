@@ -159,15 +159,19 @@ Mandatory conflicts of interest to declare include the following people:
 
 * Advisor/Advisee  
   * who was the advisor or advisee of an author at any time in the past  
+
 * Recent Collaboration  
   * with whom an author has published within the past 12 months  
   * with whom an author had more than one publication in common within the past 24 months  
   * with whom an author has had an active research collaboration within the past 12 months (including work-in-progress papers and funding applications)  
+
 * Institutional  
   * who shares an institutional affiliation with an author at the time of submission or within the 12 months before that (including secondary affiliations and consulting work)  
+
 * Financial  
   * who is a co-PI or holds a sub-award on the same grant or funding of an author in the last 12 months  
   * who is affiliated with a party that provided research funding to an author in the last 12 months, including unrestricted gifts   
+
 * Personal  
   * with whom you have a close personal relationship
 
