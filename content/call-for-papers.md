@@ -39,7 +39,7 @@ SaTML is the home for work on safe and trustworthy machine learning, theoretical
 * Empirical papers should make clear which safety or trustworthiness question the evaluation answers.  
 * Papers whose only link to the area is incidental, such as using a particular dataset without engaging deeper into trustworthiness, are likely to be desk rejected.
 
-## **Important dates**
+## Important dates
 
 The main dates for SaTML 2027 are listed below. Please also see the "Planning for growth in submissions" section, which describes the circumstances under which this timeline may need to be adjusted.
 
@@ -139,7 +139,7 @@ The PC Chairs will make the final decisions on desk rejections after initial rev
 
 SaTML will have a discussion period during which authors can exchange messages with reviewers, respond to their questions, and address their comments through direct changes to the paper. To facilitate this, we will use an anonymous communication feature to enable interaction between authors and reviewers. Authors should primarily focus on correcting factual errors in the reviews and answering specific questions posed by the reviewers. New research results may also be discussed if they help clarify open questions. More instructions will be sent to the authors at the beginning of the discussion phase.
 
-## **Submission decisions**
+## Submission decisions
 
 For each submission, one of the following decisions will be made: 
 
