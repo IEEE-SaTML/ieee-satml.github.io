@@ -79,6 +79,11 @@ li p {
   margin: 15px 0;
 }
 
+.content li p + ul,
+.content li p + ol {
+  margin-top: -8px !important;
+}
+
 /* Nested lists: Bulma gives these either 1em or 0.25em of vertical margin
    depending on whether the nested <ul> happens to be :first-child of its <li>,
    which makes sub-items sit inconsistently far from their parent. */
