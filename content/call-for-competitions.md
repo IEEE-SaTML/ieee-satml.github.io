@@ -15,10 +15,14 @@ Our focus is on **data science competitions** where participants will compete to
 
 The competition track includes the following dates:
 
-* Competition proposal deadline: **Fri, Aug 28, 2026**
-* Acceptance notification: **Fri, Sep 18, 2026**
-* Competition completed: **no later than Mar 31, 2027**
+::: dates
+
+* Competition proposal deadline: [[2026-08-28]]
+* Acceptance notification: [[2026-09-18]]
+* Competition completed: **no later than** [[2027-03-31]]
 * Competition track (during the conference): **Early May, 2027 (Exact Dates TBC)**
+
+:::
 
 Competition organizers should propose a timeline for running the competition to ensure participants have enough time to contribute high-quality entries.
 

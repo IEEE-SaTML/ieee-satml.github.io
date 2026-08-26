@@ -27,7 +27,10 @@ PATH = "content"
 THEME = 'theme'
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['checklist']  # renders markdown "- [ ] item" as real checkboxes
+PLUGINS = [
+    'checklist',  # renders markdown "- [ ] item" as checkboxes
+    'dates',      # renders "[[YYYY-MM-DD]]" as a formatted date with data attributes
+]
 
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_DATE = 'fs'

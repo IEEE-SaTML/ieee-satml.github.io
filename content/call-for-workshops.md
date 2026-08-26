@@ -16,9 +16,13 @@ Workshops may take a variety of formats, including invited talks, panel discussi
 
 The workshop track includes the following dates:
 
-* Workshop proposal deadline: **Fri, Aug 28, 2026**
-* Acceptance notification: **Fri, Sep 18, 2026**
+::: dates
+
+* Workshop proposal deadline: [[2026-08-28]]
+* Acceptance notification: [[2026-09-18]]
 * Workshop track: **Early May, 2027 (Exact Dates TBC)**
+
+:::
 
 If a workshop includes its own call for papers, organizers should plan their submission and review timeline with the following dates in mind. We recommend having the CFP and website live shortly after notification, with paper submissions due no later than Dec 18, 2026, acceptance notifications sent no later than Jan 31, 2027, and camera-ready papers intended for inclusion in the conference proceedings submitted no later than Mar 31, 2027.
 

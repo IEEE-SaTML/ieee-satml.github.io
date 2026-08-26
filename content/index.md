@@ -13,19 +13,23 @@ menu_title: Home
 
 ## Important dates
 
-- Mandatory abstract registration deadline: **Tue, Sep 22, 2026**
-    - Tentative title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration)
-- Paper submission deadline: **Tue, Sep 29, 2026**
-    - Anonymized artifact(s) updated by: **Fri, Oct 2, 2026**  
-- Early reject notification: **Wed, Nov 4, 2026**  
-- Interactive discussion & revision phase: **Wed, Nov 25, 2026 \- Wed, Dec 9, 2026**  
-- Decision notification: **Wed, Dec 16, 2026**  
-    - Final artifacts (of accepted papers) on Zenodo due by: **Thu, Jan 14, 2027**   
-- Revisions due by: **Thu, Jan 21, 2027**  
-- Revision notification: **Mon,** **Feb 1st, 2027**  
-    - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline  
-- Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**  
+::: dates
+
+- Mandatory abstract registration deadline: [[2026-09-22]]
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title)
+- Paper submission deadline: [[2026-09-29]]
+    - Anonymized artifact(s) updated by: [[2026-10-02]]
+- Early reject notification: [[2026-11-04]]
+- Interactive discussion & revision phase: [[2026-11-25 -- 2026-12-09]]
+- Decision notification: [[2026-12-16]]
+    - Final artifacts (of accepted papers) on Zenodo due by: [[2027-01-14]]
+- Revisions due by: [[2027-01-21]]
+- Revision notification: [[2027-02-01]]
+    - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline
+- Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**
 - Conference dates: **Early May, 2027**
+
+:::
 
 All deadlines are set to 11:59 PM AoE (Anywhere on Earth), which corresponds to UTC-12 time zone.
 

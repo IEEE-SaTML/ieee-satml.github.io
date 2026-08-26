@@ -84,9 +84,7 @@ li p {
   margin-top: -8px !important;
 }
 
-/* Nested lists: Bulma gives these either 1em or 0.25em of vertical margin
-   depending on whether the nested <ul> happens to be :first-child of its <li>,
-   which makes sub-items sit inconsistently far from their parent. */
+/* Nested lists */
 
 .content ul ul,
 .content ul ol,
@@ -110,7 +108,7 @@ section.section .container a {
   text-decoration: underline !important;
 }
 
-/* Checklist */
+/* Checklist (see plugins/checklist.py) */
 
 ul.checklist {
   list-style: none !important;
@@ -136,4 +134,65 @@ ul.checklist span.checkitem-box {
   margin-top: 0.32rem;
   border: 1px solid #b5b5b5;
   border-radius: 2px;
+}
+
+/* Important dates (see plugins/dates.py) */
+
+.dates {
+  margin: 1.5rem 0;
+}
+
+.dates > ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.dates > ul > li {
+  margin-bottom: 0.25em;
+}
+
+.dates ul ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.dates ul ul li {
+  margin: 0.2rem 0;
+  font-size: 0.92em;
+  color: #6a6a6a;
+}
+
+.dates li.is-past {
+  color: #a8a8a8;
+}
+
+.dates li.is-past > strong {
+  color: inherit;
+  font-weight: 400;
+}
+
+.dates li.is-next::marker {
+  color: brown;
+}
+
+@media screen and (max-width: 768px) {
+  .dates > ul {
+    margin-left: 0.9em !important;
+  }
+
+  .dates ul ul {
+    margin-left: 0.9em !important;
+  }
+}
+
+.due-chip {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.02em 0.6em 0.06em;
+  border: 1px solid brown;
+  border-radius: 999px;
+  color: brown;
+  font-size: 0.78em;
+  white-space: nowrap;
+  vertical-align: 0.12em;
 }
