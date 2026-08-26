@@ -29,6 +29,13 @@ Once it's running, head over to http://localhost:8000 to preview the site.
 - `data/`: Structured data (e.g., organizing committee)
 - `content/`: The core site content
 - `theme/templates/`: The template files
+- `plugins/`: plugins extending the markdown (see below)
+
+## Special markdown constructs
+
+- `- [ ] item` renders as a checkbox list (`plugins/checklist.py`).
+- `[[2026-09-29]]` renders as a formatted date ("Tue, Sep 29, 2026") and a list wrapped between `::: dates` and `:::` lines becomes a deadline list that dims past deadlines and highlights the next upcoming one with a countdown (`plugins/dates.py`).
+- A `::: edition` block with `key: value` lines (year, image, venue, location, date, url) renders as a clickable past-edition card (`plugins/editions.py`).
 
 ## Adding a New Edition
 

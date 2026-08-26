@@ -13,7 +13,6 @@ STEERING_COMMITTEE = json.loads(Path('data/steering.json').read_text())
 PROGRAM_COMMITTEE = json.loads(Path('data/pc.json').read_text())
 AREA_CHAIRS = json.loads(Path('data/area-chairs.json').read_text())
 
-PAST_EDITIONS = json.loads(Path('data/past-editions.json').read_text())
 PAPERS = json.loads(Path('data/papers.json').read_text())
 POSTER_GROUP_SPLIT = [123]  # Thresholds splitting papers into poster groups (e.g. [123, 200] → 3 groups)
 POSTER_GROUP_ANCHORS = ['slot-2026-03-23-1700-2000', 'slot-2026-03-24-1700-2000']  # Program anchor IDs for each group
@@ -40,6 +39,7 @@ PLUGIN_PATHS = ['plugins']
 PLUGINS = [
     'checklist',  # renders markdown "- [ ] item" as checkboxes
     'dates',      # renders "[[YYYY-MM-DD]]" as a formatted date with data attributes
+    'editions',   # renders "::: edition" blocks as past-edition cards
 ]
 
 TIMEZONE = 'Europe/Berlin'

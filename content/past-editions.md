@@ -1,5 +1,41 @@
 title: Past Editions
 slug: past
-template: past_editions
+template: plain
 menu_order: 500
 menu_title: Past Editions
+
+::: edition
+year: 2026
+image: images/past/2026.jpg
+venue: Technical University of Munich
+location: Munich, Germany
+date: March 23–25
+url: https://satml.org/2026/
+:::
+
+::: edition
+year: 2025
+image: images/past/2025.jpg
+venue: University of Copenhagen
+location: Copenhagen, Denmark
+date: April 9–11
+url: https://satml.org/2025/
+:::
+
+::: edition
+year: 2024
+image: images/past/2024.jpg
+venue: University of Toronto
+location: Toronto, Canada
+date: April 9–11
+url: https://satml.org/2024/
+:::
+
+::: edition
+year: 2023
+image: images/past/2023.jpg
+venue: Hilton Raleigh North Hills
+location: Raleigh, United States
+date: February 8–10
+url: https://satml.org/2023/
+:::
