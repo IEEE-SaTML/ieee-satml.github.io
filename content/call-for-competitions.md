@@ -29,6 +29,7 @@ Submissions and all related communication with organizers will be handled throug
 - **Submission site:** [proposals.satml.org](https://proposals.satml.org)
 
 - **Submission format:** We ask that proposals be prepared as a PDF using the [competition template file](/data/competitions.zip), with all of its sections filled in so we can get a complete picture of your proposal. The template covers the competition’s motivation and task, evaluation protocol, organization and logistics, and the organizing team and their experience. We encourage keeping submissions concise, with a **maximum length of three pages**, to allow for a swift and efficient review process.
+    - ⚠️ **Clarification (Aug 26, 2026):** An appendix does not count toward the three-page limit. However, reviewers are not required to read it, so the proposal should stand on its own within the three pages.
 
 ## Reviewing and selection process
 
