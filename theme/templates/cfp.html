@@ -11,8 +11,7 @@
    - The <style> and <script> below handle the layout, the look, and
      highlighting the section currently being read.
 
-   On screens narrower than 1216px the rail is hidden and the page renders
-   exactly like any other page. #}
+  #}
 
 {# Turns a section title into an anchor id: "Usage of LLMs" ->
    "usage-of-llms". Only handles what occurs in CfP titles: letters,
@@ -37,44 +36,44 @@
     scroll-margin-top: 1.5rem;
   }
 
-  /* Rail and content side by side; the rail column only exists on wide
-     screens. */
+  /* The content renders exactly like on every other page (centered 1100px
+     container). The rail is absolutely positioned into the left gutter
+     that the centering leaves free, so it takes up no layout space — and
+     it only appears when that gutter is wide enough to hold it. */
   .cfp-layout {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .cfp-body {
-    flex: 1;
-    min-width: 0;
+    position: relative;
   }
 
   .toc-rail {
     display: none;
   }
 
-  @media screen and (min-width: 1216px) {
+  @media screen and (min-width: 1472px) {
     .toc-rail {
       display: block;
-      flex: 0 0 20rem;
-      /* Sticks to the top edge while the content scrolls. */
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      /* Exactly the gutter left of the centered 1100px container. */
+      width: calc((100% - 1100px) / 2);
+    }
+
+    .toc-rail nav {
+      /* Sticks to the top edge while the content scrolls past. */
       position: sticky;
       top: 0;
       max-height: 100vh;
       overflow-y: auto;
-      /* Left padding lines the rail up with the "IEEE SaTML" navbar brand
-         (4rem navbar padding + 0.75rem navbar-item padding). Top padding
-         lines the label up with the "Call for Papers" <h1>. */
-      padding: 2.2rem 1rem 2rem 4.75rem;
+      /* Top padding lines the label up with the "Call for Papers" <h1>
+         (1rem section + 1rem h1 padding + font-size difference). The left
+         padding lines the rail up with the "IEEE SaTML" navbar brand (4rem
+         navbar padding + 0.75rem navbar-item padding) when the gutter has
+         room for that, and shrinks down to 1.5rem when it does not, so
+         the links keep a readable width on smaller screens. Inside this
+         nav, 100% is the width of the aside, i.e. the gutter. */
+      padding: 2.2rem 1rem 2rem clamp(1.5rem, 100% - 13rem, 4.75rem);
       font-size: 0.9rem;
-    }
-
-    /* The containers normally center themselves in the space next to the
-       rail, which on a wide screen leaves a big gap between rail and text.
-       Pull the content over to the rail instead (the right margin stays
-       auto, so leftover space all ends up on the right). */
-    .cfp-body .container {
-      margin-left: 0;
     }
   }
 
