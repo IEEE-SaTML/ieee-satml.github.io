@@ -58,7 +58,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-ARTICLE_PATH = ['articles']
+ARTICLE_PATHS = ['articles']
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''

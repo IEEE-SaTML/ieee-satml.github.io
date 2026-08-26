@@ -22,10 +22,6 @@ jobs:
       - name: Build
         run: python -m pelican
 
-      # FIXME
-      - name: Copy index page to root
-        run: cp output/index/index.html output/index.html
-
       - name: Upload files
         id: deployment
         uses: actions/upload-pages-artifact@v3

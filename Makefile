@@ -15,11 +15,6 @@ ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
 
-RELATIVE ?= 0
-ifeq ($(RELATIVE), 1)
-	PELICANOPTS += --relative-urls
-endif
-
 help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
@@ -31,27 +26,27 @@ help:
 	@echo '   make devserver [PORT=8000]          serve and regenerate together      '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
-	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-	cp $(OUTPUTDIR)/index/index.html $(OUTPUTDIR)/index.html
 
 htmldev:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(DEVCONFFILE)" $(PELICANOPTS)
-	cp $(OUTPUTDIR)/index/index.html $(OUTPUTDIR)/index.html
 
 clean:
 	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
 
+# The local-preview targets below always build with --relative-urls:
+# without it, every link would point at the live site (SITEURL). The
+# deploy builds (html, htmldev) must keep absolute URLs.
 regenerate:
-	"$(PELICAN)" -r "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
+	"$(PELICAN)" -r "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" --relative-urls $(PELICANOPTS)
 
 serve:
-	"$(PELICAN)" -l "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
+	"$(PELICAN)" -l "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" --relative-urls $(PELICANOPTS)
 
 devserver:
-	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
+	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" --relative-urls $(PELICANOPTS)
 
 .PHONY: html help clean regenerate serve devserver

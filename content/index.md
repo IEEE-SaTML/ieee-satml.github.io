@@ -1,5 +1,7 @@
 title: Index
 template: index
+save_as: index.html
+url:
 menu_order: 0
 menu_title: Home
 
