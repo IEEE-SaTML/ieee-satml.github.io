@@ -62,24 +62,29 @@ SCRIPT = '''<script>
       if (!next) return;
       next.closest('li')?.classList.add('is-next');
 
-      // Calendar days in the visitor's timezone: "tomorrow" must match
-      // what the printed date means to the reader. AoE only decides expiry.
+      // The chip counts in calendar days ("tomorrow", "in 5 days"), and
+      // switches to hours for the last 48h before the AoE deadline moment.
+      // Days follow the visitor's calendar, so they match the printed date;
+      // hours are timezone-independent, so the final stretch is exact.
+
+      // Days until the printed date, in the visitor's timezone.
       const [y, m, d] = next.dataset.due.split('-').map(Number);
       const days = Math.round(
         (new Date(y, m - 1, d) - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
 
-      // Hours to the deadline moment; the chip uses these for the last
-      // 48h, since durations are unambiguous in every timezone.
-      const hoursLeft = Math.floor((due(next) - now) / 3600e3);
+      // Time to the deadline moment, floored so "in N hours" never
+      // promises more time than actually remains.
+      const msLeft = due(next) - now;
+      const hoursLeft = Math.floor(msLeft / 3600e3);
 
       const chip = document.createElement('span');
       chip.className = 'due-chip';
-      // Ranges get phase words; single dates count down in days, then hours.
+      // Ranges get phase words instead of a countdown.
       chip.textContent =
         next.dataset.end && days < 0 ? 'in progress' :
         next.dataset.end && days === 0 ? 'starts today (AoE)' :
-        !next.dataset.end && hoursLeft < 1 ? 'under 1 hour' :
-        !next.dataset.end && hoursLeft <= 48 ? `in ${hoursLeft} hour${hoursLeft === 1 ? '' : 's'}` :
+        !next.dataset.end && msLeft < 3600e3 ? 'under 1 hour' :
+        !next.dataset.end && msLeft <= 48 * 3600e3 ? `in ${hoursLeft} hour${hoursLeft === 1 ? '' : 's'}` :
         days === 1 ? 'tomorrow' : `in ${days} days`;
       next.after(chip);
     });
