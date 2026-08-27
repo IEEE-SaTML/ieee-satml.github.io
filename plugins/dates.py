@@ -34,11 +34,9 @@ MARKER = re.compile(
 
 BLOCK = re.compile(r'<p>:::\s*dates</p>(.*?)<p>:::</p>', re.DOTALL)
 
-# Appended once to every page that contains a "::: dates" block. Each
-# rendered date is checked against its deadline moment, 23:59:59 AoE
-# (= UTC-12), so the result is correct in any visitor timezone. Past
-# entries dim; each block's next upcoming entry is accented and gets an
-# "in N days" chip; undated detail lines follow their parent's status.
+# Appended once to every page with a "::: dates" block: dims entries whose
+# deadline (23:59:59 AoE = UTC-12) has passed, marks each block's next
+# upcoming entry, and attaches a countdown chip to it.
 SCRIPT = '''<script>
   document.addEventListener('DOMContentLoaded', () => {
     const AOE = 'T23:59:59-12:00';
@@ -64,20 +62,24 @@ SCRIPT = '''<script>
       if (!next) return;
       next.closest('li')?.classList.add('is-next');
 
-      // Whole AoE calendar days until the (start) date: 0 = that day is
-      // "today" everywhere on Earth, negative = it has begun (ranges).
-      const aoe = new Date(now.getTime() - 12 * 3600e3);
-      const todayAoE = Date.UTC(aoe.getUTCFullYear(), aoe.getUTCMonth(), aoe.getUTCDate());
-      const days = (Date.parse(next.dataset.due) - todayAoE) / 864e5;
+      // Calendar days in the visitor's timezone: "tomorrow" must match
+      // what the printed date means to the reader. AoE only decides expiry.
+      const [y, m, d] = next.dataset.due.split('-').map(Number);
+      const days = Math.round(
+        (new Date(y, m - 1, d) - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
+
+      // Hours to the deadline moment; the chip uses these for the last
+      // 48h, since durations are unambiguous in every timezone.
+      const hoursLeft = Math.floor((due(next) - now) / 3600e3);
 
       const chip = document.createElement('span');
       chip.className = 'due-chip';
-      // Ranges: "starts today" on their first day, "in progress" once the
-      // start has passed; single-date deadlines count down to their day.
+      // Ranges get phase words; single dates count down in days, then hours.
       chip.textContent =
         next.dataset.end && days < 0 ? 'in progress' :
         next.dataset.end && days === 0 ? 'starts today (AoE)' :
-        days === 0 ? 'today (AoE)' :
+        !next.dataset.end && hoursLeft < 1 ? 'under 1 hour' :
+        !next.dataset.end && hoursLeft <= 48 ? `in ${hoursLeft} hour${hoursLeft === 1 ? '' : 's'}` :
         days === 1 ? 'tomorrow' : `in ${days} days`;
       next.after(chip);
     });
