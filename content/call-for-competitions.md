@@ -19,7 +19,7 @@ The competition track includes the following dates:
 
 * Competition proposal deadline: [[2026-08-28]]
 * Acceptance notification: [[2026-09-18]]
-* Competition completed: **no later than** [[2027-03-31]]
+* Competition completed: **no later than Wed, Mar 31, 2027**
 * Competition track (during the conference): **Early May, 2027 (Exact Dates TBC)**
 
 :::
