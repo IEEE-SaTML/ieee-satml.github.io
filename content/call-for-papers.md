@@ -46,7 +46,7 @@ The main dates for SaTML 2027 are listed below. Please also see the [Planning fo
 ::: dates
 
 - Mandatory abstract registration deadline: [[2026-09-22]]
-    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title)
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Adding or removing authors after the abstract registration deadline is grounds for desk rejection.
 - Paper submission deadline: [[2026-09-29]]
     - Anonymized artifact(s) updated by: [[2026-10-02]]
 - Early reject notification: [[2026-11-04]]
@@ -75,14 +75,16 @@ We solicit research papers, systematization of knowledge papers, and position pa
 * **Position Papers:** These papers should cover broader issues and visions related to secure and trustworthy machine learning, including open challenges, technical perspectives, educational aspects, societal impact, or notable research results. Submissions must be very well-argued and consist of 5 to 12 pages of body text.  
     * *Position papers must include "Position:" at the beginning of their title.*
 
-⚠️ **"New Insights” HotCRP section**: SoK and Position paper submissions will be required to summarize their "new insights" in a dedicated HotCRP submission field (e.g., 300 words), to support the initial review phase. 
+⚠️ **"New Insights” HotCRP section**: SoK and Position paper submissions will be required to summarize their "new insights" in a dedicated HotCRP submission field (e.g., 300 words), to support the initial review phase. This field is mandatory in HotCRP and cannot be left blank, so research papers should simply enter "N/A". 
 For SoK papers, this field should highlight the novelty and significance of the insights derived from the systematization. For Position papers, it should summarize the key position(s), the prior assumptions they challenge, and the impact they may have on the community.
 
 There is no limit on references and appendices. However, reviewers are not required to read appendices, and papers are assessed on the body text. Do not rely on an appendix to carry a claim that is central to the paper.
 
 ## Submission information
 
-All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline. The submission site is available here: **Submission Link TBC**
+All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline.
+
+<p class="submit-cta">Submissions are handled through HotCRP: <a href="https://satml27.hotcrp.com">https://satml27.hotcrp.com</a></p>
 
 * **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. If the paper is already under review elsewhere, authors may still register the abstract at SaTML, but they must not submit the full paper unless that other submission has been resolved (rejected or withdrawn) by the SaTML paper submission deadline. Violations of this policy count as "double submission" and will be reported to IEEE.   
 
@@ -94,7 +96,7 @@ All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the dead
 
 * **Preprint/disclosure policy:** Authors may choose to give talks about their work, post a preprint of the paper online, and disclose security vulnerabilities to vendors. However, authors should take care of avoiding behaviors that intentionally aim to inform reviewers of their identity (e.g., publicly advertising their work on social media), as such behaviors may lead to desk rejection of the paper. If in doubt, the authors should contact the PC chairs at [pcchairs@satml.org](mailto:pcchairs@satml.org).   
 
-* **Previous reviews:** For papers that were previously rejected from another conference, authors *must append prior reviews* to their submission along with a description of how those reviews were addressed in the submission. The reviews must be anonymized, but otherwise unedited and complete. Authors are only required to include reviews from the last time the paper was submitted. Authors who try to circumvent this rule (e.g., by changing the title of the paper without significantly changing the contents) may have their papers rejected without further consideration, at the discretion of the PC chairs.  
+* **Previous reviews:** If a paper was previously submitted to another venue and received reviews, authors *must append those prior reviews* to their submission (regardless of whether the paper was rejected or withdrawn by the authors), along with a description of how the reviews were addressed in the SaTML submission. The reviews must be placed at the very end of the paper, after all appendices. The reviews must be anonymized, but otherwise unedited and complete. Authors are only required to include reviews from the last time the paper was submitted. Authors who try to circumvent this rule (e.g., by changing the title of the paper without significantly changing the contents) may have their papers rejected without further consideration, at the discretion of the PC chairs.  
 
 * **Open Science:** All submissions must include an "Open Science" section immediately before the references, which does not count towards the page limit. In it, the authors should describe which artifacts they are releasing, or explain why sharing is not possible. We require all authors to share their artifacts within 3 days after the submission deadline, using a fully-anonymized repository (for example, [https://anonymous.4open.science/](https://anonymous.4open.science/)). After this deadline, the artifact(s) needs to be accessible throughout the review process, and should not be edited. Any violation of the Open Science policy may result in desk rejection. Authors of accepted papers will be required to share their artifacts on [https://zenodo.org](https://zenodo.org) (see “Important Dates”), and acceptance is conditional on their availability (unless a valid reason is provided). Chairs and reviewers may check that the artifacts are consistent with the claims made in the paper.  
 
@@ -157,7 +159,7 @@ For each submission, one of the following decisions will be made:
 
 ## Conflicts of Interest policy
 
-The conference requires cooperation from both authors and program committee members to ensure a fair review process. For this purpose, authors must report all program-committee members and chairs who, in their opinion, have a conflict of interest and therefore may not be able to provide an unbiased review. 
+The conference requires cooperation from both authors and program committee members to ensure a fair review process. For this purpose, authors must report all program-committee members and chairs who, in their opinion, have a conflict of interest and therefore may not be able to provide an unbiased review. Conflicts must be declared by the abstract registration deadline, and updated in the last 24 hours before the paper submission deadline, since program-committee members may be added in the meantime. 
 
 Mandatory conflicts of interest to declare include the following people:
 
@@ -209,9 +211,9 @@ SaTML has grown steadily along with the community it serves, and we expect that 
 
 If submissions exceed even that, we may need to adjust parts of the process in order to protect review quality. In that case, we will consider one or more of the following:
 
-* Expanding the Program Committee once abstract registration gives us a firm picture of volume. If we do, we may ask authors to re-check their conflicts of interest against the updated committee, no later than 24 hours before the submission deadline.  
+* Expanding the Program Committee once abstract registration gives us a firm picture of volume. If we do, the updated committee will be in place no later than 24 hours before the submission deadline, and authors should re-check their conflicts of interest against it.  
 * Moving the early-reject notification to a later date.  
-* Requiring authors of submitted papers to contribute to reviewing up to three papers, as is increasingly common at venues of large size. Failure from authors to submit such reviews may result in desk rejection of their paper(s).   
+* Requiring authors of submitted papers to contribute to reviewing, as is increasingly common at venues of large size. At abstract registration, every paper must nominate one of its authors who is qualified to review at SaTML and can take on this assignment. The load is cumulative: a nominated author is assigned up to three papers for each submission they are nominated on, so an author nominated on two submissions may be assigned up to six papers. Reviews that are not submitted, are late, or are of inadequate quality may result in desk rejection of any paper the author was nominated on.   
 * Postponing decision notifications, and reducing revision window for the "Revision" timeline. Authors would still have the opportunity to revise their papers during the interactive discussion phase.
 
 Abstract registration has been introduced precisely so that we can anticipate volume early and plan accordingly. We will confirm whether any of these measures are necessary before the early reject notification date and will communicate any changes to authors promptly. Authors who would prefer not to proceed under a revised timeline may withdraw their submission at that point, before any reviews have been released.

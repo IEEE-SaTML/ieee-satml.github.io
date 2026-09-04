@@ -7,6 +7,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The [submission site](https://satml27.hotcrp.com) is now open, and the [Call for Papers](/call-for-papers) has been updated with some clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 4, 2026)</span>
 - The full [Call for Papers](/call-for-papers) is now available. <span class="news-date">(Aug 24, 2026)</span>
 - The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 22, 2026)</span>
 - The website for SaTML 2027 is now online! <span class="news-date">(Jun 29, 2026)</span>
@@ -16,7 +17,7 @@ menu_title: Home
 ::: dates
 
 - Mandatory abstract registration deadline: [[2026-09-22]]
-    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title)
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Adding or removing authors after the abstract registration deadline is grounds for desk rejection.
 - Paper submission deadline: [[2026-09-29]]
     - Anonymized artifact(s) updated by: [[2026-10-02]]
 - Early reject notification: [[2026-11-04]]

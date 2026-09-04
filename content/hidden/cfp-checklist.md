@@ -8,15 +8,17 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 ## Before writing
 
 - [ ] Scope: safety/trustworthiness engaged throughout, not just the intro. Ask [pcchairs@satml.org](mailto:pcchairs@satml.org) if unsure.  
-- [ ] Category: Research 12pp body text; SoK 12pp body text, title starts "SoK:"; Position 5 to 12pp body text, title starts "Position:". SoK and Position also need a 300-word "new insights" field in HotCRP. References and appendices unlimited.  
+- [ ] Category: Research 12pp body text; SoK 12pp body text, title starts "SoK:"; Position 5 to 12pp body text, title starts "Position:". SoK and Position also need a 300-word "New Insights" field in HotCRP; the field is mandatory, so research papers enter "N/A". References and appendices unlimited.  
 - [ ] Format: PDF, `\documentclass[conference]{IEEEtran}`, 10pt, no change in geometry/template.
 
 ## Abstract registration, Tue 22 Sep 2026 (AoE)
 
 - [ ] Mandatory. Tentative title, non-blank abstract, final authors, final topics.  
-- [ ] No simultaneous active abstract registration elsewhere. If under review elsewhere, that must be resolved by 29 Sep.  
+- [ ] Answer the HotCRP field on whether the paper is still under review elsewhere. If it is, that other submission must be resolved (rejected or withdrawn) by the paper submission deadline.  
+- [ ] Nominate one author, by email exactly as listed, as author-reviewer.  
 - [ ] ORCID in every author's HotCRP profile.  
-- [ ] Author Certification completed by all authors.
+- [ ] Author Certification completed by all authors.  
+- [ ] Declare all mandatory conflicts (see “Conflicts of Interest policy”). Fake conflicts are not allowed.
 
 ## Paper submission, Tue 29 Sep 2026 (AoE)
 
@@ -26,8 +28,8 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 - [ ] "LLM usage considerations" section (after open science, before references) if any LLM was used, including the required editorial-use statement. If LLMs are part of the method, detail their role, limitations, and compute justification.  
 - [ ] Optional: "Ethical Considerations" section before the references.  
 - [ ] Verify every reference and result yourself. Fabrications count as misconduct. Self-check with [hallucinator.science](https://hallucinator.science/).  
-- [ ] If rejected elsewhere, append those reviews unedited plus your response.  
-- [ ] Declare all mandatory conflicts (see “Conflicts of Interest policy”). Fake conflicts are not allowed.  
+- [ ] If the paper received reviews at another venue, whether rejected or withdrawn, append those reviews unedited plus your response, at the very end of the paper after all appendices.  
+- [ ] Update your conflict declarations in the last 24 hours before the submission deadline: PC members may have been added since abstract registration.  
 - [ ] No overlap with published, accepted, or concurrently submitted work.  
 - [ ] Optional: Set the LLM-processing opt-in flag.
 
@@ -40,7 +42,7 @@ The Open Science, LLM usage considerations, and Ethical Considerations sections 
 ## If submission volume triggers contingency measures
 
 - [ ] Re-check conflicts against an expanded PC if asked, up to 24 hours before the submission deadline.  
-- [ ] Be ready to review up to three papers if that requirement is activated.
+- [ ] Be ready to review up to three papers per submission you are nominated on, if that requirement is activated. The load is cumulative across submissions.
 
 ## If accepted
 
@@ -57,6 +59,8 @@ The grounds for desk rejection are set out in the relevant sections of the [Call
 * work that is out of scope, or clearly below the quality bar (after initial review by program and area chairs)  
 * violations of the Open Science or LLM policies, including non-existent references  
 * missing author ORCIDs or author certification  
-* missing prior reviews from an earlier submission
+* missing prior reviews from a paper that received reviews at another venue  
+* adding or removing authors after abstract registration  
+* late or inadequate-quality reviews from the nominated author-reviewer, if author-reviewing is activated
 
 This summary may not capture every detail, and the full CfP takes precedence.
