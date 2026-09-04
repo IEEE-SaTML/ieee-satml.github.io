@@ -3,6 +3,8 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
+<p class="news-date">Last updated: Sep 4, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
 ## Before writing

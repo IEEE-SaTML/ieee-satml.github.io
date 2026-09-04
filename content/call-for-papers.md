@@ -3,6 +3,8 @@ template: cfp
 menu_order: 100
 menu_title: Call for Papers
 
+<p class="news-date">Last updated: Sep 4, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+
 ## New from last year
 
 We have introduced some new additions compared to last year:
