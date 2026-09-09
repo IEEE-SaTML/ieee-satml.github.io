@@ -46,6 +46,15 @@ slug: call-for-papers/changes
   color: brown;
 }
 
+.cfp-quote ul {
+  margin: 0.4rem 0 0 0 !important;
+  padding-left: 1.2rem;
+}
+
+.cfp-quote li {
+  margin: 0.15rem 0 !important;
+}
+
 .cfp-quote ins {
   background: #f3e7e7;
   text-decoration: none;
@@ -53,6 +62,52 @@ slug: call-for-papers/changes
 </style>
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
+
+## Call for Papers, 9 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Conflicts of Interest policy</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>The current committee is listed on the <a href="/organization/">Organization</a> page. We will send out a list of the committee members added since the previous update on two occasions: 24 hours before the abstract registration deadline, and 24 hours before the paper submission deadline.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Planning for growth &rarr; Author reviewing</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Requiring authors of submitted papers to contribute to reviewing, as is increasingly common at venues of large size. At abstract registration, every paper must nominate one of its authors who is qualified to review at SaTML and can take on this assignment. The load is cumulative: a nominated author is assigned up to three papers for each submission they are nominated on, so an author nominated on two submissions may be assigned up to six papers. Reviews that are not submitted, are late, or are of inadequate quality may result in desk rejection of any paper the author was nominated on.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+Requiring authors of submitted papers to contribute to reviewing, as is increasingly common at venues of large size. <ins>Nominations are collected from every submission so that we are ready, but we will only call on them if the volume requires it, which we confirm after abstract registration closes.</ins>
+<ul>
+<li>At abstract registration, every paper must nominate one author to review on its behalf, <ins>and that author must list their full conflicts in their HotCRP profile. The nomination cannot be changed afterwards.</ins></li>
+<li>The load is cumulative: up to three papers for each submission the author is nominated on.</li>
+<li>Reviews that are missing, late, or of inadequate quality may result in desk rejection of any paper the author was nominated on. <ins>Nominees are never assigned their own or conflicted papers, and the nomination does not affect a paper's evaluation.</ins></li>
+</ul>
+</div>
+</div>
+
+## Submission checklist, 9 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Abstract registration &rarr; Author-reviewer</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Nominate one author, by email exactly as listed, as author-reviewer.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+Nominate one author, by email exactly as listed, as author-reviewer<ins>. The nomination cannot be changed afterwards.</ins>
+</div>
+</div>
 
 ## Call for Papers, 4 September 2026
 

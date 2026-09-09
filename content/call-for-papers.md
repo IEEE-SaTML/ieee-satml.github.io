@@ -3,7 +3,7 @@ template: cfp
 menu_order: 100
 menu_title: Call for Papers
 
-<p class="news-date">Last updated: Sep 4, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 9, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 ## New from last year
 
@@ -86,7 +86,7 @@ There is no limit on references and appendices. However, reviewers are not requi
 
 All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-<p class="submit-cta">Submissions are handled through HotCRP: <a href="https://satml27.hotcrp.com">https://satml27.hotcrp.com</a></p>
+<p class="callout">Submissions are handled through HotCRP: <a href="https://satml27.hotcrp.com">https://satml27.hotcrp.com</a></p>
 
 * **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. If the paper is already under review elsewhere, authors may still register the abstract at SaTML, but they must not submit the full paper unless that other submission has been resolved (rejected or withdrawn) by the SaTML paper submission deadline. Violations of this policy count as "double submission" and will be reported to IEEE.   
 
@@ -161,7 +161,7 @@ For each submission, one of the following decisions will be made:
 
 ## Conflicts of Interest policy
 
-The conference requires cooperation from both authors and program committee members to ensure a fair review process. For this purpose, authors must report all program-committee members and chairs who, in their opinion, have a conflict of interest and therefore may not be able to provide an unbiased review. Conflicts must be declared by the abstract registration deadline, and updated in the last 24 hours before the paper submission deadline, since program-committee members may be added in the meantime. 
+The conference requires cooperation from both authors and program committee members to ensure a fair review process. For this purpose, authors must report all program-committee members and chairs who, in their opinion, have a conflict of interest and therefore may not be able to provide an unbiased review. **Conflicts must be declared by the abstract registration deadline, and updated in the last 24 hours before the paper submission deadline, since program-committee members may be added in the meantime.** The current committee is listed on the [Organization](/organization/) page. We will send out a list of the committee members added since the previous update on two occasions: 24 hours before the abstract registration deadline, and 24 hours before the paper submission deadline. 
 
 Mandatory conflicts of interest to declare include the following people:
 
@@ -215,12 +215,17 @@ If submissions exceed even that, we may need to adjust parts of the process in o
 
 * Expanding the Program Committee once abstract registration gives us a firm picture of volume. If we do, the updated committee will be in place no later than 24 hours before the submission deadline, and authors should re-check their conflicts of interest against it.  
 * Moving the early-reject notification to a later date.  
-* Requiring authors of submitted papers to contribute to reviewing, as is increasingly common at venues of large size. At abstract registration, every paper must nominate one of its authors who is qualified to review at SaTML and can take on this assignment. The load is cumulative: a nominated author is assigned up to three papers for each submission they are nominated on, so an author nominated on two submissions may be assigned up to six papers. Reviews that are not submitted, are late, or are of inadequate quality may result in desk rejection of any paper the author was nominated on.   
 * Postponing decision notifications, and reducing revision window for the "Revision" timeline. Authors would still have the opportunity to revise their papers during the interactive discussion phase.
+* Requiring authors of submitted papers to contribute to reviewing, as is increasingly common at venues of large size. Nominations are collected from every submission so that we are ready, but we will only call on them if the volume requires it, which we confirm after abstract registration closes.  
+    * **At abstract registration**, every paper must nominate one author to review on its behalf, and that author must list their full conflicts in their HotCRP profile (see [Conflicts of Interest policy](#conflicts-of-interest-policy)). **The nomination cannot be changed afterwards.**  
+    * The load is cumulative: up to three papers for each submission the author is nominated on.  
+    * Reviews that are missing, late, or of inadequate quality may result in desk rejection of any paper the author was nominated on. Nominees are never assigned their own or conflicted papers, and the nomination does not affect a paper's evaluation.  
 
 Abstract registration has been introduced precisely so that we can anticipate volume early and plan accordingly. We will confirm whether any of these measures are necessary before the early reject notification date and will communicate any changes to authors promptly. Authors who would prefer not to proceed under a revised timeline may withdraw their submission at that point, before any reviews have been released.
 
 We would rather set out this contingency plan in advance than surprise anyone mid-cycle. We hope and expect that none of it will be needed.
+
+<p class="callout"><strong>Interested in reviewing for SaTML 2027?</strong> We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, <a href="https://forms.gle/iQFaQpg4rwqh79qL8">let us know if you would like to be considered for the Program Committee</a>. Junior researchers welcome; an invitation is not guaranteed.</p>
 
 If you have any questions, please email us at [pcchairs@satml.org](mailto:pcchairs@satml.org) 
 

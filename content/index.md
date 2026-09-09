@@ -7,10 +7,13 @@ menu_title: Home
 
 ## News & Updates
 
+- The [Call for Papers](/call-for-papers) has been updated with further clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 9, 2026)</span>
 - The [submission site](https://satml27.hotcrp.com) is now open, and the [Call for Papers](/call-for-papers) has been updated with some clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 4, 2026)</span>
 - The full [Call for Papers](/call-for-papers) is now available. <span class="news-date">(Aug 24, 2026)</span>
 - The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 22, 2026)</span>
 - The website for SaTML 2027 is now online! <span class="news-date">(Jun 29, 2026)</span>
+
+<p class="callout"><strong>Interested in reviewing for SaTML 2027?</strong> We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, <a href="https://forms.gle/iQFaQpg4rwqh79qL8">let us know if you would like to be considered for the Program Committee</a>. Junior researchers welcome; an invitation is not guaranteed.</p>
 
 ## Important dates
 

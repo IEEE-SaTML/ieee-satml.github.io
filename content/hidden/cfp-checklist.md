@@ -3,7 +3,7 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
-<p class="news-date">Last updated: Sep 4, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 9, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
@@ -17,7 +17,7 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 
 - [ ] Mandatory. Tentative title, non-blank abstract, final authors, final topics.  
 - [ ] Answer the HotCRP field on whether the paper is still under review elsewhere. If it is, that other submission must be resolved (rejected or withdrawn) by the paper submission deadline.  
-- [ ] Nominate one author, by email exactly as listed, as author-reviewer.  
+- [ ] Nominate one author, by email exactly as listed, as author-reviewer. The nomination cannot be changed afterwards.  
 - [ ] ORCID in every author's HotCRP profile.  
 - [ ] Author Certification completed by all authors.  
 - [ ] Declare all mandatory conflicts (see “Conflicts of Interest policy”). Fake conflicts are not allowed.
