@@ -19,7 +19,7 @@ The workshop track includes the following dates:
 ::: dates
 
 * Workshop proposal deadline: [[2026-08-28]]
-* Acceptance notification: [[2026-09-18]]
+* Acceptance notification: ((2026-09-18))
 * Workshop track: **Early May, 2027 (Exact Dates TBC)**
 
 :::

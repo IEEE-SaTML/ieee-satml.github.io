@@ -51,12 +51,12 @@ The main dates for SaTML 2027 are listed below. Please also see the [Planning fo
     - Tentative non-blank title, tentative non-blank abstract, fixed authors, fixed affiliations, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Authors and affiliations cannot be changed after the abstract registration deadline, not even in the camera-ready version in case of acceptance (see [Change of affiliation](#change-of-affiliation) for exceptions). Adding or removing authors or affiliations is otherwise grounds for desk rejection.
 - Paper submission deadline: [[2026-09-29]]
     - Anonymized artifact(s) updated by: [[2026-10-02]]
-- Early reject notification: [[2026-11-04]]
+- Early reject notification: ((2026-11-04))
 - Interactive discussion & revision phase: [[2026-11-25 -- 2026-12-09]]
-- Decision notification: [[2026-12-16]]
+- Decision notification: ((2026-12-16))
     - Final artifacts (of accepted papers) on Zenodo due by: [[2027-01-14]]
 - Revisions due by: [[2027-01-21]]
-- Revision notification: [[2027-02-01]]
+- Revision notification: ((2027-02-01))
     - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline
 - Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**
 - Conference dates: **Early May, 2027**

@@ -6,6 +6,17 @@ Two constructs, usually used together:
 
        [[2026-09-29]]                  ->  Tue, Sep 29, 2026
        [[2026-11-25 -- 2026-12-09]]    ->  Wed, Nov 25 - Wed, Dec 9, 2026
+       ((2026-11-04))                  ->  Wed, Nov 4, 2026
+       {{2027-03-31}}                  ->  Wed, Mar 31, 2027
+
+   The brackets say what kind of date it is, and with that how its
+   countdown chip behaves:
+   [[..]]  hard author deadline - counts down in days, then in hours
+           over the last 48h before 23:59:59 AoE
+   ((..))  conference-side date (e.g. a notification) - whole days only,
+           "today (AoE)" on the day itself
+   {{..}}  just a date - rendered and dimmed like the others, but never
+           gets a countdown chip
 
 2. A list wrapped in "::: dates" / ":::" is marked as a deadline list:
 
@@ -29,8 +40,15 @@ from datetime import date
 
 from pelican import signals
 
+# [[...]]: a hard author deadline. Ranges ("--") only make sense here.
 MARKER = re.compile(
     r'\[\[\s*(\d{4}-\d{2}-\d{2})(?:\s*--\s*(\d{4}-\d{2}-\d{2}))?\s*\]\]')
+
+# ((...)): a conference-side date (notification etc.), day granularity.
+DAY_MARKER = re.compile(r'\(\(\s*(\d{4}-\d{2}-\d{2})\s*\)\)')
+
+# {{...}}: a date without a countdown chip.
+QUIET_MARKER = re.compile(r'\{\{\s*(\d{4}-\d{2}-\d{2})\s*\}\}')
 
 BLOCK = re.compile(r'<p>:::\s*dates</p>(.*?)<p>:::</p>', re.DOTALL)
 
@@ -57,6 +75,7 @@ SCRIPT = '''<script>
       });
 
       const next = marks
+        .filter(el => !('quiet' in el.dataset))
         .filter(el => !el.closest('li')?.classList.contains('is-past'))
         .sort((a, b) => due(a) - due(b))[0];
       if (!next) return;
@@ -79,13 +98,22 @@ SCRIPT = '''<script>
 
       const chip = document.createElement('span');
       chip.className = 'due-chip';
-      // Ranges get phase words instead of a countdown.
-      chip.textContent =
-        next.dataset.end && days < 0 ? 'in progress' :
-        next.dataset.end && days === 0 ? 'starts today (AoE)' :
-        !next.dataset.end && msLeft < 3600e3 ? 'under 1 hour' :
-        !next.dataset.end && msLeft <= 48 * 3600e3 ? `in ${hoursLeft} hour${hoursLeft === 1 ? '' : 's'}` :
-        days === 1 ? 'tomorrow' : `in ${days} days`;
+      const inDays = days === 1 ? 'tomorrow' : `in ${days} days`;
+      if ('end' in next.dataset) {
+        // Ranges get phase words instead of a countdown.
+        chip.textContent =
+          days < 0 ? 'in progress' :
+          days === 0 ? 'starts today (AoE)' : inDays;
+      } else if ('day' in next.dataset) {
+        // Conference-side dates ((...)): whole days only.
+        chip.textContent = days <= 0 ? 'today (AoE)' : inDays;
+      } else {
+        // Author deadlines [[...]]: hours over the final stretch.
+        chip.textContent =
+          msLeft < 3600e3 ? 'under 1 hour' :
+          msLeft <= 48 * 3600e3 ? `in ${hoursLeft} hour${hoursLeft === 1 ? '' : 's'}` :
+          inDays;
+      }
       next.after(chip);
     });
   });
@@ -111,6 +139,16 @@ def _marker(match):
     return f'<strong{attrs}>{text}</strong>'
 
 
+def _day_marker(match):
+    d = date.fromisoformat(match.group(1))
+    return f'<strong data-due="{match.group(1)}" data-day="">{_fmt(d)}</strong>'
+
+
+def _quiet_marker(match):
+    d = date.fromisoformat(match.group(1))
+    return f'<strong data-due="{match.group(1)}" data-quiet="">{_fmt(d)}</strong>'
+
+
 def render_dates(instance):
     html = instance._content
     if not html:
@@ -121,6 +159,10 @@ def render_dates(instance):
             html += SCRIPT
     if '[[' in html:
         html = MARKER.sub(_marker, html)
+    if '((' in html:
+        html = DAY_MARKER.sub(_day_marker, html)
+    if '{{' in html:
+        html = QUIET_MARKER.sub(_quiet_marker, html)
     instance._content = html
 
 
