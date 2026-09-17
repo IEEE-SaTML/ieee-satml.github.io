@@ -3,7 +3,7 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
-<p class="news-date">Last updated: Sep 9, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 17, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
@@ -15,7 +15,7 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 
 ## Abstract registration, Tue 22 Sep 2026 (AoE)
 
-- [ ] Mandatory. Tentative title, non-blank abstract, final authors, final topics.  
+- [ ] Mandatory. Tentative title, non-blank abstract, final authors, final affiliations (no changes afterwards, not even in the camera-ready version in case of acceptance; see [Change of affiliation](/call-for-papers/#change-of-affiliation) for exceptions), final topics.  
 - [ ] Answer the HotCRP field on whether the paper is still under review elsewhere. If it is, that other submission must be resolved (rejected or withdrawn) by the paper submission deadline.  
 - [ ] Nominate one author, by email exactly as listed, as author-reviewer. The nomination cannot be changed afterwards.  
 - [ ] ORCID in every author's HotCRP profile.  
@@ -32,6 +32,7 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 - [ ] Verify every reference and result yourself. Fabrications count as misconduct. Self-check with [hallucinator.science](https://hallucinator.science/).  
 - [ ] If the paper received reviews at another venue, whether rejected or withdrawn, append those reviews unedited plus your response, at the very end of the paper after all appendices.  
 - [ ] Update your conflict declarations in the last 24 hours before the submission deadline: PC members may have been added since abstract registration.  
+- [ ] If an author may change affiliation by the decision notification, tell the PC Chairs and declare the conflicts of the prospective affiliation (see [Change of affiliation](/call-for-papers/#change-of-affiliation)).  
 - [ ] No overlap with published, accepted, or concurrently submitted work.  
 - [ ] Optional: Set the LLM-processing opt-in flag.
 
@@ -62,7 +63,7 @@ The grounds for desk rejection are set out in the relevant sections of the [Call
 * violations of the Open Science or LLM policies, including non-existent references  
 * missing author ORCIDs or author certification  
 * missing prior reviews from a paper that received reviews at another venue  
-* adding or removing authors after abstract registration  
+* adding or removing authors or affiliations after abstract registration  
 * late or inadequate-quality reviews from the nominated author-reviewer, if author-reviewing is activated
 
 This summary may not capture every detail, and the full CfP takes precedence.

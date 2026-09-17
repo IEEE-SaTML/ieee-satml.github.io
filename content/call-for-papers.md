@@ -3,7 +3,7 @@ template: cfp
 menu_order: 100
 menu_title: Call for Papers
 
-<p class="news-date">Last updated: Sep 9, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 17, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 ## New from last year
 
@@ -48,7 +48,7 @@ The main dates for SaTML 2027 are listed below. Please also see the [Planning fo
 ::: dates
 
 - Mandatory abstract registration deadline: [[2026-09-22]]
-    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Adding or removing authors after the abstract registration deadline is grounds for desk rejection.
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, fixed affiliations, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Authors and affiliations cannot be changed after the abstract registration deadline, not even in the camera-ready version in case of acceptance (see [Change of affiliation](#change-of-affiliation) for exceptions). Adding or removing authors or affiliations is otherwise grounds for desk rejection.
 - Paper submission deadline: [[2026-09-29]]
     - Anonymized artifact(s) updated by: [[2026-10-02]]
 - Early reject notification: [[2026-11-04]]
@@ -196,6 +196,15 @@ Program-committee members who have a genuine conflict of interest with a paper, 
 ⚠️ **A Special Note on “Fake Conflicts”**: Declaring conflicts of interest to avoid certain (otherwise non-conflicting) PC members is not allowed and can constitute grounds for rejection. The PC Chairs reserve the right to request additional explanation for any declared conflict. If authors have concerns about the fair treatment of their submissions, they should instead contact the chairs and provide convincing arguments for any special consideration that they are requesting.
 
 Area Chairs can author or co-author submissions. Program Chairs are not allowed to be authors or co-authors of any submissions. 
+
+### ⚠️ Change of affiliation {#change-of-affiliation}
+
+Affiliations are fixed at abstract registration, since they determine institutional conflicts, and we strongly discourage changing them afterwards. If an author may change affiliation by the decision notification, for example because they are interviewing for a new position, and would potentially like the new affiliation to appear in the paper, the authors should:
+
+* let the PC Chairs know **before the submission deadline** at [pcchairs@satml.org](mailto:pcchairs@satml.org) (this is treated confidentially), and
+* also declare the conflicts of interest that the prospective affiliation would bring.
+
+Changes flagged this way may be reflected in the camera-ready version. If an unforeseen change of affiliation occurs during the review period, contact the PC Chairs immediately; such cases are handled case by case, and we expect them to be rare.
 
 ## Distinguished paper award
 

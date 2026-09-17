@@ -63,6 +63,75 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Call for Papers, 17 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Important dates &rarr; Abstract registration</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+[…] fixed authors, and fixed topics […]. Adding or removing authors after the abstract registration deadline is grounds for desk rejection.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+[…] fixed authors, <ins>fixed affiliations,</ins> and fixed topics […]. <ins>Authors and affiliations cannot be changed after the abstract registration deadline, not even in the camera-ready version in case of acceptance (see <a href="/call-for-papers/#change-of-affiliation">Change of affiliation</a> for exceptions).</ins> Adding or removing authors <ins>or affiliations</ins> is <ins>otherwise</ins> grounds for desk rejection.
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Conflicts of Interest policy &rarr; Change of affiliation</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>Affiliations are fixed at abstract registration, since they determine institutional conflicts, and we strongly discourage changing them afterwards. If an author may change affiliation by the decision notification, for example because they are interviewing for a new position, and would potentially like the new affiliation to appear in the paper, the authors should:</ins>
+<ul>
+<li><ins>let the PC Chairs know before the submission deadline at pcchairs@satml.org (this is treated confidentially), and</ins></li>
+<li><ins>also declare the conflicts of interest that the prospective affiliation would bring.</ins></li>
+</ul>
+<ins>Changes flagged this way may be reflected in the camera-ready version. If an unforeseen change of affiliation occurs during the review period, contact the PC Chairs immediately; such cases are handled case by case, and we expect them to be rare.</ins>
+</div>
+</div>
+
+## Submission checklist, 17 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Abstract registration</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Mandatory. Tentative title, non-blank abstract, final authors, final topics.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+Mandatory. Tentative title, non-blank abstract, final authors, <ins>final affiliations (no changes afterwards, not even in the camera-ready version in case of acceptance; see <a href="/call-for-papers/#change-of-affiliation">Change of affiliation</a> for exceptions)</ins>, final topics.
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Paper submission &rarr; Change of affiliation</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>If an author may change affiliation by the decision notification, tell the PC Chairs and declare the conflicts of the prospective affiliation.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Desk rejection</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+adding or removing authors after abstract registration
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+adding or removing authors <ins>or affiliations</ins> after abstract registration
+</div>
+</div>
+
 ## Call for Papers, 9 September 2026
 
 <div class="cfp-change">

@@ -7,6 +7,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The [Call for Papers](/call-for-papers) has been updated to require fixed affiliations at abstract registration (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 17, 2026)</span>
 - The [Call for Papers](/call-for-papers) has been updated with further clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 9, 2026)</span>
 - The [submission site](https://satml27.hotcrp.com) is now open, and the [Call for Papers](/call-for-papers) has been updated with some clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 4, 2026)</span>
 - The full [Call for Papers](/call-for-papers) is now available. <span class="news-date">(Aug 24, 2026)</span>
@@ -20,7 +21,7 @@ menu_title: Home
 ::: dates
 
 - Mandatory abstract registration deadline: [[2026-09-22]]
-    - Tentative non-blank title, tentative non-blank abstract, fixed authors, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Adding or removing authors after the abstract registration deadline is grounds for desk rejection.
+    - Tentative non-blank title, tentative non-blank abstract, fixed authors, fixed affiliations, and fixed topics (bidding may start at abstract registration; hence, no substantial changes are allowed to abstract or title). Authors and affiliations cannot be changed after the abstract registration deadline, not even in the camera-ready version in case of acceptance (see [Change of affiliation](/call-for-papers/#change-of-affiliation) for exceptions). Adding or removing authors or affiliations is otherwise grounds for desk rejection.
 - Paper submission deadline: [[2026-09-29]]
     - Anonymized artifact(s) updated by: [[2026-10-02]]
 - Early reject notification: [[2026-11-04]]
