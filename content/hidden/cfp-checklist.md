@@ -3,7 +3,7 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
-<p class="news-date">Last updated: Sep 17, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 22, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
@@ -25,7 +25,7 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 ## Paper submission, Tue 29 Sep 2026 (AoE)
 
 - [ ] Anonymized: no names or affiliations, own work cited in third person, no hints that artifacts are already public, all linked material anonymous. Keep essential background citations.  
-- [ ] "Open Science" section right before references: what you release, or why you cannot.  
+- [ ] "Open Science" section right before references: what you release, or why you cannot. Required for every category, including Position papers.  
 - [ ] Anonymous repository link (e.g. [anonymous.4open.science](https://anonymous.4open.science/)) submitted in HotCRP.  
 - [ ] "LLM usage considerations" section (after open science, before references) if any LLM was used, including the required editorial-use statement. If LLMs are part of the method, detail their role, limitations, and compute justification.  
 - [ ] Optional: "Ethical Considerations" section before the references.  
@@ -33,8 +33,7 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 - [ ] If the paper received reviews at another venue, whether rejected or withdrawn, append those reviews unedited plus your response, at the very end of the paper after all appendices.  
 - [ ] Update your conflict declarations in the last 24 hours before the submission deadline: PC members may have been added since abstract registration.  
 - [ ] If an author may change affiliation by the decision notification, tell the PC Chairs and declare the conflicts of the prospective affiliation (see [Change of affiliation](/call-for-papers/#change-of-affiliation)).  
-- [ ] No overlap with published, accepted, or concurrently submitted work.  
-- [ ] Optional: Set the LLM-processing opt-in flag.
+- [ ] No overlap with published, accepted, or concurrently submitted work.
 
 The Open Science, LLM usage considerations, and Ethical Considerations sections do not count towards the page limit.
 

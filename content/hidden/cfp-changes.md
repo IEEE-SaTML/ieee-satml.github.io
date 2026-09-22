@@ -63,6 +63,51 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Call for Papers, 22 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Submission information &rarr; Open Science</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>The section is required for every submission category: Position papers, for instance, often have nothing to release, but the section is still compulsory and should say so.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Reviewing process &rarr; LLMs</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+<strong>LLMs:</strong> We are still considering whether and how to use LLMs as part of the reviewing process […]. In any case, we will make an opt-in flag in HotCRP so authors can decide whether we could process their papers with an LLM.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+<strong>LLMs and reviewing:</strong> <ins>For SaTML 2027, we are not planning to run any LLM reviewing experiment. All Program Committee members must follow the <a href="https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/become-an-ieee-reviewer/">IEEE reviewer guidelines</a>. In particular, submissions are treated as confidential, and must not be uploaded to public services, including generative AI tools. The assessment of the paper (novelty, correctness, strengths and weaknesses) must be the reviewer's own judgement, and reviewers remain fully responsible for everything their review states. Violation of these guidelines may lead to immediate removal from the Program Committee and to a report to IEEE for misconduct.</ins>
+</div>
+</div>
+
+## Submission checklist, 22 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Paper submission &rarr; Open Science</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+"Open Science" section right before references: what you release, or why you cannot. <ins>Required for every category, including Position papers.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Paper submission &rarr; LLM-processing opt-in</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Removed</span>
+Optional: Set the LLM-processing opt-in flag.
+</div>
+</div>
+
 ## Call for Papers, 17 September 2026
 
 <div class="cfp-change">
