@@ -63,6 +63,44 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Submission checklist, 23 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">By the abstract registration deadline &rarr; ORCID and Author Certification</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+ORCID in every author's HotCRP profile.<br>
+Author Certification completed by all authors.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+ORCID in every author's HotCRP profile. <ins>This is not completed while this warning shows in HotCRP: "Authors (by abstract registration deadline): Some authors haven't added an ORCID iD to their profiles"</ins><br>
+Author Certification completed by all authors. <ins>This is not completed while this warning shows in HotCRP: "Author certification (by abstract registration deadline): Every author must certify to allow review"</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; "New Insights"</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>"New Insights" field in HotCRP: required for both SoK and Position papers; research papers enter "N/A".</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>Implicitly, all items due at abstract registration above.</ins><br>
+<ins>All compulsory fields on HotCRP, following the Call for Papers and the description in the HotCRP submission form.</ins><br>
+<ins>Finally, click "Ready for review" in HotCRP: a submission left as a draft is not submitted.</ins>
+</div>
+</div>
+
 ## Call for Papers, 22 September 2026
 
 <div class="cfp-change">
@@ -91,7 +129,7 @@ Changes to the [Call for Papers](/call-for-papers/) and the [submission checklis
 ## Submission checklist, 22 September 2026
 
 <div class="cfp-change">
-<p class="cfp-where">Paper submission &rarr; Open Science</p>
+<p class="cfp-where">By the paper submission deadline &rarr; Open Science</p>
 
 <div class="cfp-quote is-now">
 <span class="cfp-label">Now</span>
@@ -100,7 +138,7 @@ Changes to the [Call for Papers](/call-for-papers/) and the [submission checklis
 </div>
 
 <div class="cfp-change">
-<p class="cfp-where">Paper submission &rarr; LLM-processing opt-in</p>
+<p class="cfp-where">By the paper submission deadline &rarr; LLM-processing opt-in</p>
 
 <div class="cfp-quote">
 <span class="cfp-label">Removed</span>
@@ -141,7 +179,7 @@ Optional: Set the LLM-processing opt-in flag.
 ## Submission checklist, 17 September 2026
 
 <div class="cfp-change">
-<p class="cfp-where">Abstract registration</p>
+<p class="cfp-where">By the abstract registration deadline</p>
 
 <div class="cfp-quote">
 <span class="cfp-label">Before</span>
@@ -155,7 +193,7 @@ Mandatory. Tentative title, non-blank abstract, final authors, <ins>final affili
 </div>
 
 <div class="cfp-change">
-<p class="cfp-where">Paper submission &rarr; Change of affiliation</p>
+<p class="cfp-where">By the paper submission deadline &rarr; Change of affiliation</p>
 
 <div class="cfp-quote is-now">
 <span class="cfp-label">Added</span>
@@ -210,7 +248,7 @@ Requiring authors of submitted papers to contribute to reviewing, as is increasi
 ## Submission checklist, 9 September 2026
 
 <div class="cfp-change">
-<p class="cfp-where">Abstract registration &rarr; Author-reviewer</p>
+<p class="cfp-where">By the abstract registration deadline &rarr; Author-reviewer</p>
 
 <div class="cfp-quote">
 <span class="cfp-label">Before</span>
@@ -320,7 +358,7 @@ SoK and Position also need a 300-word "New Insights" field in HotCRP<ins>; the f
 </div>
 
 <div class="cfp-change">
-<p class="cfp-where">Abstract registration</p>
+<p class="cfp-where">By the abstract registration deadline</p>
 
 <div class="cfp-quote">
 <span class="cfp-label">Before</span>
@@ -350,7 +388,7 @@ No simultaneous active abstract registration elsewhere. If under review elsewher
 </div>
 
 <div class="cfp-change">
-<p class="cfp-where">Paper submission &rarr; Prior reviews</p>
+<p class="cfp-where">By the paper submission deadline &rarr; Prior reviews</p>
 
 <div class="cfp-quote">
 <span class="cfp-label">Before</span>

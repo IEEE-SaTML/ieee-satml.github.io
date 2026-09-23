@@ -196,6 +196,20 @@ ul.checklist span.checkitem-box {
   background: #fbf8f8;
 }
 
+/* Quoted HotCRP warnings (see content/hidden/cfp-checklist.md) */
+
+.hotcrp-warning {
+  display: block;
+  margin: 0.3rem 0 0.1rem 0;
+  padding: 0.4rem 0.7rem;
+  border-left: 3px solid #d8ad3f;
+  border-radius: 3px;
+  background: #fdf8ec;
+  font-size: 0.9em;
+  line-height: 1.45;
+  color: #6a6a6a;
+}
+
 .due-chip {
   display: inline-block;
   margin-left: 0.6rem;
