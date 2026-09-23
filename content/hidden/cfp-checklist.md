@@ -3,7 +3,7 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
-<p class="news-date">Last updated: Sep 22, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 23, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
@@ -13,27 +13,31 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 - [ ] Category: Research 12pp body text; SoK 12pp body text, title starts "SoK:"; Position 5 to 12pp body text, title starts "Position:". SoK and Position also need a 300-word "New Insights" field in HotCRP; the field is mandatory, so research papers enter "N/A". References and appendices unlimited.  
 - [ ] Format: PDF, `\documentclass[conference]{IEEEtran}`, 10pt, no change in geometry/template.
 
-## Abstract registration, Tue 22 Sep 2026 (AoE)
+## By the abstract registration deadline, Tue 22 Sep 2026 (AoE)
 
 - [ ] Mandatory. Tentative title, non-blank abstract, final authors, final affiliations (no changes afterwards, not even in the camera-ready version in case of acceptance; see [Change of affiliation](/call-for-papers/#change-of-affiliation) for exceptions), final topics.  
 - [ ] Answer the HotCRP field on whether the paper is still under review elsewhere. If it is, that other submission must be resolved (rejected or withdrawn) by the paper submission deadline.  
 - [ ] Nominate one author, by email exactly as listed, as author-reviewer. The nomination cannot be changed afterwards.  
-- [ ] ORCID in every author's HotCRP profile.  
-- [ ] Author Certification completed by all authors.  
+- [ ] ORCID in every author's HotCRP profile. This is not completed while this warning shows in HotCRP:<span class="hotcrp-warning">Authors (by abstract registration deadline): Some authors haven't added an ORCID iD to their profiles</span>  
+- [ ] Author Certification completed by all authors. This is not completed while this warning shows in HotCRP:<span class="hotcrp-warning">Author certification (by abstract registration deadline): Every author must certify to allow review</span>  
 - [ ] Declare all mandatory conflicts (see “Conflicts of Interest policy”). Fake conflicts are not allowed.
 
-## Paper submission, Tue 29 Sep 2026 (AoE)
+## By the paper submission deadline, Tue 29 Sep 2026 (AoE)
 
+- [ ] Implicitly, all items due at abstract registration above.  
+- [ ] All compulsory fields on HotCRP, following the Call for Papers and the description in the HotCRP submission form.  
 - [ ] Anonymized: no names or affiliations, own work cited in third person, no hints that artifacts are already public, all linked material anonymous. Keep essential background citations.  
 - [ ] "Open Science" section right before references: what you release, or why you cannot. Required for every category, including Position papers.  
-- [ ] Anonymous repository link (e.g. [anonymous.4open.science](https://anonymous.4open.science/)) submitted in HotCRP.  
+- [ ] Anonymous repository link (e.g. [anonymous.4open.science](https://anonymous.4open.science/)) submitted in HotCRP. If the paper has no code, write "See Open Science section": every paper needs that section, even a purely theoretical one.  
+- [ ] "New Insights" field in HotCRP: required for both SoK and Position papers; research papers enter "N/A".  
 - [ ] "LLM usage considerations" section (after open science, before references) if any LLM was used, including the required editorial-use statement. If LLMs are part of the method, detail their role, limitations, and compute justification.  
 - [ ] Optional: "Ethical Considerations" section before the references.  
 - [ ] Verify every reference and result yourself. Fabrications count as misconduct. Self-check with [hallucinator.science](https://hallucinator.science/).  
 - [ ] If the paper received reviews at another venue, whether rejected or withdrawn, append those reviews unedited plus your response, at the very end of the paper after all appendices.  
 - [ ] Update your conflict declarations in the last 24 hours before the submission deadline: PC members may have been added since abstract registration.  
 - [ ] If an author may change affiliation by the decision notification, tell the PC Chairs and declare the conflicts of the prospective affiliation (see [Change of affiliation](/call-for-papers/#change-of-affiliation)).  
-- [ ] No overlap with published, accepted, or concurrently submitted work.
+- [ ] No overlap with published, accepted, or concurrently submitted work.  
+- [ ] Finally, click "Ready for review" in HotCRP: a submission left as a draft is not submitted.
 
 The Open Science, LLM usage considerations, and Ethical Considerations sections do not count towards the page limit.
 
