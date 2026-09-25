@@ -63,6 +63,45 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Call for Papers, 25 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Submission information &rarr; Withdrawal policy</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>By submitting a paper to SaTML 2027, the authors commit to the full review process: the paper stays under review until a decision is notified, and cannot be withdrawn in the meantime, including after the authors have seen the reviews. Reviewing is volunteer work, and a withdrawal mid-cycle discards the effort already spent on the paper. We encourage authors to keep the same considerations in mind at other venues. At SaTML 2027, abstracts are exempt: a registered abstract can be withdrawn freely, but cannot be revived after the abstract registration deadline. Authors receiving a "Revision" outcome may exceptionally request to withdraw (e.g., if they believe they are unable to complete the revision requirements), but must contact the Program Chairs within one week of receiving the notification; otherwise the paper remains under review, and the double submissions policy applies.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Submission decisions &rarr; Revision</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Authors can choose to withdraw their paper and not submit a revision.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+Authors can <ins>request to</ins> withdraw their paper and not submit a revision, <ins>but must contact the Program Chairs within one week of receiving the notification (see "Withdrawal policy")</ins>.
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Planning for growth &rarr; Revised timeline</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Authors who would prefer not to proceed under a revised timeline may withdraw their submission at that point, before any reviews have been released.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+<ins>If the timeline change is substantial, the PC Chairs may offer the option to withdraw the paper within a specified time window</ins>, before any reviews have been released. <ins>Small changes, such as delays of about one or two weeks, do not warrant this option (see "Withdrawal policy").</ins>
+</div>
+</div>
+
 ## Submission checklist, 23 September 2026
 
 <div class="cfp-change">

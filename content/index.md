@@ -7,6 +7,7 @@ menu_title: Home
 
 ## News & Updates
 
+- The [Call for Papers](/call-for-papers) now clarifies a withdrawal policy (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 25, 2026)</span>
 - We have added a few clarifications to the [submission checklist](/call-for-papers/checklist/) (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 23, 2026)</span>
 - Please read the [Call for Papers](/call-for-papers) thoroughly, and complete each requirement by the right deadline; our [summary checklist](/call-for-papers/checklist/) can help. Separately, we have made a few small clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 22, 2026)</span>
 - The [Call for Papers](/call-for-papers) has been updated to require fixed affiliations at abstract registration (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 17, 2026)</span>

@@ -3,7 +3,7 @@ template: cfp
 menu_order: 100
 menu_title: Call for Papers
 
-<p class="news-date">Last updated: Sep 22, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 25, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 <p class="callout">⚠️ <strong>Different requirements are due at different times, so we have prepared a <a href="/call-for-papers/checklist/">summary checklist</a> to help you keep track.</strong> It gathers in one page what is due at abstract registration, what is due at paper submission, and what can lead to desk rejection. It is only a summary: the Call for Papers below takes precedence.</p>
 
@@ -16,6 +16,7 @@ We have introduced some new additions compared to last year:
 * Revised review process: introduced initial review phase (inspired by PETS), and Area Chairs to support the review process
 * Requirement for ORCID and Author Certification by the abstract registration deadline
 * Added section in CfP “Planning for growth in submissions”  
+* Introduced a withdrawal policy: a submitted paper cannot be withdrawn before the final decision is notified  
 * Introduced clarifications on: scope of SoK papers, attendance policy, conflict of interest policy  
 * “Best paper award” is now called “Distinguished paper award”; the “Major Revision” outcome is now called “Revision”
 
@@ -92,6 +93,8 @@ All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the dead
 
 * **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. If the paper is already under review elsewhere, authors may still register the abstract at SaTML, but they must not submit the full paper unless that other submission has been resolved (rejected or withdrawn) **by the SaTML paper submission deadline**. Violations of this policy count as "double submission" and will be reported to IEEE.   
 
+* ⚠️ **Withdrawal policy (new):** By submitting a paper to SaTML 2027, the authors commit to the full review process: the paper stays under review until a decision is notified, and cannot be withdrawn in the meantime, including after the authors have seen the reviews. Reviewing is volunteer work, and a withdrawal mid-cycle discards the effort already spent on the paper. We encourage authors to keep the same considerations in mind at other venues. At SaTML 2027, abstracts are exempt: a registered abstract can be withdrawn freely, but cannot be revived after the abstract registration deadline. Authors receiving a "Revision" outcome may exceptionally request to withdraw (e.g., if they believe they are unable to complete the revision requirements), but must contact the Program Chairs within one week of receiving the notification; otherwise the paper remains under review, and the double submissions policy applies.   
+
 * **ORCID:** All authors MUST provide their ORCIDs through the profile page on HotCRP **by the abstract registration deadline**.   
 
 * **Author Certification:** All authors MUST confirm the submission terms within HotCRP via the Author Certification field **by the abstract registration deadline**.   
@@ -111,6 +114,8 @@ All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the dead
 * **Submission template:** Submissions must be a PDF file in two-column [IEEE proceedings style](https://www.ieee.org/conferences/publishing/templates.html). That is, authors must use `\documentclass[conference]{IEEEtran}` when preparing their paper, with the default 10pt font size and page geometry. Using a different template, or modifying font size, margins, or spacing to fit more content, is grounds for desk rejection. The number of allowed pages for a submission depends on the submission category, see above.
 
 Authors need to closely follow these rules and precisely adhere to the format guidelines. Failure to comply with these rules is grounds for rejection.
+
+For questions or clarifications, the authors should contact the PC Chairs at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
 ## Usage of LLMs
 
@@ -157,7 +162,7 @@ For each submission, one of the following decisions will be made:
 * **Accept**: Papers in this category will be accepted for publication in the proceedings and presentation at the conference. All accepted papers must submit a camera-ready copy by the corresponding deadline. The papers will be published in the IEEE Computer Society Digital Library, and authors are encouraged to also make them freely available via arXiv.  
     * **Note:** Acceptance is conditional on artifact availability on [zenodo.org](http://zenodo.org) (see “Open Science”), or a valid justification for why this is not possible.
 
-* **Revision**: A limited number of papers will be invited to submit a revision; such papers will receive a detailed summary of expectations for revision, in addition to standard reviewer comments. Requested changes may be textual, experimental, or a combination of both. Authors will have a limited time window to submit a revision after the notification is sent. The authors should clearly explain in a well-marked appendix how the revisions address the comments of the reviewers. The revised paper will then be re-evaluated, and either accepted or rejected. We will assign the same set of reviewers. Authors can choose to withdraw their paper and not submit a revision.  
+* **Revision**: A limited number of papers will be invited to submit a revision; such papers will receive a detailed summary of expectations for revision, in addition to standard reviewer comments. Requested changes may be textual, experimental, or a combination of both. Authors will have a limited time window to submit a revision after the notification is sent. The authors should clearly explain in a well-marked appendix how the revisions address the comments of the reviewers. The revised paper will then be re-evaluated, and either accepted or rejected. We will assign the same set of reviewers. Authors can request to withdraw their paper and not submit a revision, but must contact the Program Chairs within one week of receiving the notification (see "Withdrawal policy").  
 
 * **Reject**: Papers in this category are declined for inclusion in the conference.
 
@@ -232,7 +237,7 @@ If submissions exceed even that, we may need to adjust parts of the process in o
     * The load is cumulative: up to three papers for each submission the author is nominated on.  
     * Reviews that are missing, late, or of inadequate quality may result in desk rejection of any paper the author was nominated on. Nominees are never assigned their own or conflicted papers, and the nomination does not affect a paper's evaluation.  
 
-Abstract registration has been introduced precisely so that we can anticipate volume early and plan accordingly. We will confirm whether any of these measures are necessary before the early reject notification date and will communicate any changes to authors promptly. Authors who would prefer not to proceed under a revised timeline may withdraw their submission at that point, before any reviews have been released.
+Abstract registration has been introduced precisely so that we can anticipate volume early and plan accordingly. We will confirm whether any of these measures are necessary before the early reject notification date and will communicate any changes to authors promptly. If the timeline change is substantial, the PC Chairs may offer the option to withdraw the paper within a specified time window, before any reviews have been released. Small changes, such as delays of about one or two weeks, do not warrant this option (see "Withdrawal policy").
 
 We would rather set out this contingency plan in advance than surprise anyone mid-cycle. We hope and expect that none of it will be needed.
 
