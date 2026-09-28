@@ -63,6 +63,97 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Call for Papers, 28 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">Submission information &rarr; Previous reviews</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+[…] authors <em>must append those prior reviews</em> to their submission […]. Authors are only required to include reviews from the last time the paper was submitted.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+[…] authors <ins>must append the most recent set of reviews received, unedited</ins>, along with a description of how the reviews were addressed <ins>and what changed in the paper since then</ins>. The reviews must be anonymized, placed at the very end of the paper, after all appendices, <ins>and do not count towards the page limit. <em>Optional:</em> the rebuttal or discussion messages, the name of the venue, and the reviews from earlier submissions if the paper was submitted more than once. The most recent set of reviews received remains compulsory to attach unedited and discuss.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Conflicts of Interest policy</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+For any "Other" declared conflict, authors are required to explain the nature of the conflict to Program Chairs and the Area Chairs.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+For any "Other" <ins>or "Personal"</ins> declared conflict, authors are required to explain the nature of the conflict <ins>in HotCRP</ins>, to the Program Chairs and the Area Chairs.
+</div>
+</div>
+
+## Submission checklist, 28 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; In HotCRP</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>Explanation of any PC Conflict marked as "Other" or "Personal" (one per line): fill in this HotCRP field.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; Conflict declarations</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+Update your conflict declarations in the last 24 hours before the submission deadline: PC members may have been added since abstract registration.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+<ins>Every author must have declared their conflicts by the submission deadline. The Program Committee was finalized on 28 September 2026, so check them against the final committee before submitting.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; Anonymous repository link</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>These links have a default expiry window: authors are required to set the expiry date to at least 1 March 2027.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; Prior reviews</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+Append <ins>the most recent set of reviews received, unedited,</ins> at the very end of the paper after all appendices, <ins>together with a description of how they were addressed and what changed in the paper since then. The rebuttal or discussion messages, the name of the venue, and the reviews from earlier submissions are optional.</ins>
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; Page limit</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+The Open Science, LLM usage considerations, and Ethical Considerations sections, <ins>and any appended prior reviews,</ins> do not count towards the page limit.
+</div>
+</div>
+
+<div class="cfp-change">
+<p class="cfp-where">Anonymized artifact(s)</p>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Added</span>
+<ins>Any change to the artifact after Fri 2 Oct 2026 (AoE) will result in desk rejection. Updating the repository by that date is optional; the expiry date of the anonymous link must be set to at least 1 March 2027.</ins>
+</div>
+</div>
+
 ## Call for Papers, 25 September 2026
 
 <div class="cfp-change">
