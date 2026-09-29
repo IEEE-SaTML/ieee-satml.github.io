@@ -3,7 +3,7 @@ template: page
 status: hidden
 slug: call-for-papers/checklist
 
-<p class="news-date">Last updated: Sep 28, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
+<p class="news-date">Last updated: Sep 29, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
 Authors should read and comply with the full [Call for Papers](/call-for-papers/). We have drafted a brief checklist below to help you double-check, but it may not capture every detail, so the full CfP takes precedence. If you think we have missed something important from the CfP in the checklist, we welcome your feedback at [pcchairs@satml.org](mailto:pcchairs@satml.org).
 
@@ -51,7 +51,7 @@ The Open Science, LLM usage considerations, and Ethical Considerations sections,
 - [ ] <span class="badge badge-required">Required</span> **"New Insights" field:** SoK and Position papers summarise their insights in 300 words; research papers enter "N/A" (see [New Insights](/call-for-papers/#new-insights)).  
 - [ ] <span class="badge badge-required">Required</span> <span class="badge badge-all-authors">All authors</span> **Conflict declarations:** every author must have declared their conflicts by the submission deadline. The Program Committee was finalized on 28 September 2026, so check them against the final [committee](/organization/) before submitting.  
 - [ ] <span class="badge badge-required">Required</span> <span class="badge badge-all-authors">All authors</span> **Explanation of any PC Conflict marked as "Other" or "Personal" (one per line):** fill in this HotCRP field.  
-- [ ] <span class="badge badge-required">Required</span> **"Ready for review":** finally, click it. A submission left as a draft is not submitted, and submitting confirms the paper does not overlap with published, accepted, or concurrently submitted work.
+- [ ] <span class="badge badge-required">Required</span> **Mark the submission as "Ready for review"**, and save it. A submission left as a draft is not submitted, and submitting confirms the paper does not overlap with published, accepted, or concurrently submitted work.
 
 ### ✉️ Email to the Program Chairs, [pcchairs@satml.org](mailto:pcchairs@satml.org)
 

@@ -63,6 +63,22 @@ slug: call-for-papers/changes
 
 Changes to the [Call for Papers](/call-for-papers/) and the [submission checklist](/call-for-papers/checklist/) since first publication, with new text <ins>highlighted</ins>. Editorial and stylistic edits are not listed, and the [Call for Papers](/call-for-papers/) takes precedence.
 
+## Submission checklist, 29 September 2026
+
+<div class="cfp-change">
+<p class="cfp-where">By the paper submission deadline &rarr; Ready for review</p>
+
+<div class="cfp-quote">
+<span class="cfp-label">Before</span>
+"Ready for review": finally, click it. A submission left as a draft is not submitted.
+</div>
+
+<div class="cfp-quote is-now">
+<span class="cfp-label">Now</span>
+<ins>Mark the submission as "Ready for review", and save it.</ins> A submission left as a draft is not submitted, and submitting confirms the paper does not overlap with published, accepted, or concurrently submitted work.
+</div>
+</div>
+
 ## Call for Papers, 28 September 2026
 
 <div class="cfp-change">
