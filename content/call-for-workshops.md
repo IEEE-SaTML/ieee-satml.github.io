@@ -2,6 +2,7 @@ title: Call for Workshops
 template: page
 menu_order: 175
 menu_title: Call for Workshops
+status: hidden
 
 
 ## Workshop track
@@ -20,7 +21,7 @@ The workshop track includes the following dates:
 
 * Workshop proposal deadline: [[2026-08-28]]
 * Acceptance notification: ((2026-09-18))
-* Workshop track: **Early May, 2027 (Exact Dates TBC)**
+* Workshop day: ((2027-05-03))
 
 :::
 

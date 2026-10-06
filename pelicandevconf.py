@@ -6,7 +6,7 @@ SITEURL = "https://dev.satml.org/"
 
 CONFERENCE_NAME = "5th IEEE Conference on Secure and Trustworthy Machine Learning"
 CONFERENCE_LOCATION = "Reykjavik, Iceland"
-CONFERENCE_DATE = "Early May, 2027"
+CONFERENCE_DATE = "May 4–6, 2027"
 
 CHAIRS = json.loads(Path('data/chairs.json').read_text())
 STEERING_COMMITTEE = json.loads(Path('data/steering.json').read_text())
@@ -30,6 +30,7 @@ PLUGINS = [
     'checklist',  # renders markdown "- [ ] item" as checkboxes
     'dates',      # renders "[[YYYY-MM-DD]]" as a formatted date with data attributes
     'editions',   # renders "::: edition" blocks as past-edition cards
+    'cards',      # renders "::: card" blocks as generic content cards
 ]
 
 TIMEZONE = 'Europe/Berlin'

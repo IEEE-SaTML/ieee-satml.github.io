@@ -36,6 +36,7 @@ Once it's running, head over to http://localhost:8000 to preview the site.
 - `- [ ] item` renders as a checkbox list (`plugins/checklist.py`).
 - `[[2026-09-29]]` renders as a formatted date ("Tue, Sep 29, 2026") and a list wrapped between `::: dates` and `:::` lines becomes a deadline list that dims past deadlines and highlights the next upcoming one with a countdown (`plugins/dates.py`). The brackets say what kind of date it is: `[[..]]` author deadline (hour-precise countdown), `((..))` conference-side date such as a notification (day granularity), `{{..}}` date without a countdown.
 - A `::: edition` block with `key: value` lines (year, image, venue, location, date, url) renders as a clickable past-edition card (`plugins/editions.py`).
+- A `::: card` block renders a generic content card (`plugins/cards.py`). Consecutive cards share a responsive two-column grid and stack on narrow screens.
 
 ## Adding a New Edition
 

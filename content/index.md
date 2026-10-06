@@ -7,6 +7,7 @@ menu_title: Home
 
 ## News & Updates
 
+- We are excited to announce four workshops for SaTML 2027: New AdvML-Frontiers, MIRROR, TrustTFM, and WICE, all taking place on May 3, 2027, ahead of the main conference. See the [workshop track](/workshops/) for details. <span class="news-date">(Oct 6, 2026)</span>
 - We have restructured the [submission checklist](/call-for-papers/checklist/) to assist authors better, and added further clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 28, 2026)</span>
 - The [Call for Papers](/call-for-papers) now clarifies a withdrawal policy (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 25, 2026)</span>
 - We have added a few clarifications to the [submission checklist](/call-for-papers/checklist/) (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 23, 2026)</span>
@@ -36,7 +37,7 @@ menu_title: Home
 - Revision notification: ((2027-02-01))
     - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline
 - Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**
-- Conference dates: **Early May, 2027**
+- Conference dates: [[2027-05-04 -- 2027-05-06]]
 
 :::
 

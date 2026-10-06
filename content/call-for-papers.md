@@ -62,7 +62,7 @@ The main dates for SaTML 2027 are listed below. Please also see the [Planning fo
 - Revision notification: ((2027-02-01))
     - Final artifacts (of accepted revised papers) on Zenodo due by: camera-ready deadline
 - Camera-Ready Paper Submissions and Copyrights Due: **mid-Feb 2027 (exact date TBC)**
-- Conference dates: **Early May, 2027**
+- Conference dates: [[2027-05-04 -- 2027-05-06]]
 
 :::
 
