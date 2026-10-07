@@ -27,11 +27,10 @@ Two constructs, usually used together:
 
        :::
 
-   It renders wrapped in <div class="dates">. Inside such a block, the
-   "Important dates" styling in theme/static/css/custom.css applies, and
-   the SCRIPT below (appended automatically to any page containing such a
-   block) dims past deadlines and highlights the next upcoming one with
-   an "in N days" chip.
+   It renders wrapped in <div class="dates">. The STYLE and SCRIPT below
+   are appended to any page containing such a block: the script dims past
+   deadlines and highlights the next upcoming one with an "in N days"
+   chip, the style covers the list and that chip.
 
 """
 
@@ -119,6 +118,67 @@ SCRIPT = '''<script>
   });
 </script>'''
 
+STYLE = """<style>
+.dates {
+  margin: 1.5rem 0;
+}
+
+.dates > ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.dates > ul > li {
+  margin-bottom: 0.25em;
+}
+
+.dates ul ul {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.dates ul ul li {
+  margin: 0.2rem 0;
+  font-size: 0.92em;
+  color: #6a6a6a;
+}
+
+.dates li.is-past {
+  color: #a8a8a8;
+}
+
+.dates li.is-past > strong {
+  color: inherit;
+  font-weight: 400;
+}
+
+.dates li.is-next::marker {
+  color: brown;
+}
+
+.due-chip {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.02em 0.6em 0.06em;
+  border: 1px solid brown;
+  border-radius: 999px;
+  color: brown;
+  font-size: 0.78em;
+  white-space: nowrap;
+  vertical-align: 0.12em;
+}
+
+@media screen and (max-width: 768px) {
+  .dates > ul {
+    margin-left: 0.9em !important;
+  }
+
+  .dates ul ul {
+    margin-left: 0.9em !important;
+  }
+}
+</style>"""
+
 
 def _fmt(d, with_year=True):
     # Non-breaking spaces: a date never wraps internally. A range can
@@ -156,7 +216,7 @@ def render_dates(instance):
     if ':::' in html:
         html, wrapped = BLOCK.subn(r'<div class="dates">\1</div>', html)
         if wrapped:
-            html += SCRIPT
+            html += STYLE + SCRIPT
     if '[[' in html:
         html = MARKER.sub(_marker, html)
     if '((' in html:

@@ -108,94 +108,6 @@ section.section .container a {
   text-decoration: underline !important;
 }
 
-/* Checklist (see plugins/checklist.py) */
-
-ul.checklist {
-  list-style: none !important;
-  margin-left: 0.5rem !important;
-  margin-top: 0.5rem !important;
-}
-
-ul.checklist li {
-  margin: 0 0 0.35rem 0 !important;
-}
-
-ul.checklist span.checkitem {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-ul.checklist span.checkitem-box {
-  flex: 0 0 auto;
-  box-sizing: border-box;
-  width: 0.8rem;
-  height: 0.8rem;
-  margin-top: 0.32rem;
-  border: 1px solid #b5b5b5;
-  border-radius: 2px;
-}
-
-/* Important dates (see plugins/dates.py) */
-
-.dates {
-  margin: 1.5rem 0;
-}
-
-.dates > ul {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.dates > ul > li {
-  margin-bottom: 0.25em;
-}
-
-.dates ul ul {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.dates ul ul li {
-  margin: 0.2rem 0;
-  font-size: 0.92em;
-  color: #6a6a6a;
-}
-
-.dates li.is-past {
-  color: #a8a8a8;
-}
-
-.dates li.is-past > strong {
-  color: inherit;
-  font-weight: 400;
-}
-
-.dates li.is-next::marker {
-  color: brown;
-}
-
-@media screen and (max-width: 768px) {
-  .dates > ul {
-    margin-left: 0.9em !important;
-  }
-
-  .dates ul ul {
-    margin-left: 0.9em !important;
-  }
-}
-
-/* Callout box (submission site, reviewer sign-up) */
-
-.callout {
-  margin: 1.5rem 0 !important;
-  padding: 0.75rem 1rem;
-  border: 1px solid #e6dcdc;
-  border-left: 3px solid brown;
-  border-radius: 4px;
-  background: #fbf8f8;
-}
-
 /* Checklist badges (see content/hidden/cfp-checklist.md) */
 
 .badge {
@@ -229,14 +141,6 @@ ul.checklist span.checkitem-box {
 .badge-all-authors {
   background: #e8f0f0;
   color: teal;
-}
-
-/* Deadline headings on the submission checklist */
-
-.content h2 .due-chip {
-  margin-left: 0.5rem;
-  font-size: 0.72em;
-  vertical-align: 0.18em;
 }
 
 /* Note nested under a checklist item */
@@ -275,16 +179,4 @@ ul.checklist span.checkitem-box {
   font-size: 0.9em;
   line-height: 1.45;
   color: #6a6a6a;
-}
-
-.due-chip {
-  display: inline-block;
-  margin-left: 0.6rem;
-  padding: 0.02em 0.6em 0.06em;
-  border: 1px solid brown;
-  border-radius: 999px;
-  color: brown;
-  font-size: 0.78em;
-  white-space: nowrap;
-  vertical-align: 0.12em;
 }

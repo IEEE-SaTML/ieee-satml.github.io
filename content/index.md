@@ -19,7 +19,9 @@ menu_title: Home
 - The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 22, 2026)</span>
 - The website for SaTML 2027 is now online! <span class="news-date">(Jun 29, 2026)</span>
 
-<p class="callout"><strong>Interested in reviewing for SaTML 2027?</strong> We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, <a href="https://forms.gle/iQFaQpg4rwqh79qL8">let us know if you would like to be considered for the Program Committee</a>. Junior researchers welcome; an invitation is not guaranteed.</p>
+::: callout
+**Interested in reviewing for SaTML 2027?** We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, [let us know if you would like to be considered for the Program Committee](https://forms.gle/iQFaQpg4rwqh79qL8). Junior researchers welcome; an invitation is not guaranteed.
+:::
 
 ## Important dates
 
@@ -58,4 +60,6 @@ This conference will expand on the theoretical and practical understandings of v
 - Trustworthy machine learning in cybersecurity applications  
 - Trustworthy data curation
 
-We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers) for details). Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details) and workshops (see [Call for Workshops](/call-for-workshops) for details).
+We solicit research papers, systematization of knowledge papers, and position papers (see [Call for Papers](/call-for-papers) for details). 
+<!-- Furthermore, we invite proposals for our competition track (see [Call for Competitions](/call-for-competitions) for details) and workshops (see [Call for Workshops](/call-for-workshops) for details). -->
+The conference also features a [competition track](/competitions/) and four [workshops](/workshops/) on the day before the main conference.

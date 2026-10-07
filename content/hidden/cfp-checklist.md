@@ -28,7 +28,9 @@ Authors should read and comply with the full [Call for Papers](/call-for-papers/
 
 ## By the paper submission deadline <span class="due-chip">Tue 29 Sep 2026, AoE</span>
 
-<p class="callout">⚠️ <strong>Everything due at abstract registration still applies</strong>, in addition to the items below.</p>
+::: callout
+⚠️ **Everything due at abstract registration still applies**, in addition to the items below.
+:::
 
 ### 📄 Sections in the paper (PDF)
 
@@ -59,7 +61,9 @@ The Open Science, LLM usage considerations, and Ethical Considerations sections,
 
 ## 📦 Anonymized artifact(s) updated by <span class="due-chip">Fri 2 Oct 2026, AoE</span>
 
-<p class="callout">⚠️ <strong>Any change to the artifact after Fri 2 Oct 2026 (AoE) will result in desk rejection.</strong> The artifact must remain accessible and unedited for the rest of the review process.</p>
+::: callout
+⚠️ **Any change to the artifact after Fri 2 Oct 2026 (AoE) will result in desk rejection.** The artifact must remain accessible and unedited for the rest of the review process.
+:::
 
 - [ ] <span class="badge badge-optional">Optional</span> Last chance to update the anonymous artifact repository linked from your HotCRP submission (e.g. [anonymous.4open.science](https://anonymous.4open.science/)).<span class="checklist-warning">⚠️ These links have a default expiry window: authors are required to **set the expiry date to at least 1 March 2027**.</span>  
 

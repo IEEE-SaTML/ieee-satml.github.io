@@ -5,7 +5,9 @@ menu_title: Call for Papers
 
 <p class="news-date">Last updated: Sep 28, 2026 &mdash; see <a href="/call-for-papers/changes/">what changed</a>.</p>
 
-<p class="callout">⚠️ <strong>Different requirements are due at different times, so we have prepared a <a href="/call-for-papers/checklist/">summary checklist</a> to help you keep track.</strong> It gathers in one page what is due at abstract registration, what is due at paper submission, and what can lead to desk rejection. It is only a summary: the Call for Papers below takes precedence.</p>
+::: callout
+⚠️ **Different requirements are due at different times, so we have prepared a [summary checklist](/call-for-papers/checklist/) to help you keep track.** It gathers in one page what is due at abstract registration, what is due at paper submission, and what can lead to desk rejection. It is only a summary: the Call for Papers below takes precedence.
+:::
 
 ## New from last year
 
@@ -89,7 +91,9 @@ There is no limit on references and appendices. However, reviewers are not requi
 
 All submissions must be received by 11:59 PM AoE (UTC-12) on the day of the deadline.
 
-<p class="callout">Submissions are handled through HotCRP: <a href="https://satml27.hotcrp.com">https://satml27.hotcrp.com</a></p>
+::: callout
+Submissions are handled through HotCRP: <https://satml27.hotcrp.com>
+:::
 
 * **Policy against double submissions:** Submitted papers must not substantially overlap with papers that have been published or accepted for publication, or that are simultaneously under submission to a journal, conference, or workshop with published proceedings. If the paper is already under review elsewhere, authors may still register the abstract at SaTML, but they must not submit the full paper unless that other submission has been resolved (rejected or withdrawn) **by the SaTML paper submission deadline**. Violations of this policy count as "double submission" and will be reported to IEEE.   
 
@@ -241,7 +245,9 @@ Abstract registration has been introduced precisely so that we can anticipate vo
 
 We would rather set out this contingency plan in advance than surprise anyone mid-cycle. We hope and expect that none of it will be needed.
 
-<p class="callout"><strong>Interested in reviewing for SaTML 2027?</strong> We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, <a href="https://forms.gle/iQFaQpg4rwqh79qL8">let us know if you would like to be considered for the Program Committee</a>. Junior researchers welcome; an invitation is not guaranteed.</p>
+::: callout
+**Interested in reviewing for SaTML 2027?** We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, [let us know if you would like to be considered for the Program Committee](https://forms.gle/iQFaQpg4rwqh79qL8). Junior researchers welcome; an invitation is not guaranteed.
+:::
 
 If you have any questions, please email us at [pcchairs@satml.org](mailto:pcchairs@satml.org) 
 

@@ -41,6 +41,7 @@ PLUGINS = [
     'dates',      # renders "[[YYYY-MM-DD]]" as a formatted date with data attributes
     'editions',   # renders "::: edition" blocks as past-edition cards
     'cards',      # renders "::: card" blocks as generic content cards
+    'callout',    # renders "::: callout" blocks as highlighted boxes
 ]
 
 TIMEZONE = 'Europe/Berlin'
