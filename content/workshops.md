@@ -21,6 +21,7 @@ As AI becomes part of everyday life, security failures in machine learning direc
 title: MIRROR
 subtitle: Meta-science in AI Security Research
 footer: **Organizers:** Srishti Gupta, Daryna Oliynyk, Daniel Arp, and Lea Schönherr
+website: https://mirror-workshop.io
 
 The MIRROR workshop aims to critically reflect on research practices in AI Security and explore how our community can conduct more reliable and reproducible research. Building better research practices requires looking in three directions at once. Looking backward means examining where current research goes wrong: brittle threat models and insufficiently stress-tested defenses can create a false sense of security, making systematic audits of pitfalls and lessons learned across communities and subfields essential. Looking forward means embedding sound evaluation protocols, reproducible artifacts, data and label quality, and responsible disclosure into research practice. Looking inward matters just as much: extracting signal from a growing volume of papers and communicating ideas clearly is increasingly important, especially as LLMs reshape ideation, writing, and peer review.
 :::
