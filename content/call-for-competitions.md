@@ -2,6 +2,7 @@ title: Call for Competitions
 template: page
 menu_order: 150
 menu_title: Call for Competitions
+status: hidden
 
 ## Competition track
 

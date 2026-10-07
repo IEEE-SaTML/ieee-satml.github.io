@@ -7,6 +7,7 @@ menu_title: Home
 
 ## News & Updates
 
+- Two competitions join the SaTML 2027 program, LatentArena and Ravensport. Find out how to participate on the [competition track](/competitions/) page. <span class="news-date">(Oct 6, 2026)</span>
 - We are excited to announce four workshops for SaTML 2027: New AdvML-Frontiers, MIRROR, TrustTFM, and WICE, all taking place on May 3, 2027, ahead of the main conference. See the [workshop track](/workshops/) for details. <span class="news-date">(Oct 6, 2026)</span>
 - We have restructured the [submission checklist](/call-for-papers/checklist/) to assist authors better, and added further clarifications (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 28, 2026)</span>
 - The [Call for Papers](/call-for-papers) now clarifies a withdrawal policy (see [what changed](/call-for-papers/changes/)). <span class="news-date">(Sep 25, 2026)</span>
