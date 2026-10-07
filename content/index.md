@@ -19,8 +19,11 @@ menu_title: Home
 - The [Call for Workshops](/call-for-workshops) and the [Call for Competitions](/call-for-competitions) are now available. <span class="news-date">(Jul 22, 2026)</span>
 - The website for SaTML 2027 is now online! <span class="news-date">(Jun 29, 2026)</span>
 
-::: callout
+<!-- ::: callout
 **Interested in reviewing for SaTML 2027?** We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, [let us know if you would like to be considered for the Program Committee](https://forms.gle/iQFaQpg4rwqh79qL8). Junior researchers welcome; an invitation is not guaranteed.
+::: -->
+::: callout
+**The Program Committee for SaTML 2027 is now finalized.** Many thanks to everyone who reached out! The full list is on the [Organization](/organization/) page.
 :::
 
 ## Important dates

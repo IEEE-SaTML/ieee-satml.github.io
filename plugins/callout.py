@@ -31,6 +31,10 @@ STYLE = """<style>
 .callout > :last-child {
   margin-bottom: 0 !important;
 }
+
+.callout:last-child {
+  margin-bottom: 0 !important;
+}
 </style>"""
 OPENING = re.compile(r"^::: callout[ \t]*(?:\n|$)")
 CLOSING = re.compile(r"^:::[ \t]*$", re.MULTILINE)

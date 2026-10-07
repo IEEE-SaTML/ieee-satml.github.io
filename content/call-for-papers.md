@@ -245,8 +245,11 @@ Abstract registration has been introduced precisely so that we can anticipate vo
 
 We would rather set out this contingency plan in advance than surprise anyone mid-cycle. We hope and expect that none of it will be needed.
 
-::: callout
+<!-- ::: callout
 **Interested in reviewing for SaTML 2027?** We may further expand the Program Committee, also depending on the volume of abstract registrations. If you have published and peer-reviewed in security, privacy and machine learning venues, [let us know if you would like to be considered for the Program Committee](https://forms.gle/iQFaQpg4rwqh79qL8). Junior researchers welcome; an invitation is not guaranteed.
+::: -->
+::: callout
+**The Program Committee for SaTML 2027 is now finalized.** Many thanks to everyone who reached out! The full list is on the [Organization](/organization/) page.
 :::
 
 If you have any questions, please email us at [pcchairs@satml.org](mailto:pcchairs@satml.org) 
