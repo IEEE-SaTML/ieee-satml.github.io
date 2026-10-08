@@ -11,6 +11,7 @@ For this year, the following competitions have been accepted for the conference:
 title: LatentArena
 subtitle: Competition
 footer: **Organizers:** Cyril Gorlla (CTGT), Siddarth Mamidanna (CTGT / University of Cambridge), and Pengwei Sun (Stanford University)
+website: https://latentarena.ctgt.ai
 
 LatentArena tests representation-level safety monitors against black-box attackers. An ensemble of monitors on a disclosed base model covers a hidden subset of harmful-behavior categories. In the discovery phase, participants infer what the monitors watch for. In the evasion phase, they craft inputs that a judge confirms as hazardous but that score below the blocking threshold. One population plays both phases, testing whether identifying a monitor predicts evading it.
 :::
